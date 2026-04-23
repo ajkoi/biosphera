@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bcrk0cc47yhd8"]
+
+[ext_resource type="Script" uid="uid://84qxwvnsgn3d" path="res://scripts/pour_interagir.gd" id="1_3dysp"]
+[ext_resource type="Texture2D" uid="uid://b2y62stk8cmp4" path="res://assets/interactions/test1.png" id="2_c1cnm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c8vip"]
+size = Vector2(32, 32)
+
+[node name="interagible" type="Area2D" unique_id=309649967]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_3dysp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=402718821]
+shape = SubResource("RectangleShape2D_c8vip")
+
+[node name="Test1" type="Sprite2D" parent="." unique_id=1665200751]
+texture = ExtResource("2_c1cnm")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
