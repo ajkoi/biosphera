@@ -249,19 +249,19 @@ metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1799590069]
 texture_filter = 1
+position = Vector2(2, -6)
 sprite_frames = SubResource("SpriteFrames_3vyb7")
 animation = &"dash_side"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041831260]
-position = Vector2(-2.5, 9.5)
 shape = SubResource("RectangleShape2D_g2els")
 
 [node name="CanDash" type="Timer" parent="." unique_id=975876480]
-wait_time = 0.33
+wait_time = 0.2
 one_shot = true
 
 [node name="Dash" type="Timer" parent="." unique_id=283737304]
-wait_time = 0.35
+wait_time = 0.15
 
 [connection signal="timeout" from="CanDash" to="." method="_on_can_dash_timeout"]
 [connection signal="timeout" from="Dash" to="." method="_on_dash_timeout"]
