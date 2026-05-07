@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://dfvmd73uye3hx"]
+
+[ext_resource type="Texture2D" uid="uid://b027rj8fpv5sh" path="res://assets/Documents.png" id="1_chhqi"]
+[ext_resource type="Script" uid="uid://b60fyg8765t8" path="res://scenes/menu_quizz/quizz.gd" id="1_wbgoj"]
+[ext_resource type="FontFile" uid="uid://df7mbyehooew7" path="res://assets/minecraft_font.ttf" id="3_y41uc"]
+
+[node name="Quizz" type="Node2D" unique_id=1638259130]
+script = ExtResource("1_wbgoj")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=414520110 groups=["docs"]]
+position = Vector2(325, 135)
+texture = ExtResource("1_chhqi")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=99212909 groups=["docs"]]
+position = Vector2(402, 133)
+texture = ExtResource("1_chhqi")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1144646734 groups=["docs"]]
+position = Vector2(454, 137)
+texture = ExtResource("1_chhqi")
+
+[node name="forward" type="Button" parent="." unique_id=672716691]
+offset_left = 533.0
+offset_top = 57.0
+offset_right = 666.0
+offset_bottom = 214.0
+theme_override_fonts/font = ExtResource("3_y41uc")
+text = "forw
+
+"
+
+[node name="backward" type="Button" parent="." unique_id=79454544]
+offset_left = 127.0
+offset_top = 60.0
+offset_right = 260.0
+offset_bottom = 217.0
+theme_override_fonts/font = ExtResource("3_y41uc")
+text = "back
+"
+
+[connection signal="pressed" from="forward" to="." method="_on_forward_pressed"]
+[connection signal="pressed" from="backward" to="." method="_on_backward_pressed"]
