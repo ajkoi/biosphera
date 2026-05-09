@@ -33,7 +33,6 @@ func _on_backward_pressed() -> void:
 			doc.visible = false
 		docs[displayed_doc_indice].visible = true
 
-
 func _on_rep_0_pressed() -> void:
 	if ans == 0:
 		print("bonne réponse")

@@ -13,10 +13,11 @@ position = Vector2(441, 85)
 [node name="snap_area2" parent="." unique_id=1844146208 instance=ExtResource("1_377my")]
 position = Vector2(476, 322)
 
-[node name="card" parent="." unique_id=24245917 instance=ExtResource("2_dd6hx")]
+[node name="card1" parent="." unique_id=24245917 groups=["cards"] instance=ExtResource("2_dd6hx")]
 position = Vector2(69, 68)
+path_img = "res://assets/interactions/test2.png"
 
-[node name="card2" parent="." unique_id=1287044976 instance=ExtResource("2_dd6hx")]
+[node name="card2" parent="." unique_id=1287044976 groups=["cards"] instance=ExtResource("2_dd6hx")]
 position = Vector2(76, 175)
 
 [node name="Button" type="Button" parent="." unique_id=1884078157]
@@ -41,6 +42,6 @@ offset_bottom = 347.0
 text = "ceci est la carte 1
 "
 
-[connection signal="used" from="card" to="." method="_on_card_used"]
+[connection signal="used" from="card1" to="." method="_on_card_used"]
 [connection signal="used" from="card2" to="." method="_on_card_2_used"]
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
