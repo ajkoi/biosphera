@@ -1,0 +1,20 @@
+extends Node2D
+@onready var labels = get_tree().get_nodes_in_group("texts")
+@onready var ptr = 0
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	if Input.is_action_just_pressed("dash"):
+		ptr+=1
+		if ptr >= len(labels):
+			pass # Load la scene de quizz correspondante
+		else:
+			for lab in labels:
+				lab.visible = false
+			labels[ptr].visible = true
+			
+	

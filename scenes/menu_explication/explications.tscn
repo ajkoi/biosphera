@@ -1,0 +1,128 @@
+[gd_scene format=3 uid="uid://t60gyqpqsc0y"]
+
+[ext_resource type="Script" uid="uid://boju4bq80o8yu" path="res://scenes/menu_explication/explications.gd" id="1_gu051"]
+[ext_resource type="Texture2D" uid="uid://dpv83ufbp3yj5" path="res://assets/interactions/test2.png" id="1_vtar8"]
+[ext_resource type="FontFile" uid="uid://df7mbyehooew7" path="res://assets/minecraft_font.ttf" id="2_0dku4"]
+
+[node name="Node2D" type="Node2D" unique_id=467874132]
+script = ExtResource("1_gu051")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=127214675]
+position = Vector2(199, 537)
+scale = Vector2(6, 6)
+texture = ExtResource("1_vtar8")
+
+[node name="Label" type="Label" parent="." unique_id=1319172738 groups=["texts"]]
+offset_left = 773.0
+offset_top = 73.0
+offset_right = 897.0
+offset_bottom = 616.0
+theme_override_fonts/font = ExtResource("2_0dku4")
+text = "texte de cours 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+
+[node name="Label2" type="Label" parent="." unique_id=1481904380 groups=["texts"]]
+visible = false
+offset_left = 773.0
+offset_top = 73.0
+offset_right = 897.0
+offset_bottom = 616.0
+theme_override_fonts/font = ExtResource("2_0dku4")
+text = "texte de cours 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+
+[node name="Label3" type="Label" parent="." unique_id=975889151 groups=["texts"]]
+visible = false
+offset_left = 773.0
+offset_top = 73.0
+offset_right = 897.0
+offset_bottom = 616.0
+theme_override_fonts/font = ExtResource("2_0dku4")
+text = "texte de cours 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+
+[node name="Label4" type="Label" parent="." unique_id=1828756736 groups=["texts"]]
+visible = false
+offset_left = 773.0
+offset_top = 73.0
+offset_right = 897.0
+offset_bottom = 616.0
+theme_override_fonts/font = ExtResource("2_0dku4")
+text = "texte de cours 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"

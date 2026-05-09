@@ -7,36 +7,90 @@
 [node name="Quizz" type="Node2D" unique_id=1638259130]
 script = ExtResource("1_wbgoj")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=414520110 groups=["docs"]]
+[node name="doc0" type="Sprite2D" parent="." unique_id=414520110 groups=["docs"]]
 position = Vector2(325, 135)
 texture = ExtResource("1_chhqi")
 
-[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=99212909 groups=["docs"]]
+[node name="doc1" type="Sprite2D" parent="." unique_id=99212909 groups=["docs"]]
 position = Vector2(402, 133)
 texture = ExtResource("1_chhqi")
 
-[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1144646734 groups=["docs"]]
+[node name="doc2" type="Sprite2D" parent="." unique_id=1144646734 groups=["docs"]]
 position = Vector2(454, 137)
 texture = ExtResource("1_chhqi")
 
+[node name="doc3" type="Sprite2D" parent="." unique_id=2065292246 groups=["docs"]]
+position = Vector2(585, 160)
+texture = ExtResource("1_chhqi")
+
 [node name="forward" type="Button" parent="." unique_id=672716691]
-offset_left = 533.0
-offset_top = 57.0
-offset_right = 666.0
-offset_bottom = 214.0
+offset_left = 937.0
+offset_top = 167.0
+offset_right = 1042.0
+offset_bottom = 239.0
 theme_override_fonts/font = ExtResource("3_y41uc")
-text = "forw
+text = "document suivant
+
+
+"
+autowrap_mode = 3
+
+[node name="backward" type="Button" parent="." unique_id=79454544]
+offset_left = 38.0
+offset_top = 164.0
+offset_right = 158.0
+offset_bottom = 237.0
+tooltip_text = "passer au document précédent"
+theme_override_fonts/font = ExtResource("3_y41uc")
+text = "document precedent"
+autowrap_mode = 3
+
+[node name="Label" type="Label" parent="." unique_id=800166986]
+offset_left = 362.0
+offset_top = 387.0
+offset_right = 743.0
+offset_bottom = 484.0
+text = "la question UwUwUwUwU"
+
+[node name="rep0" type="Button" parent="." unique_id=840557101 groups=["reponses"]]
+offset_left = 360.0
+offset_top = 442.0
+offset_right = 757.0
+offset_bottom = 491.0
+text = "reponse 1
 
 "
 
-[node name="backward" type="Button" parent="." unique_id=79454544]
-offset_left = 127.0
-offset_top = 60.0
-offset_right = 260.0
-offset_bottom = 217.0
-theme_override_fonts/font = ExtResource("3_y41uc")
-text = "back
+[node name="rep1" type="Button" parent="." unique_id=1311420524 groups=["reponses"]]
+offset_left = 360.0
+offset_top = 544.0
+offset_right = 757.0
+offset_bottom = 593.0
+text = "reponse 3
+
+"
+
+[node name="rep2" type="Button" parent="." unique_id=1863857126 groups=["reponses"]]
+offset_left = 360.0
+offset_top = 493.0
+offset_right = 757.0
+offset_bottom = 542.0
+text = "reponse 2
+
+"
+
+[node name="rep3" type="Button" parent="." unique_id=1458539727 groups=["reponses"]]
+offset_left = 360.0
+offset_top = 595.0
+offset_right = 757.0
+offset_bottom = 644.0
+text = "reponse 2
+
 "
 
 [connection signal="pressed" from="forward" to="." method="_on_forward_pressed"]
 [connection signal="pressed" from="backward" to="." method="_on_backward_pressed"]
+[connection signal="pressed" from="rep0" to="." method="_on_rep_0_pressed"]
+[connection signal="pressed" from="rep1" to="." method="_on_rep_1_pressed"]
+[connection signal="pressed" from="rep2" to="." method="_on_rep_2_pressed"]
+[connection signal="pressed" from="rep3" to="." method="_on_rep_3_pressed"]
