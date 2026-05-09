@@ -22,7 +22,7 @@ script = ExtResource("1_axcoq")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=579468975]
 shape = SubResource("RectangleShape2D_axcoq")
 
-[node name="Player" type="Sprite2D" parent="." unique_id=100698786]
+[node name="Card" type="Sprite2D" parent="." unique_id=100698786]
 texture = ExtResource("1_ojqq1")
 
 [node name="Button" type="Button" parent="." unique_id=569283822]

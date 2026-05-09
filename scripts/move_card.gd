@@ -1,13 +1,12 @@
 extends Node2D
-
+@export var path_img = "res://assets/interactions/test1.png"
 var active = false
 var dif = Vector2(0, 0)
 var body_in = false
 signal used
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
-
+	$Card.texture = load(path_img)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

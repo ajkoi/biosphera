@@ -1,10 +1,14 @@
 extends Node2D
 
-
+@onready var cards = get_tree().get_nodes_in_group("cards")
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	$Label.visible = false
 	$Label2.visible = false
+	for card in cards:
+		card.visible = global.possessed_card[card.name]
+
+	
 var used_card = ""
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -13,7 +17,7 @@ func _process(delta: float) -> void:
 
 
 func _on_button_pressed() -> void:
-	if $card.position == $snap_area.position && $card2.position == $snap_area2.position:
+	if $card1.position == $snap_area.position && $card2.position == $snap_area2.position:
 		print("all good")
 
 
