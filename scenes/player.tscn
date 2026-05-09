@@ -67,6 +67,10 @@ region = Rect2(64, 0, 32, 32)
 atlas = ExtResource("1_3vyb7")
 region = Rect2(96, 0, 32, 32)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_dt7fs"]
+atlas = ExtResource("1_3vyb7")
+region = Rect2(0, 0, 32, 32)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_jej6c"]
 atlas = ExtResource("1_3vyb7")
 region = Rect2(0, 160, 32, 32)
@@ -187,6 +191,14 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_dt7fs")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_jej6c")
 }, {
 "duration": 1.0,
@@ -238,7 +250,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g2els"]
-size = Vector2(9, 13)
+size = Vector2(11, 7)
 
 [node name="Player" type="CharacterBody2D" unique_id=51311038 groups=["player"]]
 collision_layer = 2
@@ -251,9 +263,10 @@ metadata/_edit_group_ = true
 texture_filter = 1
 position = Vector2(2, -6)
 sprite_frames = SubResource("SpriteFrames_3vyb7")
-animation = &"dash_side"
+animation = &"new_animation"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041831260]
+position = Vector2(-0.5, 2.5)
 shape = SubResource("RectangleShape2D_g2els")
 
 [node name="CanDash" type="Timer" parent="." unique_id=975876480]
