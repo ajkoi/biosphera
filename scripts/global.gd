@@ -1,6 +1,6 @@
 extends Node
 var possessed_card = {
-	"card1" = false,
+	"card1" = true,
 	"card2" = false,
 	"card3" = false,
 	"card4" = false,

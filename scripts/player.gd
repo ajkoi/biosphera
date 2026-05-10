@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 @export var BASESPEED = 200
 var speed = BASESPEED# 00 # How fast the player will move (pixels/sec).
-@export var dashspeed = 300
+@export var dashspeed = 400
 var screen_size # Size of the game window.
 var can_dash = true
 var is_dashing = false
@@ -17,17 +17,18 @@ var velocity_dir = Vector2.ZERO # The player's movement vector (the direction).
 
 
 func _physics_process(delta: float) -> void:
-	$AnimatedSprite2D.play()
+	#$AnimatedSprite2D.play()
 
 	velocity_dir = Vector2.ZERO # The player's movement vector (the direction).
 	if Input.is_action_pressed("move_right"):
 		velocity_dir.x += 1
 	if Input.is_action_pressed("move_left"):
-		velocity_dir.x -= 1
+		velocity_dir.x += -1
 	if Input.is_action_pressed("move_down"):
 		velocity_dir.y += 1
 	if Input.is_action_pressed("move_up"):
-		velocity_dir.y -= 1
+		velocity_dir.y += -1
+
 	if Input.is_action_just_pressed("dash") and can_dash == true:
 		speed = dashspeed 
 		can_dash = false
@@ -35,6 +36,7 @@ func _physics_process(delta: float) -> void:
 		velocity_dash = velocity
 		$CanDash.start()
 		$Dash.start()
+
 	if velocity_dash.length() > 0:
 		velocity_dir = velocity_dash.normalized()
 	elif velocity_dir.length() > 0:
@@ -42,9 +44,33 @@ func _physics_process(delta: float) -> void:
 	velocity = velocity_dir * speed
 	# velocity = position.clamp(Vector2.ZERO, screen_size)
 	move_and_slide()
-
 	
-#d	
+func _process(delta: float) -> void:
+	if velocity.length() == 0:
+		$AnimatedSprite2D.play("idle")
+	elif velocity.y < 0:
+		if is_dashing:
+			$AnimatedSprite2D.play("dash_up")
+		else:
+			$AnimatedSprite2D.play("walk_up")
+	elif velocity.y > 0:
+		if is_dashing:
+			$AnimatedSprite2D.play("dash_down")
+		else:
+			$AnimatedSprite2D.play("walk_down")
+	elif velocity.x > 0:
+		$AnimatedSprite2D.flip_h = true
+		if is_dashing:
+			$AnimatedSprite2D.play("dash_side")
+		else:
+			$AnimatedSprite2D.play("walk_side")
+	elif velocity.x < 0:
+		$AnimatedSprite2D.flip_h = false
+		if is_dashing:
+			
+			$AnimatedSprite2D.play("dash_side")
+		else:
+			$AnimatedSprite2D.play("walk_side")
 		
 
 
@@ -56,7 +82,6 @@ func _on_dash_timeout() -> void:
 	speed = BASESPEED
 	is_dashing = false
 	velocity_dash = Vector2.ZERO
-
 
 func _on_capture_place_2_capture(card: String) -> void:
 	pass # Replace with function body.
