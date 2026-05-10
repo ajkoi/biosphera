@@ -15,10 +15,11 @@ var used_card = ""
 func _process(delta: float) -> void:
 	pass
 
-
+func get_cards():
+	return get_tree().get_nodes_in_group("cards")
 func _on_button_pressed() -> void:
 	if $card1.position == $snap_area.position && $card2.position == $snap_area2.position:
-		print("all good")
+		print("allvar player_pos = Vector2(0,0) good")
 
 
 func _on_card_used() -> void: #c'est un peu moche les if elif comme ca mais bon, ca marche

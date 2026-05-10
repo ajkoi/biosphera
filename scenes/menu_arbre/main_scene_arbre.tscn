@@ -4,14 +4,19 @@
 [ext_resource type="Script" uid="uid://bsfwq6f16ome1" path="res://scripts/main_scene_arbre.gd" id="1_dd6hx"]
 [ext_resource type="PackedScene" uid="uid://cgakvy73ebhae" path="res://scenes/menu_arbre/card_char.tscn" id="2_dd6hx"]
 
-[node name="Node2D" type="Node2D" unique_id=1905454047]
+[node name="arbre" type="Node2D" unique_id=1905454047]
 script = ExtResource("1_dd6hx")
+
+[node name="ColorRect (placeholder)" type="ColorRect" parent="." unique_id=727469027]
+offset_right = 1080.0
+offset_bottom = 722.0
+color = Color(0.41513416, 0.8076973, 0.1990234, 0.16862746)
 
 [node name="snap_area" parent="." unique_id=1600394239 instance=ExtResource("1_377my")]
 position = Vector2(441, 85)
 
 [node name="snap_area2" parent="." unique_id=1844146208 instance=ExtResource("1_377my")]
-position = Vector2(476, 322)
+position = Vector2(21, 13)
 
 [node name="card1" parent="." unique_id=24245917 groups=["cards"] instance=ExtResource("2_dd6hx")]
 position = Vector2(69, 68)
