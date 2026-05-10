@@ -1,5 +1,6 @@
 extends Node2D
 @export var path_img = "res://assets/interactions/test1.png"
+@onready var AUDIO_PLAYER = $AudioStreamPlayer
 var active = false
 var dif = Vector2(0, 0)
 var body_in = false
@@ -12,7 +13,8 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if active:	
 		position = get_viewport().get_mouse_position() + dif
-	if body_in and !active:
+	if body_in and !active and position != body_in.position:
+		AUDIO_PLAYER.play()
 		position = body_in.position
 		
 

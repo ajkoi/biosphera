@@ -24,6 +24,7 @@ path_img = "res://assets/interactions/test2.png"
 
 [node name="card2" parent="." unique_id=1287044976 groups=["cards"] instance=ExtResource("2_dd6hx")]
 position = Vector2(76, 175)
+path_img = "res://assets/interactions/test1.png"
 
 [node name="Button" type="Button" parent="." unique_id=1884078157]
 offset_left = 197.0
@@ -40,10 +41,10 @@ text = "ceci est la carte 2
 "
 
 [node name="Label" type="Label" parent="." unique_id=207215714]
-offset_left = 749.0
-offset_top = 40.0
-offset_right = 1005.0
-offset_bottom = 347.0
+offset_left = 813.0
+offset_top = 13.0
+offset_right = 1069.0
+offset_bottom = 320.0
 text = "ceci est la carte 1
 "
 

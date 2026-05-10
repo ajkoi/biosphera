@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://mdv1t78q1bv7" path="res://scripts/move_card.gd" id="1_axcoq"]
 [ext_resource type="Texture2D" uid="uid://dpv83ufbp3yj5" path="res://assets/interactions/test2.png" id="1_ojqq1"]
+[ext_resource type="AudioStream" uid="uid://d2dwjrdo6k6kj" path="res://sounds/Enregistrement_tap.wav" id="3_l4tg5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_axcoq"]
 size = Vector2(32, 32)
@@ -20,6 +21,7 @@ size = Vector2(32, 32)
 collision_layer = 4
 collision_mask = 4
 script = ExtResource("1_axcoq")
+path_img = null
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=579468975]
 shape = SubResource("RectangleShape2D_axcoq")
@@ -38,6 +40,10 @@ theme_override_styles/hover = SubResource("StyleBoxEmpty_l4tg5")
 theme_override_styles/disabled = SubResource("StyleBoxEmpty_80sg0")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_8fw8t")
 metadata/_edit_use_anchors_ = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1165292294]
+stream = ExtResource("3_l4tg5")
+volume_db = -4.952
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="body_exited" from="." to="." method="_on_body_exited"]

@@ -11,10 +11,11 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if is_interagible and Input.is_action_just_pressed("interact"):
-		print("interagi") # DIRE QUE ON A CHOPPE LA CARTE
+	pass
+func _input(event: InputEvent) -> void:
+	if event.is_action_pressed("interact") and is_interagible==true:
+		print("interagi")
 		capture.emit(card)
-
 
 func _on_body_entered(body: Node2D) -> void:
 	if "player" in body.get_groups():
