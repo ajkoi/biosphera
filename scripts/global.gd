@@ -1,7 +1,7 @@
 extends Node
 var possessed_card = {
-	"card1" = true,
-	"card2" = true,
+	"card1" = false,
+	"card2" = false,
 	"card3" = false,
 	"card4" = false,
 	"card5" = false,
@@ -11,8 +11,7 @@ var possessed_card = {
 	"card9" = false,
 	"card10" = false,
 }
-
-
+var cards_pos = {}
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.

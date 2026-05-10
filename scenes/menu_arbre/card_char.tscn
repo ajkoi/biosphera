@@ -17,6 +17,8 @@ size = Vector2(32, 32)
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8fw8t"]
 
 [node name="card" type="Area2D" unique_id=24245917]
+collision_layer = 4
+collision_mask = 4
 script = ExtResource("1_axcoq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=579468975]

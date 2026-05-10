@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://0if7yhswhs8"]
+
+[ext_resource type="Script" uid="uid://xrqgwn2du4pr" path="res://scripts/pour_capturer.gd" id="1_k16yn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bp41e"]
+size = Vector2(20, 19)
+
+[node name="capture_place" type="Area2D" unique_id=1927214055]
+script = ExtResource("1_k16yn")
+card = "card1"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1109838635]
+shape = SubResource("RectangleShape2D_bp41e")
+debug_color = Color(0.5423099, 0.4437399, 0.9095613, 0.41960785)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

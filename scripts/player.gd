@@ -56,3 +56,7 @@ func _on_dash_timeout() -> void:
 	speed = BASESPEED
 	is_dashing = false
 	velocity_dash = Vector2.ZERO
+
+
+func _on_capture_place_2_capture(card: String) -> void:
+	pass # Replace with function body.

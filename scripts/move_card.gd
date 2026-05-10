@@ -17,7 +17,6 @@ func _process(delta: float) -> void:
 		
 
 
-
 func _on_button_down() -> void:
 	dif = position - get_viewport().get_mouse_position()
 	active = true
