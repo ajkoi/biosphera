@@ -18,7 +18,6 @@ var velocity_dir = Vector2.ZERO # The player's movement vector (the direction).
 
 func _physics_process(delta: float) -> void:
 	#$AnimatedSprite2D.play()
-
 	velocity_dir = Vector2.ZERO # The player's movement vector (the direction).
 	if Input.is_action_pressed("move_right"):
 		velocity_dir.x += 1

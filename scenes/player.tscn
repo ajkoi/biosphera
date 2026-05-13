@@ -238,7 +238,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g2els"]
-size = Vector2(11, 7)
+size = Vector2(8.5, 7)
 
 [node name="Player" type="CharacterBody2D" unique_id=51311038 groups=["player"]]
 collision_layer = 2
@@ -249,12 +249,12 @@ metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1799590069]
 texture_filter = 1
-position = Vector2(2, -6)
+position = Vector2(1, -15)
 sprite_frames = SubResource("SpriteFrames_3vyb7")
 animation = &"walk_side"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041831260]
-position = Vector2(-0.5, 2.5)
+position = Vector2(-1.25, -5)
 shape = SubResource("RectangleShape2D_g2els")
 
 [node name="CanDash" type="Timer" parent="." unique_id=975876480]
