@@ -23,9 +23,12 @@ global="*uid://cnvfou422iea3"
 
 window/size/viewport_width=1080
 window/size/viewport_height=720
+<<<<<<< HEAD
 window/size/mode=2
 window/size/resizable=false
 window/stretch/mode="viewport"
+=======
+>>>>>>> 1085c50bef3a980cc0c1b0868007ca6ec9ef2f9f
 
 [editor]
 
