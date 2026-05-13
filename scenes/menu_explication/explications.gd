@@ -8,13 +8,21 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if Input.is_action_just_pressed("dash"):
-		ptr+=1
+	pass
+	
+func _input(event: InputEvent) -> void:
+	if event.is_action_released("dash"): # faire disparaitre a 100
+		
 		if ptr >= len(labels):
 			pass # Load la scene de quizz correspondante
 		else:
-			for lab in labels:
-				lab.visible = false
+			if ptr > 0:
+				for lab in labels:
+					lab.position.y -= labels[ptr].size.y 
+					if lab.position.y < 100:
+						lab.visible = false
+			labels[ptr].position = Vector2(480, 600 - labels[ptr].size.y)
 			labels[ptr].visible = true
+		ptr+=1
+
 			
-	
