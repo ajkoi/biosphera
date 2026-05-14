@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://bcrk0cc47yhd8"]
+[gd_scene format=3 uid="uid://cohd5ti0xfusp"]
 
-[ext_resource type="Script" uid="uid://84qxwvnsgn3d" path="res://scripts/pour_interagir.gd" id="1_3dysp"]
+[ext_resource type="Script" uid="uid://dsftu7ixsxm6v" path="res://scripts/pour_interagir_cours.gd" id="1_8w50i"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c8vip"]
 size = Vector2(32, 32)
@@ -8,7 +8,7 @@ size = Vector2(32, 32)
 [node name="interagible" type="Area2D" unique_id=309649967]
 collision_layer = 2
 collision_mask = 2
-script = ExtResource("1_3dysp")
+script = ExtResource("1_8w50i")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=402718821]
 shape = SubResource("RectangleShape2D_c8vip")

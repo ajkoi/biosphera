@@ -16,6 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://vqqbaictyboi" path="res://assets/decors/all_houses.png" id="13_pl11u"]
 [ext_resource type="Texture2D" uid="uid://boomj3s4fxqn6" path="res://assets/decors/all_capturable_place.png" id="14_bhx41"]
 [ext_resource type="PackedScene" uid="uid://0if7yhswhs8" path="res://scenes/pour_capturer.tscn" id="14_trtic"]
+[ext_resource type="PackedScene" uid="uid://cohd5ti0xfusp" path="res://scenes/pour_interagir_cours.tscn" id="16_rysoc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_suyxu"]
 texture = ExtResource("3_ir15t")
@@ -5577,18 +5578,27 @@ texture = ExtResource("11_bt5mj")
 22:5/0 = 0
 22:6/0 = 0
 22:6/0/y_sort_origin = -20
+18:7/next_alternative_id = 2
 18:7/0 = 0
+18:7/0/y_sort_origin = 40
 19:7/0 = 0
+19:7/0/y_sort_origin = 16
 20:7/0 = 0
-21:7/0 = 0
-22:7/0 = 0
+20:7/0/y_sort_origin = 16
+18:8/next_alternative_id = 3
 18:8/0 = 0
+18:8/0/y_sort_origin = 16
 19:8/0 = 0
+19:8/0/y_sort_origin = 16
 20:8/0 = 0
-21:8/0 = 0
-22:8/0 = 0
+20:8/0/y_sort_origin = 16
+18:9/next_alternative_id = 2
 18:9/0 = 0
+18:9/0/y_sort_origin = -2
+18:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 19:9/0 = 0
+19:9/0/y_sort_origin = -30
+19:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 20:9/0 = 0
 20:9/0/y_sort_origin = -8
 21:9/0 = 0
@@ -5838,6 +5848,8 @@ texture = ExtResource("11_bt5mj")
 21:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(2.230423, 28.039505, 16.568802, 28.676765, 17.843323, 35.686646, 11.789337, 39.51021, 2.549057, 39.51021, -2.2304077, 33.45623)
 13:10/size_in_atlas = Vector2i(3, 4)
 13:10/0 = 0
+21:7/size_in_atlas = Vector2i(2, 2)
+21:7/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_0sl42"]
 physics_layer_0/collision_layer = 1
@@ -6193,9 +6205,10 @@ tile_set = SubResource("TileSet_i4re6")
 [node name="Player" parent="gamenode" unique_id=51311038 instance=ExtResource("1_uwrxv")]
 z_index = 1
 y_sort_enabled = true
-position = Vector2(1654, 462)
+position = Vector2(1751, 395)
 collision_layer = 1
 collision_mask = 1
+BASESPEED = 100
 
 [node name="Camera2D" type="Camera2D" parent="gamenode/Player" unique_id=673229276]
 zoom = Vector2(4, 4)
@@ -6220,20 +6233,31 @@ y_sort_enabled = true
 tile_map_data = PackedByteArray("AAB1ACgAAAAMAAYAAAB7AOH/AAAHAAAAAAA/AOf/AAADAAAAAAAwAAgAAAAAAAwAAABkAAwAAAAGAAsAAABHAPL/AAAMAA8AAAAcABwAAAAAAAwAAAD8/wIAAAANAAsAAAD9/wIAAAAOAAsAAABgAOX/AAAAAAAAAAAAABcAAAAAAAAAAAD8/wMAAAAMAAsAAAA=")
 tile_set = SubResource("TileSet_fedci")
 
-[node name="Node" type="Node" parent="gamenode" unique_id=2121374020]
+[node name="capture_places" type="Node2D" parent="." unique_id=1266857565]
 
-[node name="capture_place" parent="gamenode/Node" unique_id=1927214055 groups=["capture_places"] instance=ExtResource("14_trtic")]
+[node name="capture_place" parent="capture_places" unique_id=1927214055 groups=["capture_places"] instance=ExtResource("14_trtic")]
 position = Vector2(1320, 360)
 
-[node name="capture_place2" parent="gamenode/Node" unique_id=230809215 groups=["capture_places"] instance=ExtResource("14_trtic")]
+[node name="capture_place2" parent="capture_places" unique_id=230809215 groups=["capture_places"] instance=ExtResource("14_trtic")]
 position = Vector2(554, -86)
 card = "card2"
+
+[node name="maison_interact" type="Node2D" parent="." unique_id=733977537]
+
+[node name="interagible" parent="maison_interact" unique_id=309649967 instance=ExtResource("16_rysoc")]
+
+[node name="interagible2" parent="maison_interact" unique_id=2119238559 instance=ExtResource("16_rysoc")]
+
+[node name="interagible3" parent="maison_interact" unique_id=90184031 instance=ExtResource("16_rysoc")]
 
 [node name="HUD" parent="." unique_id=1358204907 instance=ExtResource("8_ir15t")]
 
 [node name="Inventory" type="CanvasLayer" parent="." unique_id=2132366069]
 
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1853335984]
+[node name="cours_subscene" type="CanvasLayer" parent="." unique_id=1853335984]
 
-[connection signal="capture" from="gamenode/Node/capture_place" to="HUD" method="_on_capture_place_capture"]
-[connection signal="capture" from="gamenode/Node/capture_place2" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place" to="HUD" method="_on_capture_place_capture"]
+[connection signal="capture" from="capture_places/capture_place2" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="lancer_cours" from="maison_interact/interagible" to="." method="_on_interagible_lancer_cours"]
+[connection signal="lancer_cours" from="maison_interact/interagible2" to="." method="_on_interagible_lancer_cours"]
+[connection signal="lancer_cours" from="maison_interact/interagible3" to="." method="_on_interagible_lancer_cours"]

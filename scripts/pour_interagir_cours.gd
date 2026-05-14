@@ -1,5 +1,6 @@
 extends Area2D
-
+@export var cours :String
+signal lancer_cours(cours)
 var is_interagible = false
 
 
@@ -16,7 +17,8 @@ func _process(delta: float) -> void:
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_released("interact") and is_interagible:
-		pass
+		lancer_cours.emit(cours)
+	
 
 
 

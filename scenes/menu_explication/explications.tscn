@@ -3,11 +3,22 @@
 [ext_resource type="Script" uid="uid://boju4bq80o8yu" path="res://scenes/menu_explication/explications.gd" id="1_gu051"]
 [ext_resource type="Texture2D" uid="uid://b8vi84w4mur35" path="res://assets/scene_under_cour0.png" id="9_tlgg8"]
 
-[node name="Node2D" type="Node2D" unique_id=467874132]
+[node name="Control" type="Control" unique_id=870377347]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_gu051")
-path = "res://cours/test_cours"
+path = "res://cours/Desert_5/cours/"
 
-[node name="SceneUnderCour0" type="Sprite2D" parent="." unique_id=1762122666]
-scale = Vector2(0.2, 0.2)
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2003260504]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("9_tlgg8")
-centered = false
+expand_mode = 1

@@ -34,6 +34,3 @@ Choix :
 	✅ B. Une même structure peut évoluer vers des fonctions différentes 
  C. Ces structures sont analogues, la sélection naturelle a abouti aux mêmes solutions
  D. Ces structures sont indépendantes, pas d’ancêtre commun pas d’adaptation similaire
-
-
-

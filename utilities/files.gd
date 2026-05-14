@@ -1,30 +1,15 @@
-extends Node
-var possessed_card = {
-	"card1" = true,
-	"card2" = false,
-	"card3" = false,
-	"card4" = false,
-	"card5" = false,
-	"card6" = false,
-	"card7" = false,
-	"card8" = false,
-	"card9" = false,
-	"card10" = false,
-}
+class_name File_utils
 
-var cards_pos = {}
-
-var path_cours = {
-	"cours_desert" = [] # les paths (cours puis quizz)
-}
+# fonctions relatives à l'extraction de texte de fichiers et de l'extraction de fichiers
 
 
-# fonctions relatives à l'extraction de texte de fichiers
-func load_text(filePath):
+static func load_text(filePath):
 	var file = FileAccess.open(filePath, FileAccess.READ)
 	var content = file.get_as_text()
 	return content
-func get_files(path, ext):
+	
+	
+static func get_files(path, ext):
 	var files = []
 	var dir = DirAccess.open(path)
 	if dir == null:

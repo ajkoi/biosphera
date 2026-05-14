@@ -5,8 +5,7 @@ var inventory_instance = null
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
-
+	pass
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("inventaire"):
@@ -38,3 +37,12 @@ func _close_inventory() -> void:
 		inventory_instance.queue_free()
 		inventory_instance = null
 		$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # pauser le reste du jeu
+
+func _on_interagible_lancer_cours(cours: Variant) -> void:
+	var cours_path = preload("res://scenes/menu_explication/explications.tscn")
+	var cours_instance = cours_path.instantiate()
+	cours_instance.path = global.path_cours[cours][0]
+	cours_instance.path_quizz = global.path_cours[cours][1]
+	$cours_subscene.add_child(cours_instance)
+	
+	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu

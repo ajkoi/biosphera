@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6wwl0h8fq21k"
-path="res://.godot/imported/QCM_3_doc2.PNG-af8a09d898061f6d9c0bb3426b2af5f0.ctex"
+uid="uid://dwv6ojbx83pl2"
+path="res://.godot/imported/QCM_2_doc2.PNG-8bb094d7663bc3b473abe1f669108d53.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cours/Desert_5/Desert/QCM_desert_homologie/doc_desert/QCM_3_doc2.PNG"
-dest_files=["res://.godot/imported/QCM_3_doc2.PNG-af8a09d898061f6d9c0bb3426b2af5f0.ctex"]
+source_file="res://cours/Desert_5/Desert/QCM_desert_homologie/doc_desert/Q2/QCM_2_doc2.PNG"
+dest_files=["res://.godot/imported/QCM_2_doc2.PNG-8bb094d7663bc3b473abe1f669108d53.ctex"]
 
 [params]
 
