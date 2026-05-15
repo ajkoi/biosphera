@@ -36,6 +36,10 @@ version_control/autoload_on_startup=true
 
 player="the player's group :D"
 
+[gui]
+
+theme/custom_font="uid://pp250c826q4t"
+
 [input]
 
 move_right={

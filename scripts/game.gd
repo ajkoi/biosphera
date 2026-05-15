@@ -1,7 +1,23 @@
 extends Node2D
+# inventaire (arbre)
 @onready var canvas_layer = $Inventory
 const INVENTORY_SCENE = preload("res://scenes/menu_arbre/main_scene_arbre.tscn")
 var inventory_instance = null
+
+
+
+
+# relatif aux quizz (path et instance actuelle)
+
+const COURS_SCENE = preload("res://scenes/menu_explication/explications.tscn")
+const QUIZZ_SCENE = preload("res://scenes/menu_quizz/quizz.tscn")
+
+var index = 0
+var cours_quizz_paths = []
+var current_instance = null
+
+
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -39,10 +55,28 @@ func _close_inventory() -> void:
 		$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # pauser le reste du jeu
 
 func _on_interagible_lancer_cours(cours: Variant) -> void:
-	var cours_path = preload("res://scenes/menu_explication/explications.tscn")
-	var cours_instance = cours_path.instantiate()
-	cours_instance.path = global.path_cours[cours][0]
-	cours_instance.path_quizz = global.path_cours[cours][1]
+	var cours_instance = COURS_SCENE.instantiate()
+	cours_quizz_paths = File_utils.get_dirs(global.path_cours[cours])
+	print(cours_quizz_paths)
+	cours_instance.path = cours_quizz_paths[0]
+	cours_instance.fin_text.connect(_on_next_quizz, CONNECT_ONE_SHOT)
+	current_instance = cours_instance
 	$cours_subscene.add_child(cours_instance)
-	
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
+	
+func _on_next_quizz():
+	if current_instance:
+		current_instance.queue_free()
+		
+	if index + 1 < len(cours_quizz_paths): # index correspond à l'index de la scene actuel, donc on initie la suivante à index+1
+		index+=1
+		var quizz_instance = QUIZZ_SCENE.instantiate()
+		current_instance = quizz_instance
+		quizz_instance.doc_path = cours_quizz_paths[index]
+		$cours_subscene.add_child(quizz_instance)
+		quizz_instance.fin_text.connect(_on_next_quizz, CONNECT_ONE_SHOT)
+	else:
+		$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # pauser le reste du jeu
+		cours_quizz_paths = []
+		index = 0
+		current_instance = null

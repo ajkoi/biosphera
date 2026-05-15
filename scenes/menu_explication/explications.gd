@@ -1,8 +1,8 @@
 extends Control
 @onready var ptr = 0
 @export var path :String
-@export var path_quizz : String
-signal fin_text(quizz_path)
+# @export var path_quizz : String
+signal fin_text(index)
 
 
 
@@ -20,7 +20,7 @@ func _input(event: InputEvent) -> void:
 	if event.is_action_released("dash"): # faire disparaitre a 100
 
 		if ptr >= len(labels_texts):
-			fin_text.emit(path_quizz)
+			fin_text.emit()
 		else:
 			# créer le texte suivant
 			var load_text = File_utils.load_text(labels_texts[ptr])

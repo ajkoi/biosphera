@@ -2,7 +2,7 @@ extends Control
 @export var doc_path :String
 
 const HEIGHT = 432 # a ajuster...
-
+signal fin_text
 
 @onready var docs = loadfiles()
 @onready var lendocs = len(docs)
@@ -39,7 +39,7 @@ func loadfiles():
 	return docs
 
 func right_ans():
-	pass
+	fin_text.emit()
 
 func wrong_ans():
 	$lab_err.text = "Oups, tu t'est trompé, recommence"
@@ -47,21 +47,21 @@ func wrong_ans():
 
 func _on_forward_pressed() -> void:
 	if lendocs <= displayed_doc_indice+1:
-		pass
+		displayed_doc_indice = 0
 	else:
 		displayed_doc_indice += 1
-		for doc in docs:
-			doc.visible = false
-		docs[displayed_doc_indice].visible = true
+	for doc in docs:
+		doc.visible = false
+	docs[displayed_doc_indice].visible = true
 
 func _on_backward_pressed() -> void:
 	if displayed_doc_indice == 0:
-		pass
+		displayed_doc_indice = lendocs - 1
 	else:
 		displayed_doc_indice -= 1
-		for doc in docs:
-			doc.visible = false
-		docs[displayed_doc_indice].visible = true
+	for doc in docs:
+		doc.visible = false
+	docs[displayed_doc_indice].visible = true
 
 func _on_rep_0_pressed() -> void:
 	if ans == 0:

@@ -1,0 +1,8 @@
+{
+  "ans" : 1,
+  "question" : "Quel mécanisme est illustré ?",
+  "rep0" : "Convergence évolutive",
+  "rep1" : "Divergence évolutive",
+  "rep2" : "Analogie",
+  "rep3" : "La sélection naturelle"
+}

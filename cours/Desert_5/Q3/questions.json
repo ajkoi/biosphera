@@ -1,0 +1,8 @@
+{
+  "ans" : 1,
+  "question" : "Quelle conclusion est correcte ?",
+  "rep0" : "La fonction détermine l’origine",
+  "rep1" : "Une même structure peut évoluer vers des fonctions différentes ",
+  "rep2" : "Ces structures sont analogues, la sélection naturelle a abouti aux mêmes solutions",
+  "rep3" : "Ces structures sont indépendantes, pas d’ancêtre commun pas d’adaptation similaire"
+}
