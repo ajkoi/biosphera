@@ -1,8 +1,97 @@
 [gd_scene format=3 uid="uid://dfvmd73uye3hx"]
 
-[ext_resource type="Texture2D" uid="uid://b027rj8fpv5sh" path="res://assets/Documents.png" id="1_chhqi"]
 [ext_resource type="Script" uid="uid://b60fyg8765t8" path="res://scenes/menu_quizz/quizz.gd" id="1_wbgoj"]
-[ext_resource type="FontFile" uid="uid://df7mbyehooew7" path="res://assets/minecraft_font.ttf" id="3_y41uc"]
+[ext_resource type="Texture2D" uid="uid://d2ypf58ffjh4" path="res://assets/scene_under_qcm0.png" id="2_y41uc"]
+[ext_resource type="FontFile" uid="uid://df7mbyehooew7" path="res://fonts/minecraft_font.ttf" id="3_y41uc"]
+[ext_resource type="FontFile" uid="uid://pp250c826q4t" path="res://fonts/DepartureMono/DepartureMonoNerdFont-Regular.otf" id="4_c4r1e"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_maxtp"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_le0oy"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pgj01"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5de4f"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ydcfw"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nugdu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vp7lm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o2713"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_do55c"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3sq5i"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_30mba"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uftpv"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_b7ujp"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bte6q"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mubb0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ttna8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8b04k"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u5ouu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6xckg"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nsdp5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_48vvb"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_r77kw"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_y41uc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_c4r1e"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4o0yl"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ocnmr"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bfuut"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lpk4b"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_36ji1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_j3dtt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wds1f"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0v7xp"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ak2o6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_orqba"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t53m1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h2e64"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ttc62"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hc1y3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_85vfu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sg2aa"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_j5h1l"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_elmio"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qupj5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_aj61k"]
 
 [node name="Control" type="Control" unique_id=789117039]
 layout_mode = 3
@@ -21,14 +110,15 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_chhqi")
+texture = ExtResource("2_y41uc")
+expand_mode = 1
 
 [node name="forward" type="Button" parent="." unique_id=1504628868]
 layout_mode = 0
-offset_left = 937.0
-offset_top = 167.0
-offset_right = 1042.0
-offset_bottom = 239.0
+offset_left = 970.0
+offset_top = 260.0
+offset_right = 1075.0
+offset_bottom = 332.0
 theme_override_fonts/font = ExtResource("3_y41uc")
 text = "document suivant
 
@@ -38,62 +128,125 @@ autowrap_mode = 3
 
 [node name="backward" type="Button" parent="." unique_id=664197306]
 layout_mode = 0
-offset_left = 38.0
-offset_top = 164.0
-offset_right = 158.0
-offset_bottom = 237.0
+offset_left = 16.0
+offset_top = 260.0
+offset_right = 136.0
+offset_bottom = 333.0
 tooltip_text = "passer au document précédent"
 theme_override_fonts/font = ExtResource("3_y41uc")
 text = "document precedent"
 autowrap_mode = 3
 
-[node name="Label" type="Label" parent="." unique_id=732063815]
+[node name="questionlabel" type="Label" parent="." unique_id=732063815]
 layout_mode = 0
-offset_left = 362.0
-offset_top = 387.0
-offset_right = 743.0
-offset_bottom = 484.0
+offset_left = 8.0
+offset_top = 512.0
+offset_right = 240.0
+offset_bottom = 609.0
+theme_override_fonts/font = ExtResource("4_c4r1e")
 text = "la question UwUwUwUwU"
 
 [node name="rep0" type="Button" parent="." unique_id=776619397 groups=["reponses"]]
 layout_mode = 0
 offset_left = 360.0
-offset_top = 442.0
-offset_right = 757.0
-offset_bottom = 491.0
-text = "reponse 1
+offset_top = 536.0
+offset_right = 632.0
+offset_bottom = 584.0
+theme_override_fonts/font = ExtResource("3_y41uc")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_maxtp")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_le0oy")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_pgj01")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_5de4f")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ydcfw")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_nugdu")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_vp7lm")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_o2713")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_do55c")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_3sq5i")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_30mba")
+text = "reponse 0
 
 "
 
 [node name="rep1" type="Button" parent="." unique_id=527624769 groups=["reponses"]]
 layout_mode = 0
-offset_left = 360.0
-offset_top = 544.0
-offset_right = 757.0
-offset_bottom = 593.0
-text = "reponse 3
+offset_left = 744.0
+offset_top = 536.0
+offset_right = 1016.0
+offset_bottom = 584.0
+theme_override_fonts/font = ExtResource("3_y41uc")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_uftpv")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_b7ujp")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_bte6q")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_mubb0")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ttna8")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_8b04k")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_u5ouu")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_6xckg")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_nsdp5")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_48vvb")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_r77kw")
+text = "reponse 1
 
 "
 
 [node name="rep2" type="Button" parent="." unique_id=1957701718 groups=["reponses"]]
 layout_mode = 0
 offset_left = 360.0
-offset_top = 493.0
-offset_right = 757.0
-offset_bottom = 542.0
+offset_top = 648.0
+offset_right = 632.0
+offset_bottom = 696.0
+theme_override_fonts/font = ExtResource("3_y41uc")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_y41uc")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_c4r1e")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_4o0yl")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_ocnmr")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_bfuut")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_lpk4b")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_36ji1")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_j3dtt")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_wds1f")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_0v7xp")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ak2o6")
 text = "reponse 2
 
 "
 
 [node name="rep3" type="Button" parent="." unique_id=1238910710 groups=["reponses"]]
 layout_mode = 0
-offset_left = 360.0
-offset_top = 595.0
-offset_right = 757.0
-offset_bottom = 644.0
-text = "reponse 2
+anchor_left = 0.6888889
+anchor_top = 0.9
+anchor_right = 0.94074076
+anchor_bottom = 0.96666664
+theme_override_fonts/font = ExtResource("3_y41uc")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_orqba")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_t53m1")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_h2e64")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_ttc62")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_hc1y3")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_85vfu")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_sg2aa")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_j5h1l")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_elmio")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_qupj5")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_aj61k")
+text = "reponse 3
 
 "
+metadata/_edit_use_anchors_ = true
+
+[node name="lab_err" type="Label" parent="." unique_id=1290472222]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0074074143
+anchor_top = 0.9
+anchor_right = 0.24444444
+anchor_bottom = 0.98888886
+theme_override_colors/font_color = Color(0.9999998, 0.15266266, 0.09475731, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="timer_err" type="Timer" parent="." unique_id=1445243151]
+wait_time = 5.0
 
 [connection signal="pressed" from="forward" to="." method="_on_forward_pressed"]
 [connection signal="pressed" from="backward" to="." method="_on_backward_pressed"]
@@ -101,3 +254,4 @@ text = "reponse 2
 [connection signal="pressed" from="rep1" to="." method="_on_rep_1_pressed"]
 [connection signal="pressed" from="rep2" to="." method="_on_rep_2_pressed"]
 [connection signal="pressed" from="rep3" to="." method="_on_rep_3_pressed"]
+[connection signal="timeout" from="timer_err" to="." method="_on_timer_err_timeout"]

@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://df7mbyehooew7"
-path="res://.godot/imported/minecraft_font.ttf-d6f65ebf90a99ea6a6108397af39fb8e.fontdata"
+uid="uid://pp250c826q4t"
+path="res://.godot/imported/DepartureMonoNerdFont-Regular.otf-66c6b200f7a5ef442553a3196d08f724.fontdata"
 
 [deps]
 
-source_file="res://assets/minecraft_font.ttf"
-dest_files=["res://.godot/imported/minecraft_font.ttf-d6f65ebf90a99ea6a6108397af39fb8e.fontdata"]
+source_file="res://fonts/DepartureMono/DepartureMonoNerdFont-Regular.otf"
+dest_files=["res://.godot/imported/DepartureMonoNerdFont-Regular.otf-66c6b200f7a5ef442553a3196d08f724.fontdata"]
 
 [params]
 
