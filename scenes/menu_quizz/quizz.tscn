@@ -140,9 +140,12 @@ autowrap_mode = 3
 layout_mode = 0
 offset_left = 8.0
 offset_top = 512.0
-offset_right = 240.0
-offset_bottom = 609.0
+offset_right = 488.0
+offset_bottom = 704.0
+scale = Vector2(0.5, 0.5)
+theme_override_font_sizes/font_size = 24
 text = "la question UwUwUwUwU"
+autowrap_mode = 3
 
 [node name="rep0" type="Button" parent="." unique_id=776619397 groups=["reponses"]]
 layout_mode = 0
@@ -150,6 +153,7 @@ offset_left = 360.0
 offset_top = 536.0
 offset_right = 632.0
 offset_bottom = 584.0
+theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxEmpty_maxtp")
 theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_le0oy")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_pgj01")
@@ -164,6 +168,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_30mba")
 text = "reponse 0
 
 "
+autowrap_mode = 3
 
 [node name="rep1" type="Button" parent="." unique_id=527624769 groups=["reponses"]]
 layout_mode = 0
@@ -171,6 +176,7 @@ offset_left = 744.0
 offset_top = 536.0
 offset_right = 1016.0
 offset_bottom = 584.0
+theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxEmpty_uftpv")
 theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_b7ujp")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_bte6q")
@@ -185,6 +191,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_r77kw")
 text = "reponse 1
 
 "
+autowrap_mode = 3
 
 [node name="rep2" type="Button" parent="." unique_id=1957701718 groups=["reponses"]]
 layout_mode = 0
@@ -192,6 +199,7 @@ offset_left = 360.0
 offset_top = 648.0
 offset_right = 632.0
 offset_bottom = 696.0
+theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxEmpty_y41uc")
 theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_c4r1e")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_4o0yl")
@@ -206,6 +214,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_ak2o6")
 text = "reponse 2
 
 "
+autowrap_mode = 3
 
 [node name="rep3" type="Button" parent="." unique_id=1238910710 groups=["reponses"]]
 layout_mode = 0
@@ -213,6 +222,7 @@ anchor_left = 0.6888889
 anchor_top = 0.9
 anchor_right = 0.94074076
 anchor_bottom = 0.96666664
+theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxEmpty_orqba")
 theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_t53m1")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_h2e64")
@@ -227,6 +237,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_aj61k")
 text = "reponse 3
 
 "
+autowrap_mode = 3
 metadata/_edit_use_anchors_ = true
 
 [node name="lab_err" type="Label" parent="." unique_id=1290472222]

@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://b8vi84w4mur35" path="res://assets/scene_under_cour0.png" id="9_tlgg8"]
 
 [node name="Control" type="Control" unique_id=870377347]
+texture_filter = 1
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +12,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_gu051")
-path = "res://cours/Desert_5/cours/"
+path = "res://cours/Prairie_debut_1/prairie/dCours/"
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=2003260504]
 layout_mode = 1

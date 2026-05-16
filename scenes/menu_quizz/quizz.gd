@@ -24,7 +24,7 @@ func load_quests():
 	$rep3.text = data["rep3"]
 		
 func loadfiles():
-	var docs = []
+	var docs_o = []
 	for file in File_utils.get_files(doc_path, "PNG"):
 		var Loaded_file = load(file)
 		var Texture_rec = TextureRect.new()
@@ -35,8 +35,8 @@ func loadfiles():
 		Texture_rec.size.y = HEIGHT
 		Texture_rec.position = Vector2(540-Texture_rec.size.x/2, 32)
 		Texture_rec.visible = true
-		docs += [Texture_rec]
-	return docs
+		docs_o += [Texture_rec]
+	return docs_o
 
 func right_ans():
 	fin_text.emit()

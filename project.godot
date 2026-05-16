@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="ES_evol_anatomie_comp"
+config/description="Un jeu pour l'ES sur l'évolution et l'anatomie comparées"
 run/main_scene="uid://de0ah0khqutyp"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
@@ -23,7 +24,6 @@ global="*uid://cnvfou422iea3"
 
 window/size/viewport_width=1080
 window/size/viewport_height=720
-window/size/mode=2
 window/size/resizable=false
 window/stretch/mode="viewport"
 
@@ -38,7 +38,7 @@ player="the player's group :D"
 
 [gui]
 
-theme/custom_font="uid://pp250c826q4t"
+theme/custom_font="uid://dvky574aw4gc5"
 
 [input]
 

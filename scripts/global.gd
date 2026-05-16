@@ -15,5 +15,9 @@ var possessed_card = {
 var cards_pos = {}
 
 var path_cours = {
-	"cours_desert" =  "res://cours/Desert_5/"# les paths (cours puis quizz)
+	"cours_desert" :"res://cours/Desert_5/",
+	"cours_marais" :"res://cours/Marais_4/",
+	"cours_feige" :"res://cours/Neige_3/",
+	"cours_foret" :"res://cours/Foret_2/",
+	"cours_prairie": "res://cours/Prairie_debut_1/prairie/"
 }

@@ -1,0 +1,1 @@
+Comme je t’ai dit il va falloir reconstituer la base de données de l'île, on l’a perdu à cause d’un incendie. Dans notre malheur on a eu un peu de chance, il nous reste encore les données de certains animaux. Je te montrerais petit à petit quoi faire avec tes observations sur le terrain.

@@ -1,6 +1,6 @@
 extends Node2D
 # inventaire (arbre)
-@onready var canvas_layer = $Inventory
+@onready var Inventaire_node = $Inventory
 const INVENTORY_SCENE = preload("res://scenes/menu_arbre/main_scene_arbre.tscn")
 var inventory_instance = null
 
@@ -33,14 +33,14 @@ func _input(event: InputEvent) -> void:
 			_open_inventory()
 func _open_inventory() -> void:
 	inventory_instance = INVENTORY_SCENE.instantiate()
-	canvas_layer.add_child(inventory_instance)
+	Inventaire_node.add_child(inventory_instance)
 	var cards = inventory_instance.get_cards()
 	print(cards[0].position)
 	for card in cards:
 		if card.name in global.cards_pos.keys():
 			print(global.cards_pos[card.name])
 			card.position = global.cards_pos[card.name]
-
+	$gamenode/Player/Camera2D.enabled = false
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
 
 
@@ -52,18 +52,49 @@ func _close_inventory() -> void:
 		print(global.cards_pos)
 		inventory_instance.queue_free()
 		inventory_instance = null
+		$gamenode/Player/Camera2D.enabled = true
+
 		$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # pauser le reste du jeu
 
 func _on_interagible_lancer_cours(cours: Variant) -> void:
 	var cours_instance = COURS_SCENE.instantiate()
 	cours_quizz_paths = File_utils.get_dirs(global.path_cours[cours])
-	print(cours_quizz_paths)
 	cours_instance.path = cours_quizz_paths[0]
-	cours_instance.fin_text.connect(_on_next_quizz, CONNECT_ONE_SHOT)
+	if cours == "cours_prairie":
+		cours_instance.fin_text.connect(_on_next_quizz_prairie, CONNECT_ONE_SHOT)
+
+	else:
+		cours_instance.fin_text.connect(_on_next_quizz, CONNECT_ONE_SHOT)
+	
 	current_instance = cours_instance
 	$cours_subscene.add_child(cours_instance)
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
-	
+
+func _on_next_quizz_prairie():
+	print($cours_subscene.get_children())
+
+	if current_instance:
+		current_instance.queue_free()
+		current_instance = null
+	if index + 1 < len(cours_quizz_paths):
+		index += 1
+		var scene_quizz = load(File_utils.get_files(cours_quizz_paths[index], "tscn")[0])
+		var scene_quizz_inst = scene_quizz.instantiate()
+		current_instance = scene_quizz_inst
+		$cours_subscene.add_child(scene_quizz_inst)
+		scene_quizz_inst.fin_text.connect(_on_next_quizz_prairie, CONNECT_ONE_SHOT)
+
+	else:
+		$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # pauser le reste du jeu
+		cours_quizz_paths = []
+		index = 0
+		if current_instance:
+			current_instance.queue_free()
+		current_instance = null
+		
+		
+		
+
 func _on_next_quizz():
 	if current_instance:
 		current_instance.queue_free()

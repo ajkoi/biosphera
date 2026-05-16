@@ -2,7 +2,7 @@ extends Control
 @onready var ptr = 0
 @export var path :String
 # @export var path_quizz : String
-signal fin_text(index)
+signal fin_text
 
 
 
@@ -18,23 +18,24 @@ func _ready() -> void:
 	
 func _input(event: InputEvent) -> void:
 	if event.is_action_released("dash"): # faire disparaitre a 100
-
 		if ptr >= len(labels_texts):
 			fin_text.emit()
 		else:
 			# créer le texte suivant
 			var load_text = File_utils.load_text(labels_texts[ptr])
-			var label = Label.new()
+			var label = RichTextLabel.new()
+			label.bbcode_enabled = true
 			label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 			label.size.x = 560
-			label.text = load_text
+			label.fit_content = true
+			label.text = "[font_size=24]" + load_text + "[/font_size]"
 			created_labels += [label]
 			add_child(label)
 			
 			# déplacer les labels
 			if ptr > 0: # déplacer tout les labels éxistants
 				for lab in created_labels:
-					lab.position.y -= created_labels[ptr].size.y 
+					lab.position.y -= created_labels[ptr].size.y + 30
 					if lab.position.y < 100:
 						lab.visible = false
 

@@ -1,0 +1,10 @@
+{
+  "ans" : 1,
+  "question" : "À partir des documents, quelle interprétation est correcte?",
+  "rep0" : "Les différences de fonction indiquent une origine différente
+",
+  "rep1" : "L’organisation commune des os indique une origine évolutive commune",
+  "rep2" : "Les os similaires sont dus au hasard",
+  "rep3" : "Les trois espèces vivent dans le même milieu"
+}
+

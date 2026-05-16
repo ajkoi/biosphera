@@ -7,9 +7,7 @@ func _ready() -> void:
 	for place in get_tree().get_nodes_in_group("capture_places"):
 		place.capture.connect(on_capture)
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+
 
 func on_capture(card):
 	print(card)
