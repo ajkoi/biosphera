@@ -1,7 +1,70 @@
 extends Node2D
 
 @onready var snap_association = {
-	$snapcards/rouge_grp1/snap_area: [] # faire de meme avec tous, dans la liste, mettre toutes les cartes qui peuvent aller sur cette emplacement
+	$snapcards/rouge_grp1/snap_area: [], # faire de meme avec tous, dans la liste, mettre toutes les cartes qui peuvent aller sur cette emplacement
+	$snapcards/rouge_grp1/snap_area2: [],
+	
+	
+	
+	$snapcards/vert_fonce_grp2/snap_area: [],
+	$snapcards/vert_fonce_grp2/snap_area2: [],
+	
+	
+	
+	$snapcards/beige_grp3/snap_area: [],
+	$snapcards/beige_grp3/snap_area2: [],
+	
+	
+	
+	$snapcards/rose_grp4/snap_area: [],
+	$snapcards/rose_grp4/snap_area2: [],
+	$snapcards/rose_grp4/snap_area3: [],
+	
+	
+	
+	$snapcards/orange_grp5/snap_area: [],
+	$snapcards/orange_grp5/snap_area2: [],
+	$snapcards/orange_grp5/snap_area3: [],
+	
+	
+	
+	$snapcards/vert_clair_grp6/snap_area: [],
+	$snapcards/vert_clair_grp6/snap_area2: [],
+	$snapcards/vert_clair_grp6/snap_area3: [],
+	
+	
+	
+	$snapcards/vert_moyen_grp7/snap_area: [],
+	$snapcards/vert_moyen_grp7/snap_area2: [],
+	
+	
+	
+	$snapcards/bleu_clair_grp8/snap_area: [],
+	$snapcards/bleu_clair_grp8/snap_area2: [],
+	
+	
+	
+	$snapcards/turquoise_grp9/snap_area: [],
+	$snapcards/turquoise_grp9/snap_area2: [],
+	
+	
+	
+	$snapcards/bleu_fonce_grp10/snap_area: [],
+	$snapcards/bleu_fonce_grp10/snap_area2: [],
+	
+	
+	
+	$snapcards/bordeaux_grp11/snap_area: [],
+	$snapcards/bordeaux_grp11/snap_area2: [],
+	
+
+
+	$snapcards/autres/snap_area: [],
+	$snapcards/autres/snap_area1: [],
+	$snapcards/autres/snap_area2: [],
+	$snapcards/autres/snap_area3: [],
+	$snapcards/autres/snap_area4: [],
+
 }
 
 @onready var cards_label = {
