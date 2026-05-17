@@ -13,7 +13,7 @@ func _ready() -> void:
 	$CanvasLayer/Label.visible = false
 	$CanvasLayer/Label2.visible = false
 	for card in cards:
-		card.visible = global.possessed_card[card.name]
+		card.visible = global.possessed_card[card.name][0]
 
 
 var used_card = ""

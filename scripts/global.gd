@@ -12,9 +12,6 @@ var possessed_card = {
 	"card10" = false,
 }
 
-var possessd_labels = {
-	"card1" : true,
-}
 
 var zones = {
 	"prairie" = ["card1", "card2"] # etc etc ... ... manger c'est bien UwU
