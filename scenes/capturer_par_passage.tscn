@@ -5,9 +5,11 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_386ra"]
 size = Vector2(32, 32)
 
-[node name="StaticBody2D" type="StaticBody2D" unique_id=645362003]
+[node name="bush_capture" type="Area2D" unique_id=703102027]
 script = ExtResource("1_smn5w")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=156490041]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1083443329]
 shape = SubResource("RectangleShape2D_386ra")
 debug_color = Color(0.12162516, 0.52166826, 1, 0.41960785)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

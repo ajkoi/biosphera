@@ -1,6 +1,6 @@
 extends Node
 var possessed_card = {
-	"card1" = true,
+	"card1" = [false,false], # si on possede la carte et si on possède l'explication
 	"card2" = true,
 	"card3" = false,
 	"card4" = false,
@@ -16,8 +16,10 @@ var possessd_labels = {
 	"card1" : true,
 }
 
+var zones = {
+	"prairie" = ["card1", "card2"] # etc etc ... ... manger c'est bien UwU
+}
 
-var cards_pos = {}
 
 var path_cours = {
 	"cours_desert" :"res://cours/Desert_5/",
