@@ -24,6 +24,7 @@ var possessed_card = {
 "tortue": [false, false],
 "dauphin": [false, false],
 "daurade": [false, false],
+"poule": [false, false]
 
 }
 var zones = {
