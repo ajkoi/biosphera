@@ -36,8 +36,8 @@ offset_left = 1919.0
 offset_top = 1278.0
 offset_right = 2698.0
 offset_bottom = 1799.0
-text = "VERIF
-"
+text = "VERIF"
+
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1662688894]
 zoom = Vector2(0.2, 0.2)
@@ -50,19 +50,9 @@ script = ExtResource("4_e422m")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1692199671]
 
-[node name="card1" parent="CanvasLayer" unique_id=24245917 groups=["cards"] instance=ExtResource("2_dd6hx")]
-visible = false
-position = Vector2(80, 192)
-collision_mask = 12
-path_img = "res://assets/arbre/preview_cartes/preview_carte/pre_archaeo.JPG"
-
-[node name="card2" parent="CanvasLayer" unique_id=1796974411 groups=["cards"] instance=ExtResource("2_dd6hx")]
-visible = false
-position = Vector2(80, 192)
-collision_mask = 12
-path_img = "res://assets/arbre/preview_cartes/preview_carte/pre_baleine.JPG"
-
 [node name="cards" type="Node2D" parent="CanvasLayer" unique_id=220788298]
+
+[node name="card" parent="CanvasLayer/cards" unique_id=24245917 groups=["cards"] instance=ExtResource("2_dd6hx")]
 
 [node name="labels" type="Node2D" parent="CanvasLayer" unique_id=826315183]
 
@@ -183,7 +173,3 @@ position = Vector2(1624, 1353)
 position = Vector2(2259, 1166)
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
-[connection signal="node_exit" from="CanvasLayer/card1" to="." method="_on_card_node_exit"]
-[connection signal="used" from="CanvasLayer/card1" to="." method="_on_card_used"]
-[connection signal="node_exit" from="CanvasLayer/card2" to="." method="_on_card_node_exit"]
-[connection signal="used" from="CanvasLayer/card2" to="." method="_on_card_used"]
