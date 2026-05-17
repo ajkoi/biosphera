@@ -62,23 +62,9 @@ position = Vector2(80, 192)
 collision_mask = 12
 path_img = "res://assets/arbre/preview_cartes/preview_carte/pre_baleine.JPG"
 
-[node name="Label2" type="Label" parent="CanvasLayer" unique_id=89062552]
-offset_left = 749.0
-offset_top = 40.0
-offset_right = 1005.0
-offset_bottom = 347.0
-text = "ceci est la carte 2
-"
+[node name="cards" type="Node2D" parent="CanvasLayer" unique_id=220788298]
 
-[node name="Label" type="Label" parent="CanvasLayer" unique_id=207215714]
-offset_left = 813.0
-offset_top = 13.0
-offset_right = 1069.0
-offset_bottom = 320.0
-text = "ceci est la carte 1
-"
-
-[node name="Node2D" type="Node2D" parent="CanvasLayer" unique_id=220788298]
+[node name="labels" type="Node2D" parent="CanvasLayer" unique_id=826315183]
 
 [node name="snapcards" type="Node2D" parent="." unique_id=1271301252]
 

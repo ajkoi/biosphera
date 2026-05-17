@@ -10,11 +10,11 @@ config_version=5
 
 [application]
 
-config/name="ES_evol_anatomie_comp"
+config/name="biosphera"
 config/description="Un jeu pour l'ES sur l'évolution et l'anatomie comparées"
 run/main_scene="uid://de0ah0khqutyp"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://pn6v40282n7p"
 
 [autoload]
 
