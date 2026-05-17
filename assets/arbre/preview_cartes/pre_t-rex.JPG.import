@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0kwo10ky0mhm"
-path="res://.godot/imported/pre_pigeon.JPG-68335c7ca6ca7e1f3927dff1208d30b0.ctex"
+uid="uid://diwt2uy4ipva3"
+path="res://.godot/imported/pre_t-rex.JPG-5fa3e0dd3699e2f5d12ac2f432d50b94.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/arbre/preview_cartes/non_collec/pre_pigeon.JPG"
-dest_files=["res://.godot/imported/pre_pigeon.JPG-68335c7ca6ca7e1f3927dff1208d30b0.ctex"]
+source_file="res://assets/arbre/preview_cartes/pre_t-rex.JPG"
+dest_files=["res://.godot/imported/pre_t-rex.JPG-5fa3e0dd3699e2f5d12ac2f432d50b94.ctex"]
 
 [params]
 

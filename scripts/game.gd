@@ -2,7 +2,7 @@ extends Node2D
 # inventaire (arbre)
 @onready var Inventaire_node = $Inventory
 const INVENTORY_SCENE = preload("res://scenes/menu_arbre/main_scene_arbre.tscn")
-var inventory_instance = null
+var inventory_instance :Node2D = null
 
 
 
@@ -27,14 +27,16 @@ func _input(event: InputEvent) -> void:
 		else:
 			_open_inventory()
 func _open_inventory() -> void:
-	inventory_instance = INVENTORY_SCENE.instantiate()
+	inventory_instance =  INVENTORY_SCENE.instantiate()
 	Inventaire_node.add_child(inventory_instance)
 	var cards = inventory_instance.get_cards()
-	print(cards[0].position)
-	for card in cards:
+	for card :Node2D in cards:
 		if card.name in global.cards_pos.keys():
-			print(global.cards_pos[card.name])
-			card.position = global.cards_pos[card.name]
+			if global.cards_pos[card.name][1]:
+				card.reparent(inventory_instance.get_node("cards"))
+				card.scale_exit()
+			card.position = global.cards_pos[card.name][0]
+			
 	$gamenode/Player/Camera2D.enabled = false
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
 
@@ -43,7 +45,7 @@ func _close_inventory() -> void:
 	if inventory_instance:
 		var cards = inventory_instance.get_cards()
 		for card in cards:
-			global.cards_pos[card.name] = card.position
+			global.cards_pos[card.name] = [card.position, card.get_parent().get_parent().name != "CanvasLayer"]
 		print(global.cards_pos)
 		inventory_instance.queue_free()
 		inventory_instance = null

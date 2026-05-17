@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://kb7qkhgl08vq"
-path="res://.godot/imported/pre_pieuvre.JPG-1d085dbd514647f25f8ad63534860339.ctex"
+uid="uid://b0kwo10ky0mhm"
+path="res://.godot/imported/pre_pigeon.JPG-15fc52a09e4eeced1ad7f6cf9ede6dd9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/arbre/preview_cartes/non_collec/pre_pieuvre.JPG"
-dest_files=["res://.godot/imported/pre_pieuvre.JPG-1d085dbd514647f25f8ad63534860339.ctex"]
+source_file="res://assets/arbre/preview_cartes/pre_pigeon.JPG"
+dest_files=["res://.godot/imported/pre_pigeon.JPG-15fc52a09e4eeced1ad7f6cf9ede6dd9.ctex"]
 
 [params]
 
