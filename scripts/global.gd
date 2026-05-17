@@ -1,20 +1,41 @@
 extends Node
 var possessed_card = {
-	"card1" = [false,false], # si on possede la carte et si on possède l'explication
-	"card2" = true,
-	"card3" = false,
-	"card4" = false,
-	"card5" = false,
-	"card6" = false,
-	"card7" = false,
-	"card8" = false,
-	"card9" = false,
-	"card10" = false,
+"grand_requin": [false, false],
+"truite": [false, false],
+"baleine": [false, false],
+"boa": [false, false],
+"croco": [false, false],
+"chauve_souris": [false, false],
+"chat": [false, false],
+"coccinelle": [false, false],
+"fourmi": [false, false],
+"archaeopteryx": [false, false],
+"mammouth": [false, false],
+"tigre": [false, false],
+"pteranodon": [false, false],
+"Ichtyosaure": [false, false],
+"thylacine": [false, false],
+"kangourou": [false, false],
+"crabe": [false, false],
+"homard": [false, false],
+"elephant": [false, false],
+"cheval": [false, false],
+"grenouille": [false, false],
+"tortue": [false, false],
+"dauphin": [false, false],
+"daurade": [false, false],
+
 }
-
-
 var zones = {
-	"prairie" = ["card1", "card2"] # etc etc ... ... manger c'est bien UwU
+	"prairie" : ["poule", "coccinelle", "cheval", "grenouille"] # etc etc ... ... manger c'est bien UwU
+	"riviere":["croco", "truite"],
+	"mer":["grand_requin", "truite", "baleine", "crabe", "homard", "tortue", "dauphin", "daurade"],
+	"foret_fonce":["boa", "chat", "coccinelle" "fourmi", "grenouille"],
+	"marais":["boa", "croco"],
+	"foret_claire":["poule", "chat", "coccinelle" "fourmi", "grenouille"],
+	"caverne": ["chauve_souris"],
+	"desert": ["kangourou"],
+	"fossile": ["tigre", "archaeopteryx", "pteranodon", "ichtyosaure", "thylacine"],
 }
 
 
