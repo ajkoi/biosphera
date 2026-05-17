@@ -13,7 +13,7 @@ var possessed_card = {
 "mammouth": [false, false],
 "tigre": [false, false],
 "pteranodon": [false, false],
-"Ichtyosaure": [false, false],
+"ichtyosaure": [false, false],
 "thylacine": [false, false],
 "kangourou": [false, false],
 "crabe": [false, false],

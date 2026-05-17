@@ -38,7 +38,6 @@ offset_right = 2698.0
 offset_bottom = 1799.0
 text = "VERIF"
 
-
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1662688894]
 zoom = Vector2(0.2, 0.2)
 limit_left = -2700
@@ -52,7 +51,80 @@ script = ExtResource("4_e422m")
 
 [node name="cards" type="Node2D" parent="CanvasLayer" unique_id=220788298]
 
-[node name="card" parent="CanvasLayer/cards" unique_id=24245917 groups=["cards"] instance=ExtResource("2_dd6hx")]
+[node name="grand_requin" parent="CanvasLayer/cards" unique_id=24245917 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_requin.JPG"
+
+[node name="truite" parent="CanvasLayer/cards" unique_id=687686784 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_truite.JPG"
+
+[node name="baleine" parent="CanvasLayer/cards" unique_id=1827333870 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_baleine.JPG"
+
+[node name="boa" parent="CanvasLayer/cards" unique_id=1214057202 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_boa.JPG"
+
+[node name="croco" parent="CanvasLayer/cards" unique_id=470688517 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_crocodile.JPG"
+
+[node name="chauve_souris" parent="CanvasLayer/cards" unique_id=1940226335 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_chauve-souris.JPG"
+
+[node name="chat" parent="CanvasLayer/cards" unique_id=793794650 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_chat.JPG"
+
+[node name="coccinelle" parent="CanvasLayer/cards" unique_id=208507984 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_coccinelle.JPG"
+
+[node name="fourmi" parent="CanvasLayer/cards" unique_id=565679621 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_fourmi.JPG"
+
+[node name="archaeopteryx" parent="CanvasLayer/cards" unique_id=641451257 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_archaeo.JPG"
+
+[node name="mammouth" parent="CanvasLayer/cards" unique_id=1155284013 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_mammouth.JPG"
+
+[node name="tigre" parent="CanvasLayer/cards" unique_id=1890834355 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_tigre.JPG"
+
+[node name="pteranodon" parent="CanvasLayer/cards" unique_id=494032869 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_ptera.JPG"
+
+[node name="ichtyosaure" parent="CanvasLayer/cards" unique_id=1129545547 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_ichthyo.JPG"
+
+[node name="thylacine" parent="CanvasLayer/cards" unique_id=1049913015 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_thylacine.JPG"
+
+[node name="kangourou" parent="CanvasLayer/cards" unique_id=1120393409 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_kangourou.JPG"
+
+[node name="crabe" parent="CanvasLayer/cards" unique_id=1825860780 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_crabe.JPG"
+
+[node name="homard" parent="CanvasLayer/cards" unique_id=158384937 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_homard.JPG"
+
+[node name="elephant" parent="CanvasLayer/cards" unique_id=797315624 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_elephant.JPG"
+
+[node name="cheval" parent="CanvasLayer/cards" unique_id=1827195075 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_cheval.JPG"
+
+[node name="grenouille" parent="CanvasLayer/cards" unique_id=1663927064 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_grenouille.JPG"
+
+[node name="tortue" parent="CanvasLayer/cards" unique_id=571487866 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_tortue.JPG"
+
+[node name="dauphin" parent="CanvasLayer/cards" unique_id=1221188179 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_dauphin.JPG"
+
+[node name="daurade" parent="CanvasLayer/cards" unique_id=1022304811 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_daurade.JPG"
+
+[node name="poule" parent="CanvasLayer/cards" unique_id=867644822 groups=["cards"] instance=ExtResource("2_dd6hx")]
+path_img = "res://assets/arbre/preview_cartes/pre_poule.JPG"
 
 [node name="labels" type="Node2D" parent="CanvasLayer" unique_id=826315183]
 
