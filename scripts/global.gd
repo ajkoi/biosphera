@@ -1,7 +1,7 @@
 extends Node
 var possessed_card = {
 	"card1" = true,
-	"card2" = false,
+	"card2" = true,
 	"card3" = false,
 	"card4" = false,
 	"card5" = false,
@@ -11,6 +11,11 @@ var possessed_card = {
 	"card9" = false,
 	"card10" = false,
 }
+
+var possessd_labels = {
+	"card1" : true,
+}
+
 
 var cards_pos = {}
 

@@ -1,23 +1,22 @@
 [gd_scene format=3 uid="uid://d3aktxwajj7re"]
 
 [ext_resource type="Script" uid="uid://b0f4lswkg7ojx" path="res://scenes/hud.gd" id="1_ahhtf"]
-[ext_resource type="FontFile" uid="uid://df7mbyehooew7" path="res://fonts/minecraft_font.ttf" id="2_oo0fn"]
+[ext_resource type="FontFile" uid="uid://bohslu5t1gpyw" path="res://fonts/BigBlueTerminal/BigBlueTermPlusNerdFontPropo-Regular.ttf" id="2_oo0fn"]
 
 [node name="HUD" type="CanvasLayer" unique_id=1358204907]
 script = ExtResource("1_ahhtf")
 
 [node name="Label" type="Label" parent="." unique_id=148310338]
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
+anchors_preset = -1
+anchor_left = 0.7916667
+anchor_top = 0.89444447
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -225.0
-offset_top = -76.0
 grow_horizontal = 0
 grow_vertical = 0
 theme_override_fonts/font = ExtResource("2_oo0fn")
 theme_override_font_sizes/font_size = 60
+metadata/_edit_use_anchors_ = true
 
 [node name="Timer" type="Timer" parent="." unique_id=1649385182]
 wait_time = 5.0

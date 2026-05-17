@@ -31,25 +31,13 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_posyb")
 
-[node name="snap_area" parent="." unique_id=1600394239 instance=ExtResource("1_377my")]
-position = Vector2(441, 85)
-
-[node name="snap_area2" parent="." unique_id=1844146208 instance=ExtResource("1_377my")]
-position = Vector2(21, 13)
-
-[node name="card1" parent="." unique_id=24245917 groups=["cards"] instance=ExtResource("2_dd6hx")]
-position = Vector2(69, 68)
-path_img = "res://assets/interactions/test2.png"
-
-[node name="card2" parent="." unique_id=1287044976 groups=["cards"] instance=ExtResource("2_dd6hx")]
-position = Vector2(126, 190)
-path_img = "res://assets/interactions/test1.png"
-
 [node name="Button" type="Button" parent="." unique_id=1884078157]
-offset_left = 197.0
-offset_top = 364.0
-offset_right = 344.0
-offset_bottom = 454.0
+offset_left = 1919.0
+offset_top = 1278.0
+offset_right = 2698.0
+offset_bottom = 1799.0
+text = "VERIF
+"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1662688894]
 zoom = Vector2(0.2, 0.2)
@@ -62,8 +50,17 @@ script = ExtResource("4_e422m")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1692199671]
 
-[node name="CanvasModulate" type="CanvasModulate" parent="CanvasLayer" unique_id=1277273592]
-color = Color(0, 0, 0, 1)
+[node name="card1" parent="CanvasLayer" unique_id=24245917 groups=["cards"] instance=ExtResource("2_dd6hx")]
+visible = false
+position = Vector2(80, 192)
+collision_mask = 12
+path_img = "res://assets/arbre/preview_cartes/preview_carte/pre_archaeo.JPG"
+
+[node name="card2" parent="CanvasLayer" unique_id=1796974411 groups=["cards"] instance=ExtResource("2_dd6hx")]
+visible = false
+position = Vector2(80, 192)
+collision_mask = 12
+path_img = "res://assets/arbre/preview_cartes/preview_carte/pre_baleine.JPG"
 
 [node name="Label2" type="Label" parent="CanvasLayer" unique_id=89062552]
 offset_left = 749.0
@@ -81,6 +78,124 @@ offset_bottom = 320.0
 text = "ceci est la carte 1
 "
 
-[connection signal="used" from="card1" to="." method="_on_card_used"]
-[connection signal="used" from="card2" to="." method="_on_card_2_used"]
+[node name="snapcards" type="Node2D" parent="." unique_id=1271301252]
+
+[node name="rouge_grp1" type="Node2D" parent="snapcards" unique_id=1726517709]
+
+[node name="snap_area" parent="snapcards/rouge_grp1" unique_id=1600394239 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-2219, -1171)
+
+[node name="snap_area2" parent="snapcards/rouge_grp1" unique_id=1844146208 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-2220, -1533)
+
+[node name="vert_fonce_grp2" type="Node2D" parent="snapcards" unique_id=75885659]
+
+[node name="snap_area" parent="snapcards/vert_fonce_grp2" unique_id=288558065 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-936, -1528)
+
+[node name="snap_area2" parent="snapcards/vert_fonce_grp2" unique_id=850601646 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-940, -1173)
+
+[node name="beige_grp3" type="Node2D" parent="snapcards" unique_id=1560283046]
+
+[node name="snap_area" parent="snapcards/beige_grp3" unique_id=544061932 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-1899, -812)
+
+[node name="snap_area2" parent="snapcards/beige_grp3" unique_id=1452843860 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-1261, -812)
+
+[node name="rose_grp4" type="Node2D" parent="snapcards" unique_id=1074999959]
+
+[node name="snap_area" parent="snapcards/rose_grp4" unique_id=1978569476 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-2219, 448)
+
+[node name="snap_area3" parent="snapcards/rose_grp4" unique_id=1096741544 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-1901, 265)
+
+[node name="snap_area2" parent="snapcards/rose_grp4" unique_id=1572443762 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-1896, 624)
+
+[node name="orange_grp5" type="Node2D" parent="snapcards" unique_id=49844358]
+
+[node name="snap_area" parent="snapcards/orange_grp5" unique_id=849082933 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-2220, 1169)
+
+[node name="snap_area3" parent="snapcards/orange_grp5" unique_id=574557263 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-1584, 1520)
+
+[node name="snap_area2" parent="snapcards/orange_grp5" unique_id=1605026114 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-2216, 1528)
+
+[node name="vert_clair_grp6" type="Node2D" parent="snapcards" unique_id=53592506]
+
+[node name="snap_area" parent="snapcards/vert_clair_grp6" unique_id=1409927561 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-936, 1520)
+
+[node name="snap_area3" parent="snapcards/vert_clair_grp6" unique_id=328982297 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-304, 1168)
+
+[node name="snap_area2" parent="snapcards/vert_clair_grp6" unique_id=234932607 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-296, 1528)
+
+[node name="vert_moyen_grp7" type="Node2D" parent="snapcards" unique_id=1904063791]
+
+[node name="snap_area" parent="snapcards/vert_moyen_grp7" unique_id=1569855718 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(976, 1528)
+
+[node name="snap_area2" parent="snapcards/vert_moyen_grp7" unique_id=447477592 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(344, 1528)
+
+[node name="bleu_clair_grp8" type="Node2D" parent="snapcards" unique_id=1613957054]
+
+[node name="snap_area" parent="snapcards/bleu_clair_grp8" unique_id=1043438520 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-304, 632)
+
+[node name="snap_area2" parent="snapcards/bleu_clair_grp8" unique_id=2087840600 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-616, 813)
+
+[node name="turquoise_grp9" type="Node2D" parent="snapcards" unique_id=1538919989]
+
+[node name="snap_area" parent="snapcards/turquoise_grp9" unique_id=1838444900 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(21, -456)
+
+[node name="snap_area2" parent="snapcards/turquoise_grp9" unique_id=592976670 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-621, -632)
+
+[node name="bleu_fonce_grp10" type="Node2D" parent="snapcards" unique_id=602810265]
+
+[node name="snap_area" parent="snapcards/bleu_fonce_grp10" unique_id=1766373982 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(344, -1352)
+
+[node name="snap_area2" parent="snapcards/bleu_fonce_grp10" unique_id=1993444764 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-304, -1352)
+
+[node name="bordeaux_grp11" type="Node2D" parent="snapcards" unique_id=442607830]
+
+[node name="snap_area" parent="snapcards/bordeaux_grp11" unique_id=2059455430 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(1624, -1536)
+
+[node name="snap_area2" parent="snapcards/bordeaux_grp11" unique_id=1742243990 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(984, -1536)
+
+[node name="autres" type="Node2D" parent="snapcards" unique_id=387688906]
+
+[node name="snap_area" parent="snapcards/autres" unique_id=320706540 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(2267, -999)
+
+[node name="snap_area2" parent="snapcards/autres" unique_id=1670587773 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(338, 637)
+
+[node name="snap_area3" parent="snapcards/autres" unique_id=1346443934 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(-1583, -96)
+
+[node name="snap_area4" parent="snapcards/autres" unique_id=106391009 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(1624, 1353)
+
+[node name="snap_area5" parent="snapcards/autres" unique_id=86223204 groups=["snaps"] instance=ExtResource("1_377my")]
+position = Vector2(2259, 1166)
+
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="node_exit" from="CanvasLayer/card1" to="." method="_on_card_node_exit"]
+[connection signal="used" from="CanvasLayer/card1" to="." method="_on_card_used"]
+[connection signal="node_exit" from="CanvasLayer/card2" to="." method="_on_card_node_exit"]
+[connection signal="used" from="CanvasLayer/card2" to="." method="_on_card_used"]

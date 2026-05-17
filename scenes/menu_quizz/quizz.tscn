@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://b60fyg8765t8" path="res://scenes/menu_quizz/quizz.gd" id="1_wbgoj"]
 [ext_resource type="Texture2D" uid="uid://d2ypf58ffjh4" path="res://assets/scene_under_qcm0.png" id="2_y41uc"]
-[ext_resource type="FontFile" uid="uid://df7mbyehooew7" path="res://fonts/minecraft_font.ttf" id="3_y41uc"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_maxtp"]
 
@@ -118,7 +117,6 @@ offset_left = 970.0
 offset_top = 260.0
 offset_right = 1075.0
 offset_bottom = 332.0
-theme_override_fonts/font = ExtResource("3_y41uc")
 text = "document suivant
 
 
@@ -132,7 +130,6 @@ offset_top = 260.0
 offset_right = 136.0
 offset_bottom = 333.0
 tooltip_text = "passer au document précédent"
-theme_override_fonts/font = ExtResource("3_y41uc")
 text = "document precedent"
 autowrap_mode = 3
 

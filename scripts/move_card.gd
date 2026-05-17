@@ -4,7 +4,7 @@ extends Node2D
 var active = false
 var dif = Vector2(0, 0)
 var body_in = false
-const WIDTH = 150
+@export var WIDTH = 150
 signal used
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -17,7 +17,7 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if active:	
-		position = get_global_mouse_position()
+		position = get_global_mouse_position() + dif
 	if body_in and !active and position != body_in.position:
 		AUDIO_PLAYER.play()
 		position = body_in.position
