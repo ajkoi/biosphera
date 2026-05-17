@@ -27,12 +27,12 @@ var possessed_card = {
 
 }
 var zones = {
-	"prairie" : ["poule", "coccinelle", "cheval", "grenouille"] # etc etc ... ... manger c'est bien UwU
+	"prairie" : ["poule", "coccinelle", "cheval", "grenouille"], # etc etc ... ... manger c'est bien UwU
 	"riviere":["croco", "truite"],
 	"mer":["grand_requin", "truite", "baleine", "crabe", "homard", "tortue", "dauphin", "daurade"],
-	"foret_fonce":["boa", "chat", "coccinelle" "fourmi", "grenouille"],
+	"foret_fonce":["boa", "chat", "coccinelle", "fourmi", "grenouille"],
 	"marais":["boa", "croco"],
-	"foret_claire":["poule", "chat", "coccinelle" "fourmi", "grenouille"],
+	"foret_claire":["poule", "chat", "coccinelle", "fourmi", "grenouille"],
 	"caverne": ["chauve_souris"],
 	"desert": ["kangourou"],
 	"fossile": ["tigre", "archaeopteryx", "pteranodon", "ichtyosaure", "thylacine"],
