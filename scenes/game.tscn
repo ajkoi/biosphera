@@ -6200,6 +6200,18 @@ texture = ExtResource("13_pl11u")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_h3rex")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1kice"]
+size = Vector2(49, 27)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_264po"]
+size = Vector2(61, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ssvqc"]
+size = Vector2(55, 23)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5newe"]
+size = Vector2(69, 20)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rysoc"]
 size = Vector2(69, 20)
 
@@ -6280,20 +6292,37 @@ card = "card2"
 [node name="maison_interact" type="Node2D" parent="." unique_id=733977537]
 
 [node name="interagible" parent="maison_interact" unique_id=309649967 instance=ExtResource("16_rysoc")]
-position = Vector2(1052, -322)
+position = Vector2(1041, -326)
 cours = "cours_neige"
 
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible" unique_id=786052340]
+position = Vector2(-3, 3)
+shape = SubResource("RectangleShape2D_1kice")
+
 [node name="interagible4" parent="maison_interact" unique_id=1176953182 instance=ExtResource("16_rysoc")]
-position = Vector2(1601, 239)
+position = Vector2(1608, 231)
 cours = "cours_marais"
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible4" unique_id=1425883455]
+position = Vector2(-1.5, 4)
+shape = SubResource("RectangleShape2D_264po")
+debug_color = Color(0.29878834, 0.2906392, 0.5764299, 0.41960785)
 
 [node name="interagible5" parent="maison_interact" unique_id=150154316 instance=ExtResource("16_rysoc")]
 position = Vector2(1878, 672)
-cours = "cours_desert"
+cours = "cours_desert   "
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible5" unique_id=504085512]
+position = Vector2(0.5, 7.5)
+shape = SubResource("RectangleShape2D_ssvqc")
 
 [node name="interagible2" parent="maison_interact" unique_id=2119238559 instance=ExtResource("16_rysoc")]
-position = Vector2(454, 508)
+position = Vector2(458, 487)
 cours = "cours_foret"
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible2" unique_id=641511861]
+position = Vector2(-1.5, 9)
+shape = SubResource("RectangleShape2D_5newe")
 
 [node name="interagible3" parent="maison_interact" unique_id=90184031 instance=ExtResource("16_rysoc")]
 position = Vector2(776, 174)
