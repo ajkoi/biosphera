@@ -1,11 +1,12 @@
 extends Node2D
 # inventaire (arbre)
 @onready var Inventaire_node = $Inventory
+@onready var card_node = $cards
 const INVENTORY_SCENE = preload("res://scenes/menu_arbre/main_scene_arbre.tscn")
 var inventory_instance :Node2D = null
 
-
-
+const CARD_SCENE = preload("res://scenes/cartes/cartes_visu.tscn")
+var CARDS_instance  = null
 
 # relatif aux quizz (path et instance actuelle)
 
@@ -20,12 +21,36 @@ var current_instance = null
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("inventaire"):
-		print("inv")
-		print(inventory_instance!=null)
-		if inventory_instance!=null:
+		if CARDS_instance != null:
+			_close_cards()
+		if inventory_instance != null:
 			_close_inventory()
 		else:
 			_open_inventory()
+	if event.is_action_released("cartes"):
+		if inventory_instance != null:
+			_close_inventory()
+		if CARDS_instance != null:
+			_close_cards()
+		else:
+			_open_cards()
+		
+		
+		
+func _open_cards():
+	CARDS_instance = CARD_SCENE.instantiate()
+	card_node.add_child(CARDS_instance)
+	$gamenode/Player/Camera2D.enabled = false
+	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
+
+func _close_cards():
+	if CARDS_instance:
+		CARDS_instance.queue_free()
+		CARDS_instance = null 
+		$gamenode/Player/Camera2D.enabled = true
+
+		$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # dépauser pauser le reste du jeu
+	
 func _open_inventory() -> void:
 	inventory_instance =  INVENTORY_SCENE.instantiate()
 	Inventaire_node.add_child(inventory_instance)
@@ -51,7 +76,7 @@ func _close_inventory() -> void:
 		inventory_instance = null
 		$gamenode/Player/Camera2D.enabled = true
 
-		$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # pauser le reste du jeu
+		$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # dépauser pauser le reste du jeu
 
 func _on_interagible_lancer_cours(cours: Variant) -> void:
 	var cours_instance = COURS_SCENE.instantiate()

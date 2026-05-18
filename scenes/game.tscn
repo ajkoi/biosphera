@@ -6280,16 +6280,26 @@ card = "card2"
 [node name="maison_interact" type="Node2D" parent="." unique_id=733977537]
 
 [node name="interagible" parent="maison_interact" unique_id=309649967 instance=ExtResource("16_rysoc")]
-position = Vector2(269, -87)
+position = Vector2(1052, -322)
+cours = "cours_neige"
+
+[node name="interagible4" parent="maison_interact" unique_id=1176953182 instance=ExtResource("16_rysoc")]
+position = Vector2(1601, 239)
+cours = "cours_marais"
+
+[node name="interagible5" parent="maison_interact" unique_id=150154316 instance=ExtResource("16_rysoc")]
+position = Vector2(1878, 672)
+cours = "cours_desert"
 
 [node name="interagible2" parent="maison_interact" unique_id=2119238559 instance=ExtResource("16_rysoc")]
-position = Vector2(333, 31)
+position = Vector2(454, 508)
+cours = "cours_foret"
 
 [node name="interagible3" parent="maison_interact" unique_id=90184031 instance=ExtResource("16_rysoc")]
 position = Vector2(776, 174)
 collision_layer = 1
 collision_mask = 1
-cours = "cours_desert"
+cours = "cours_prairie"
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible3" unique_id=955994335]
 position = Vector2(0, 7)
@@ -6302,8 +6312,12 @@ shape = SubResource("RectangleShape2D_rysoc")
 [node name="Inventory" type="Node2D" parent="." unique_id=84379918]
 z_index = 1
 
+[node name="cards" type="CanvasLayer" parent="." unique_id=915923583]
+
 [connection signal="capture" from="capture_places/capture_place" to="HUD" method="_on_capture_place_capture"]
 [connection signal="capture" from="capture_places/capture_place2" to="gamenode/Player" method="_on_capture_place_2_capture"]
 [connection signal="lancer_cours" from="maison_interact/interagible" to="." method="_on_interagible_lancer_cours"]
+[connection signal="lancer_cours" from="maison_interact/interagible4" to="." method="_on_interagible_lancer_cours"]
+[connection signal="lancer_cours" from="maison_interact/interagible5" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible2" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible3" to="." method="_on_interagible_lancer_cours"]

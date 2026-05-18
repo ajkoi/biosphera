@@ -1,13 +1,13 @@
 extends Node
 var possessed_card = {
-"grand_requin": [true, false], # remettre à false false
-"truite": [false, false],
-"baleine": [false, false],
-"boa": [false, false],
-"croco": [false, false],
-"chauve_souris": [false, false],
-"chat": [false, false],
-"coccinelle": [false, false],
+"grand_requin": [true, true], # remettre à false false
+"truite": [false, true],
+"baleine": [false, true],
+"boa": [false, true],
+"croco": [false, true],
+"chauve_souris": [false, true],
+"chat": [false, true],
+"coccinelle": [false, true],
 "fourmi": [false, false],
 "archaeopteryx": [false, false],
 "mammouth": [false, false],
@@ -28,8 +28,8 @@ var possessed_card = {
 "pigeon": [true, false],
 "espadon": [true, false],
 "trex": [true, false],
-"loup": [true, false],
-"pieuvre": [false, false]
+"loup": [true, true],
+"pieuvre": [false, true]
 }
 var zones = {
 	"prairie" : ["poule", "coccinelle", "cheval", "grenouille"], # etc etc ... ... manger c'est bien UwU
