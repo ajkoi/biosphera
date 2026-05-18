@@ -41,44 +41,38 @@ text = "VERIF"
 [node name="cards" type="Node2D" parent="." unique_id=1017256960]
 
 [node name="dauphin" parent="cards" unique_id=24245917 groups=["cards"] instance=ExtResource("2_dd6hx")]
-visible = false
 position = Vector2(-935, 1521)
-path_img = "res://assets/arbre/preview_cartes/pre_dauphin.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_dauphin.PNG"
 movable = false
 
 [node name="homard" parent="cards" unique_id=158384937 groups=["cards"] instance=ExtResource("2_dd6hx")]
-visible = false
 position = Vector2(1624, -1536)
-path_img = "res://assets/arbre/preview_cartes/pre_homard.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_homard.PNG"
 movable = false
 
 [node name="tortue" parent="cards" unique_id=571487866 groups=["cards"] instance=ExtResource("2_dd6hx")]
-visible = false
 position = Vector2(24, -456)
-path_img = "res://assets/arbre/preview_cartes/pre_tortue.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_tortue.PNG"
 movable = false
 
 [node name="pigeon" parent="cards" unique_id=2073728877 groups=["cards"] instance=ExtResource("2_dd6hx")]
-visible = false
 position = Vector2(-2216, -1536)
-path_img = "res://assets/arbre/preview_cartes/pre_pigeon.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_pigeon.PNG"
 movable = false
 
 [node name="trex" parent="cards" unique_id=171465997 groups=["cards"] instance=ExtResource("2_dd6hx")]
-visible = false
 position = Vector2(-936, -1528)
-path_img = "res://assets/arbre/preview_cartes/pre_t-rex.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_t-rex.PNG"
 movable = false
 
 [node name="loup" parent="cards" unique_id=1494934434 groups=["cards"] instance=ExtResource("2_dd6hx")]
-visible = false
 position = Vector2(-1896, 624)
-path_img = "res://assets/arbre/preview_cartes/pre_loup.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_loup.PNG"
 movable = false
 
 [node name="espadon" parent="cards" unique_id=1720326540 groups=["cards"] instance=ExtResource("2_dd6hx")]
 position = Vector2(344, 1528)
-path_img = "res://assets/arbre/preview_cartes/pre_espadon.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_voilier.PNG"
 movable = false
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1662688894]
@@ -95,75 +89,73 @@ script = ExtResource("4_e422m")
 [node name="cards" type="Node2D" parent="CanvasLayer" unique_id=220788298]
 
 [node name="grand_requin" parent="CanvasLayer/cards" unique_id=1316592127 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_requin.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_requin.PNG"
 
 [node name="truite" parent="CanvasLayer/cards" unique_id=687686784 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_truite.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_truite.PNG"
 
 [node name="baleine" parent="CanvasLayer/cards" unique_id=1827333870 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_baleine.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_baleine.PNG"
 
 [node name="boa" parent="CanvasLayer/cards" unique_id=1214057202 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_boa.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_boa.PNG"
 
 [node name="croco" parent="CanvasLayer/cards" unique_id=470688517 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_crocodile.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_crocodile.PNG"
 
 [node name="chauve_souris" parent="CanvasLayer/cards" unique_id=1940226335 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_chauve-souris.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_chauve-souris.PNG"
 
 [node name="chat" parent="CanvasLayer/cards" unique_id=793794650 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_chat.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_chat.PNG"
 
 [node name="coccinelle" parent="CanvasLayer/cards" unique_id=208507984 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_coccinelle.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_coccinelle.PNG"
 
 [node name="fourmi" parent="CanvasLayer/cards" unique_id=565679621 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_fourmi.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_fourmi.PNG"
 
 [node name="archaeopteryx" parent="CanvasLayer/cards" unique_id=641451257 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_archaeo.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_archaeo.PNG"
 
 [node name="mammouth" parent="CanvasLayer/cards" unique_id=1155284013 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_mammouth.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_mammouth.PNG"
 
 [node name="tigre" parent="CanvasLayer/cards" unique_id=1890834355 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_tigre.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_tigre.PNG"
 
 [node name="pteranodon" parent="CanvasLayer/cards" unique_id=494032869 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_ptera.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_ptera.PNG"
 
 [node name="ichtyosaure" parent="CanvasLayer/cards" unique_id=1129545547 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_ichthyo.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_ichthyo.PNG"
 
 [node name="thylacine" parent="CanvasLayer/cards" unique_id=1049913015 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_thylacine.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_thylacine.PNG"
 
 [node name="kangourou" parent="CanvasLayer/cards" unique_id=1120393409 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_kangourou.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_kangourou.PNG"
 
 [node name="crabe" parent="CanvasLayer/cards" unique_id=1825860780 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_crabe.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_crabe.PNG"
 
 [node name="elephant" parent="CanvasLayer/cards" unique_id=797315624 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_elephant.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_elephant.PNG"
 
 [node name="cheval" parent="CanvasLayer/cards" unique_id=1827195075 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_cheval.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_cheval.PNG"
 
 [node name="grenouille" parent="CanvasLayer/cards" unique_id=1663927064 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_grenouille.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_grenouille.PNG"
 
 [node name="daurade" parent="CanvasLayer/cards" unique_id=1022304811 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_daurade.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_daurade.PNG"
 
 [node name="poule" parent="CanvasLayer/cards" unique_id=867644822 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "res://assets/arbre/preview_cartes/pre_poule.JPG"
+path_img = "res://assets/arbre/preview_carte/pre_poule.PNG"
 
 [node name="pieuvre" parent="CanvasLayer/cards" unique_id=816774948 groups=["cards"] instance=ExtResource("2_dd6hx")]
-path_img = "CanvasLayer/cards/pieuvre"
-
-[node name="labels" type="Node2D" parent="CanvasLayer" unique_id=826315183]
+path_img = "res://assets/arbre/preview_carte/pre_pieuvre.PNG"
 
 [node name="snapcards" type="Node2D" parent="." unique_id=1271301252]
 
