@@ -1,0 +1,549 @@
+[gd_scene format=3 uid="uid://51fvq3r0oaux"]
+
+[ext_resource type="Texture2D" uid="uid://4dumv14xxas1" path="res://assets/arbre/carte_/archaeo.PNG" id="1_ks4o2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ks4o2"]
+bg_color = Color(0.08078333, 0.08078336, 0.08078327, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pr4c3"]
+bg_color = Color(0.09019608, 0.09019608, 0.09019608, 0.6117647)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rvpda"]
+bg_color = Color(0.08235294, 0.08235294, 0.08235294, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rvpda"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vxc3g"]
+
+[node name="CartesVisu" type="Control" unique_id=1984332381]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=315276086]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Button" type="Button" parent="." unique_id=626501210]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 64.0
+offset_top = -104.0
+offset_right = 192.0
+offset_bottom = 24.0
+grow_vertical = 2
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_ks4o2")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_pr4c3")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rvpda")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_rvpda")
+theme_override_styles/focus = SubResource("StyleBoxFlat_vxc3g")
+text = "<"
+
+[node name="Button3" type="Button" parent="." unique_id=2050418835]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 896.0
+offset_top = -104.0
+offset_right = 1024.0
+offset_bottom = 24.0
+grow_vertical = 2
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_ks4o2")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_pr4c3")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rvpda")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_rvpda")
+theme_override_styles/focus = SubResource("StyleBoxFlat_vxc3g")
+text = ">"
+
+[node name="grand_requin" type="TextureRect" parent="." unique_id=1170975030]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="truite" type="TextureRect" parent="." unique_id=1787682600]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="baleine" type="TextureRect" parent="." unique_id=1944214162]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="boa" type="TextureRect" parent="." unique_id=521446557]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="croco" type="TextureRect" parent="." unique_id=1747294881]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="chauve_souris" type="TextureRect" parent="." unique_id=729973069]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="chat" type="TextureRect" parent="." unique_id=936443878]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="coccinelle" type="TextureRect" parent="." unique_id=1070357805]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="fourmi" type="TextureRect" parent="." unique_id=1914942756]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="archaeopteryx" type="TextureRect" parent="." unique_id=1652478620]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="mammouth" type="TextureRect" parent="." unique_id=1529000619]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="tigre" type="TextureRect" parent="." unique_id=668639374]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="pteranodon" type="TextureRect" parent="." unique_id=1998088827]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="ichtyosaure" type="TextureRect" parent="." unique_id=709737981]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="thylacine" type="TextureRect" parent="." unique_id=937477262]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="kangourou" type="TextureRect" parent="." unique_id=644454815]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="crabe" type="TextureRect" parent="." unique_id=663888452]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="homard" type="TextureRect" parent="." unique_id=1228763490]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="homard" type="TextureRect" parent="." unique_id=1215275739]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="elephant" type="TextureRect" parent="." unique_id=1735402896]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="cheval" type="TextureRect" parent="." unique_id=1506817065]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="grenouille" type="TextureRect" parent="." unique_id=794098052]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="tortue" type="TextureRect" parent="." unique_id=595615736]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="dauphin" type="TextureRect" parent="." unique_id=1923337098]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="daurade" type="TextureRect" parent="." unique_id=869260758]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="poule" type="TextureRect" parent="." unique_id=799743186]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="espadon" type="TextureRect" parent="." unique_id=763329055]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="trex" type="TextureRect" parent="." unique_id=636606538]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="loup" type="TextureRect" parent="." unique_id=675749270]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
+
+[node name="pieuvre" type="TextureRect" parent="." unique_id=1328257037]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.27962962
+anchor_top = 0.02638889
+anchor_right = 0.75046295
+anchor_bottom = 1.0263889
+offset_left = 18.0
+offset_top = 13.0
+offset_right = -0.833374
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ks4o2")
+expand_mode = 1
