@@ -9,7 +9,7 @@ Fait dans le cadre d'un projet en enseignement scientifique en terminal.
 ### Déplacements
 Z, Q, S et D pour se déplacer
 
-### Intéractions
+### Interactions
 #### Les cours
 A pour interagir avec les maisons pour avoir des cours
 
