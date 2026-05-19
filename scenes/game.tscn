@@ -6248,7 +6248,7 @@ tile_set = SubResource("TileSet_i4re6")
 z_index = 1
 y_sort_enabled = true
 position = Vector2(699, 190)
-collision_layer = 1
+collision_layer = 3
 collision_mask = 1
 BASESPEED = 100
 dashspeed = 300
@@ -6310,7 +6310,7 @@ debug_color = Color(0.29878834, 0.2906392, 0.5764299, 0.41960785)
 
 [node name="interagible5" parent="maison_interact" unique_id=150154316 instance=ExtResource("16_rysoc")]
 position = Vector2(1878, 672)
-cours = "cours_desert   "
+cours = "cours_desert"
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible5" unique_id=504085512]
 position = Vector2(0.5, 7.5)
@@ -6326,8 +6326,6 @@ shape = SubResource("RectangleShape2D_5newe")
 
 [node name="interagible3" parent="maison_interact" unique_id=90184031 instance=ExtResource("16_rysoc")]
 position = Vector2(776, 174)
-collision_layer = 1
-collision_mask = 1
 cours = "cours_prairie"
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible3" unique_id=955994335]
