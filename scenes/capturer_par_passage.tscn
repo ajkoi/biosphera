@@ -6,6 +6,7 @@
 size = Vector2(16, 16)
 
 [node name="bush_capture" type="Area2D" unique_id=703102027]
+collision_layer = 0
 script = ExtResource("1_smn5w")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1083443329]

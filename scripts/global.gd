@@ -43,6 +43,20 @@ var zones = {
 	"fossile": ["tigre", "archaeopteryx", "pteranodon", "ichtyosaure", "thylacine"],
 }
 
+var count_zone = {
+	"prairie" : 0,
+	"riviere":0,
+	"mer":0,
+	"foret_fonce":0,
+	"marais":0,
+	"foret_claire":0,
+	"caverne": 0,
+	"desert": 0,
+	"fossile": 0,
+}
+
+
+
 var cards_pos = {}
 
 var path_cours = {

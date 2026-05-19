@@ -16,6 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://vqqbaictyboi" path="res://assets/decors/all_houses.png" id="13_pl11u"]
 [ext_resource type="Texture2D" uid="uid://boomj3s4fxqn6" path="res://assets/decors/all_capturable_place.png" id="14_bhx41"]
 [ext_resource type="PackedScene" uid="uid://0if7yhswhs8" path="res://scenes/pour_capturer.tscn" id="14_trtic"]
+[ext_resource type="PackedScene" uid="uid://bkc45dtehxpl8" path="res://scenes/capturer_par_passage.tscn" id="15_ssvqc"]
 [ext_resource type="PackedScene" uid="uid://cohd5ti0xfusp" path="res://scenes/pour_interagir_cours.tscn" id="16_rysoc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_suyxu"]
@@ -3747,9 +3748,9 @@ texture = ExtResource("6_ssvqc")
 3:4/0 = 0
 0:5/0 = 0
 1:5/0 = 0
+4:5/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_02fa5"]
-physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_twgab")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8qswn"]
@@ -6199,10 +6200,6 @@ texture = ExtResource("13_pl11u")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_h3rex")
 
-[sub_resource type="TileSet" id="TileSet_ssvqc"]
-physics_layer_0/collision_layer = 0
-physics_layer_0/collision_mask = 2
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1kice"]
 size = Vector2(49, 27)
 
@@ -6264,6 +6261,7 @@ limit_top = 0
 position_smoothing_enabled = true
 
 [node name="5_arbre_hit" type="TileMapLayer" parent="gamenode" unique_id=1445286040]
+visible = false
 z_index = 1
 y_sort_enabled = true
 tile_map_data = PackedByteArray("AABHAAYAAAAVAAkAAABIAAYAAAAVAAkAAABJAAYAAAAVAAkAAABJAAcAAAAVAAkAAABJAAgAAAAVAAkAAABOAAsAAAAVAAkAAABOAAwAAAAVAAkAAABOAA0AAAAVAAkAAABOAA4AAAAVAAkAAABQAA8AAAAVAAkAAABQABAAAAAVAAkAAABPABEAAAAVAAkAAABRABAAAAAVAAkAAABRABEAAAAVAAkAAABRABIAAAAVAAkAAABRABMAAAAVAAkAAABSABIAAAAVAAkAAABTABIAAAAVAAkAAABSAA8AAAAVAAkAAABSAA4AAAAVAAkAAABTAA0AAAAVAAkAAABRAAwAAAAVAAkAAABRAAkAAAAVAAkAAABSAAkAAAAVAAkAAABTAAoAAAAVAAkAAABUAAoAAAAVAAkAAABVAAoAAAAVAAkAAABXAAkAAAAVAAkAAABYAAkAAAAVAAkAAABXAAoAAAAVAAkAAABWAAoAAAAVAAkAAABYAAgAAAAVAAkAAABYAAcAAAAVAAkAAABaAAgAAAAVAAkAAABaAAoAAAAVAAkAAABcAAUAAAAVAAkAAABcAAQAAAAVAAkAAABbAAQAAAAVAAkAAABaAAMAAAAVAAkAAABZAAMAAAAVAAkAAABZAAIAAAAVAAkAAABUAAYAAAAVAAkAAABUAAcAAAAVAAkAAABVAAQAAAAVAAkAAABWAAQAAAAVAAkAAABWAAMAAAAVAAkAAABWAAIAAAAVAAkAAABXAAEAAAAVAAkAAABZAP3/AAAVAAkAAABaAP3/AAAVAAkAAABaAP7/AAAVAAkAAABaAP//AAAVAAkAAABbAAAAAAAVAAkAAABdAPz/AAAVAAkAAABeAPz/AAAVAAkAAABfAPz/AAAVAAkAAABgAP7/AAAVAAkAAABVABAAAAAVAAkAAABVAA8AAAAVAAkAAABWAA8AAAAVAAkAAABXAA8AAAAVAAkAAABXAA4AAAAVAAkAAABWAA4AAAAVAAkAAABYAA0AAAAVAAkAAABZAA0AAAAVAAkAAABLABYAAAAVAAkAAABNABsAAAAVAAkAAABOABsAAAAVAAkAAABRABwAAAAVAAkAAABSABwAAAAVAAkAAABTABwAAAAVAAkAAABWAB0AAAAVAAkAAABOAB4AAAAVAAkAAABHABwAAAAVAAkAAABIABwAAAAVAAkAAABJAB0AAAAVAAkAAABCABUAAAAVAAkAAABDABgAAAAVAAkAAABDABQAAAAVAAkAAABEABQAAAAVAAkAAABFABQAAAAVAAkAAABGABUAAAAVAAkAAABHABYAAAAVAAkAAABIABYAAAAVAAkAAABGABkAAAAVAAkAAABGABgAAAAVAAkAAABGABcAAAAVAAkAAABGABYAAAAVAAkAAABIABkAAAAVAAkAAABJABkAAAAVAAkAAABKABoAAAAVAAkAAABKABsAAAAVAAkAAABCABkAAAAVAAkAAABDABkAAAAVAAkAAABDABoAAAAVAAkAAAA9ABcAAAAVAAkAAAA9ABgAAAAVAAkAAAA9ABkAAAAVAAkAAAA9ABoAAAAVAAkAAABAAA0AAAAVAAkAAABBAA4AAAAVAAkAAABAAAwAAAAVAAkAAABCAA0AAAAVAAkAAABDAA0AAAAVAAkAAABEAA0AAAAVAAkAAABFAA4AAAAVAAkAAABGABMAAAAVAAkAAABGABIAAAAVAAkAAABGABEAAAAVAAkAAABHABIAAAAVAAkAAABIABIAAAAVAAkAAABJABIAAAAVAAkAAABKAA8AAAAVAAkAAABKAA4AAAAVAAkAAABKAA0AAAAVAAkAAABKAAwAAAAVAAkAAABLAA8AAAAVAAkAAABLAA4AAAAVAAkAAABDAAkAAAAVAAkAAABDAAgAAAAVAAkAAABEAAcAAAAVAAkAAABEAAoAAAAVAAkAAABFAAoAAAAVAAkAAABGAAsAAAAVAAkAAABHAAsAAAAVAAkAAABCAAkAAAAVAAkAAABYABkAAAAVAAkAAABXABkAAAAVAAkAAABYABgAAAAVAAkAAABPAB8AAAAVAAkAAABNAB4AAAAVAAkAAABLABcAAAAVAAkAAABMABcAAAAVAAkAAABNABYAAAAVAAkAAABWABMAAAAVAAkAAABXABIAAAAVAAkAAABjAAkAAAAVAAkAAABjAAgAAAAVAAkAAABjAAcAAAAVAAkAAABdAA8AAAAVAAkAAABeAA4AAAAVAAkAAABbABkAAAAVAAkAAABcABgAAAAVAAkAAABdABUAAAAVAAkAAABdABQAAAAVAAkAAABaABYAAAAVAAkAAABZABcAAAAVAAkAAABgAAkAAAAVAAkAAABfAAoAAAAVAAkAAABhAA4AAAAVAAkAAABiAAoAAAAVAAkAAABjAAoAAAAVAAkAAABiAA0AAAAVAAkAAABVABYAAAANAAsAAABVABcAAAANAAwAAABVABgAAAANAA0AAABWABUAAAAOAAoAAABWABYAAAAOAAsAAABWABcAAAAOAAwAAABWABgAAAAOAA0AAABXABYAAAAPAAsAAABXABcAAAAPAAwAAABXABgAAAAPAA0AAABPABkAAAANAAsAAABPABoAAAANAAwAAABPABsAAAANAA0AAABQABgAAAAOAAoAAABQABkAAAAOAAsAAABQABoAAAAOAAwAAABQABsAAAAOAA0AAABRABkAAAAPAAsAAABRABoAAAAPAAwAAABRABsAAAAPAA0AAABZAB4AAAANAAsAAABZAB8AAAANAAwAAABZACAAAAANAA0AAABaAB0AAAAOAAoAAABaAB4AAAAOAAsAAABaAB8AAAAOAAwAAABaACAAAAAOAA0AAABbAB4AAAAPAAsAAABbAB8AAAAPAAwAAABbACAAAAAPAA0AAABYABAAAAANAAsAAABYABEAAAANAAwAAABYABIAAAANAA0AAABZAA8AAAAOAAoAAABZABAAAAAOAAsAAABZABEAAAAOAAwAAABZABIAAAAOAA0AAABaABAAAAAPAAsAAABaABEAAAAPAAwAAABaABIAAAAPAA0AAABOABUAAAANAAsAAABOABYAAAANAAwAAABOABcAAAANAA0AAABPABQAAAAOAAoAAABPABUAAAAOAAsAAABPABYAAAAOAAwAAABPABcAAAAOAA0AAABQABUAAAAPAAsAAABQABYAAAAPAAwAAABQABcAAAAPAA0AAABAABAAAAANAAsAAABAABEAAAANAAwAAABAABIAAAANAA0AAAA/ABwAAAANAAsAAAA/AB0AAAANAAwAAAA/AB4AAAANAA0AAABAABsAAAAOAAoAAABAABwAAAAOAAsAAABAAB0AAAAOAAwAAABAAB4AAAAOAA0AAABBABwAAAAPAAsAAABBAB0AAAAPAAwAAABBAB4AAAAPAA0AAABgABMAAAANAAsAAABgABQAAAANAAwAAABgABUAAAANAA0AAABhABIAAAAOAAoAAABhABMAAAAOAAsAAABhABQAAAAOAAwAAABhABUAAAAOAA0AAABiABMAAAAPAAsAAABiABQAAAAPAAwA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")
@@ -6292,8 +6290,853 @@ card = "card2"
 
 [node name="prairie" type="Node2D" parent="capture_places/bush" unique_id=965537733]
 
-[node name="TileMapLayer" type="TileMapLayer" parent="capture_places/bush" unique_id=1345053535]
-tile_set = SubResource("TileSet_ssvqc")
+[node name="bush_capture" parent="capture_places/bush/prairie" unique_id=703102027 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 248)
+zone = "prairie"
+
+[node name="bush_capture2" parent="capture_places/bush/prairie" unique_id=102353414 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 248)
+zone = "prairie"
+
+[node name="bush_capture3" parent="capture_places/bush/prairie" unique_id=831823916 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 248)
+zone = "prairie"
+
+[node name="bush_capture4" parent="capture_places/bush/prairie" unique_id=112773052 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 264)
+zone = "prairie"
+
+[node name="bush_capture5" parent="capture_places/bush/prairie" unique_id=1470095705 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 264)
+zone = "prairie"
+
+[node name="bush_capture6" parent="capture_places/bush/prairie" unique_id=1626638017 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 264)
+zone = "prairie"
+
+[node name="bush_capture7" parent="capture_places/bush/prairie" unique_id=126809052 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 280)
+zone = "prairie"
+
+[node name="bush_capture8" parent="capture_places/bush/prairie" unique_id=360618259 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 280)
+zone = "prairie"
+
+[node name="bush_capture9" parent="capture_places/bush/prairie" unique_id=1675003685 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 280)
+zone = "prairie"
+
+[node name="bush_capture10" parent="capture_places/bush/prairie" unique_id=2028907306 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 296)
+zone = "prairie"
+
+[node name="bush_capture11" parent="capture_places/bush/prairie" unique_id=836355243 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 296)
+zone = "prairie"
+
+[node name="bush_capture12" parent="capture_places/bush/prairie" unique_id=274473461 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 296)
+zone = "prairie"
+
+[node name="bush_capture13" parent="capture_places/bush/prairie" unique_id=1283154447 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 312)
+zone = "prairie"
+
+[node name="bush_capture14" parent="capture_places/bush/prairie" unique_id=472367147 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 312)
+zone = "prairie"
+
+[node name="bush_capture15" parent="capture_places/bush/prairie" unique_id=440130506 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 312)
+zone = "prairie"
+
+[node name="bush_capture16" parent="capture_places/bush/prairie" unique_id=1937063520 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 328)
+zone = "prairie"
+
+[node name="bush_capture17" parent="capture_places/bush/prairie" unique_id=1733484071 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 328)
+zone = "prairie"
+
+[node name="bush_capture18" parent="capture_places/bush/prairie" unique_id=502226245 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 328)
+zone = "prairie"
+
+[node name="bush_capture19" parent="capture_places/bush/prairie" unique_id=959977378 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 344)
+zone = "prairie"
+
+[node name="bush_capture25" parent="capture_places/bush/prairie" unique_id=1079651810 instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 280)
+zone = "prairie"
+
+[node name="bush_capture26" parent="capture_places/bush/prairie" unique_id=621033463 instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 280)
+zone = "prairie"
+
+[node name="bush_capture27" parent="capture_places/bush/prairie" unique_id=1627533713 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 280)
+zone = "prairie"
+
+[node name="bush_capture28" parent="capture_places/bush/prairie" unique_id=231034654 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 280)
+zone = "prairie"
+
+[node name="bush_capture29" parent="capture_places/bush/prairie" unique_id=1339232952 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 280)
+zone = "prairie"
+
+[node name="bush_capture30" parent="capture_places/bush/prairie" unique_id=1996290880 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 280)
+zone = "prairie"
+
+[node name="bush_capture31" parent="capture_places/bush/prairie" unique_id=101019080 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 280)
+zone = "prairie"
+
+[node name="bush_capture32" parent="capture_places/bush/prairie" unique_id=2127931375 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 296)
+zone = "prairie"
+
+[node name="bush_capture33" parent="capture_places/bush/prairie" unique_id=597884128 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 296)
+zone = "prairie"
+
+[node name="bush_capture34" parent="capture_places/bush/prairie" unique_id=324386307 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 296)
+zone = "prairie"
+
+[node name="bush_capture35" parent="capture_places/bush/prairie" unique_id=1100876469 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 296)
+zone = "prairie"
+
+[node name="bush_capture36" parent="capture_places/bush/prairie" unique_id=1739829293 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 296)
+zone = "prairie"
+
+[node name="bush_capture37" parent="capture_places/bush/prairie" unique_id=185291558 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 312)
+zone = "prairie"
+
+[node name="bush_capture38" parent="capture_places/bush/prairie" unique_id=1704978377 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 312)
+zone = "prairie"
+
+[node name="bush_capture39" parent="capture_places/bush/prairie" unique_id=1136706570 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 312)
+zone = "prairie"
+
+[node name="bush_capture40" parent="capture_places/bush/prairie" unique_id=1980323009 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 312)
+zone = "prairie"
+
+[node name="bush_capture41" parent="capture_places/bush/prairie" unique_id=524174331 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 312)
+zone = "prairie"
+
+[node name="bush_capture42" parent="capture_places/bush/prairie" unique_id=6768831 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 328)
+zone = "prairie"
+
+[node name="bush_capture43" parent="capture_places/bush/prairie" unique_id=399858552 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 328)
+zone = "prairie"
+
+[node name="bush_capture44" parent="capture_places/bush/prairie" unique_id=1803661565 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 328)
+zone = "prairie"
+
+[node name="bush_capture45" parent="capture_places/bush/prairie" unique_id=1421014695 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 328)
+zone = "prairie"
+
+[node name="bush_capture46" parent="capture_places/bush/prairie" unique_id=1938058902 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 328)
+zone = "prairie"
+
+[node name="bush_capture52" parent="capture_places/bush/prairie" unique_id=1706627822 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 360)
+zone = "prairie"
+
+[node name="bush_capture53" parent="capture_places/bush/prairie" unique_id=1988964527 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 360)
+zone = "prairie"
+
+[node name="bush_capture54" parent="capture_places/bush/prairie" unique_id=1067798777 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 360)
+zone = "prairie"
+
+[node name="bush_capture55" parent="capture_places/bush/prairie" unique_id=2132710995 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 360)
+zone = "prairie"
+
+[node name="bush_capture56" parent="capture_places/bush/prairie" unique_id=321411607 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 360)
+zone = "prairie"
+
+[node name="bush_capture57" parent="capture_places/bush/prairie" unique_id=462435844 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 264)
+zone = "prairie"
+
+[node name="bush_capture58" parent="capture_places/bush/prairie" unique_id=41030946 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 264)
+zone = "prairie"
+
+[node name="bush_capture59" parent="capture_places/bush/prairie" unique_id=1236636211 instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 296)
+zone = "prairie"
+
+[node name="bush_capture61" parent="capture_places/bush/prairie" unique_id=1672213520 instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 296)
+zone = "prairie"
+
+[node name="bush_capture60" parent="capture_places/bush/prairie" unique_id=1002221033 instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 296)
+zone = "prairie"
+
+[node name="bush_capture62" parent="capture_places/bush/prairie" unique_id=980977790 instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 312)
+zone = "prairie"
+
+[node name="bush_capture63" parent="capture_places/bush/prairie" unique_id=182025728 instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 312)
+zone = "prairie"
+
+[node name="bush_capture65" parent="capture_places/bush/prairie" unique_id=951505607 instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 312)
+zone = "prairie"
+
+[node name="bush_capture64" parent="capture_places/bush/prairie" unique_id=34881598 instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 312)
+zone = "prairie"
+
+[node name="bush_capture66" parent="capture_places/bush/prairie" unique_id=47258638 instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 328)
+zone = "prairie"
+
+[node name="bush_capture67" parent="capture_places/bush/prairie" unique_id=499370457 instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 328)
+zone = "prairie"
+
+[node name="bush_capture70" parent="capture_places/bush/prairie" unique_id=1669582913 instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 328)
+zone = "prairie"
+
+[node name="bush_capture68" parent="capture_places/bush/prairie" unique_id=1403211234 instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 328)
+zone = "prairie"
+
+[node name="bush_capture69" parent="capture_places/bush/prairie" unique_id=1989739052 instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 328)
+zone = "prairie"
+
+[node name="bush_capture71" parent="capture_places/bush/prairie" unique_id=49509354 instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 344)
+zone = "prairie"
+
+[node name="bush_capture72" parent="capture_places/bush/prairie" unique_id=1442689046 instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 344)
+zone = "prairie"
+
+[node name="bush_capture73" parent="capture_places/bush/prairie" unique_id=1002150722 instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 344)
+zone = "prairie"
+
+[node name="bush_capture74" parent="capture_places/bush/prairie" unique_id=651304709 instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 344)
+zone = "prairie"
+
+[node name="bush_capture75" parent="capture_places/bush/prairie" unique_id=1589502167 instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 344)
+zone = "prairie"
+
+[node name="bush_capture76" parent="capture_places/bush/prairie" unique_id=267161378 instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 360)
+zone = "prairie"
+
+[node name="bush_capture77" parent="capture_places/bush/prairie" unique_id=1042519922 instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 360)
+zone = "prairie"
+
+[node name="bush_capture78" parent="capture_places/bush/prairie" unique_id=1829710593 instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 360)
+zone = "prairie"
+
+[node name="bush_capture79" parent="capture_places/bush/prairie" unique_id=1777625239 instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 360)
+zone = "prairie"
+
+[node name="bush_capture80" parent="capture_places/bush/prairie" unique_id=1744052856 instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 360)
+zone = "prairie"
+
+[node name="bush_capture81" parent="capture_places/bush/prairie" unique_id=1587885012 instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 376)
+zone = "prairie"
+
+[node name="bush_capture82" parent="capture_places/bush/prairie" unique_id=705788776 instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 376)
+zone = "prairie"
+
+[node name="bush_capture83" parent="capture_places/bush/prairie" unique_id=239531318 instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 376)
+zone = "prairie"
+
+[node name="bush_capture84" parent="capture_places/bush/prairie" unique_id=351874079 instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 376)
+zone = "prairie"
+
+[node name="bush_capture85" parent="capture_places/bush/prairie" unique_id=569571511 instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 376)
+zone = "prairie"
+
+[node name="bush_capture86" parent="capture_places/bush/prairie" unique_id=2015112273 instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 392)
+zone = "prairie"
+
+[node name="bush_capture96" parent="capture_places/bush/prairie" unique_id=786666235 instance=ExtResource("15_ssvqc")]
+position = Vector2(680, 408)
+zone = "prairie"
+
+[node name="bush_capture87" parent="capture_places/bush/prairie" unique_id=775521006 instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 392)
+zone = "prairie"
+
+[node name="bush_capture88" parent="capture_places/bush/prairie" unique_id=1955551301 instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 392)
+zone = "prairie"
+
+[node name="bush_capture89" parent="capture_places/bush/prairie" unique_id=1270747489 instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 392)
+zone = "prairie"
+
+[node name="bush_capture90" parent="capture_places/bush/prairie" unique_id=2002650854 instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 392)
+zone = "prairie"
+
+[node name="bush_capture91" parent="capture_places/bush/prairie" unique_id=809606449 instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 408)
+zone = "prairie"
+
+[node name="bush_capture92" parent="capture_places/bush/prairie" unique_id=136681075 instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 408)
+zone = "prairie"
+
+[node name="bush_capture93" parent="capture_places/bush/prairie" unique_id=959685099 instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 408)
+zone = "prairie"
+
+[node name="bush_capture94" parent="capture_places/bush/prairie" unique_id=20304649 instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 408)
+zone = "prairie"
+
+[node name="bush_capture95" parent="capture_places/bush/prairie" unique_id=1433810301 instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 408)
+zone = "prairie"
+
+[node name="bush_capture47" parent="capture_places/bush/prairie" unique_id=1688151614 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 344)
+zone = "prairie"
+
+[node name="bush_capture48" parent="capture_places/bush/prairie" unique_id=272998709 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 344)
+zone = "prairie"
+
+[node name="bush_capture49" parent="capture_places/bush/prairie" unique_id=774023378 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 344)
+zone = "prairie"
+
+[node name="bush_capture50" parent="capture_places/bush/prairie" unique_id=778836307 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 344)
+zone = "prairie"
+
+[node name="bush_capture51" parent="capture_places/bush/prairie" unique_id=354163174 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 344)
+zone = "prairie"
+
+[node name="bush_capture20" parent="capture_places/bush/prairie" unique_id=1901140901 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 344)
+zone = "prairie"
+
+[node name="bush_capture21" parent="capture_places/bush/prairie" unique_id=606028037 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 344)
+zone = "prairie"
+
+[node name="bush_capture22" parent="capture_places/bush/prairie" unique_id=746422052 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 360)
+zone = "prairie"
+
+[node name="bush_capture23" parent="capture_places/bush/prairie" unique_id=1267771015 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 360)
+zone = "prairie"
+
+[node name="bush_capture24" parent="capture_places/bush/prairie" unique_id=601221014 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 360)
+zone = "prairie"
+
+[node name="bush_capture97" parent="capture_places/bush/prairie" unique_id=1524428902 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 376)
+zone = "prairie"
+
+[node name="bush_capture98" parent="capture_places/bush/prairie" unique_id=1639269652 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 376)
+zone = "prairie"
+
+[node name="bush_capture99" parent="capture_places/bush/prairie" unique_id=1133545079 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 376)
+zone = "prairie"
+
+[node name="bush_capture100" parent="capture_places/bush/prairie" unique_id=275826438 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 376)
+zone = "prairie"
+
+[node name="bush_capture101" parent="capture_places/bush/prairie" unique_id=1470100971 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 392)
+zone = "prairie"
+
+[node name="bush_capture102" parent="capture_places/bush/prairie" unique_id=1161240897 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 392)
+zone = "prairie"
+
+[node name="bush_capture103" parent="capture_places/bush/prairie" unique_id=1405531628 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 392)
+zone = "prairie"
+
+[node name="bush_capture104" parent="capture_places/bush/prairie" unique_id=643120901 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 392)
+zone = "prairie"
+
+[node name="bush_capture105" parent="capture_places/bush/prairie" unique_id=795934481 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 408)
+zone = "prairie"
+
+[node name="bush_capture106" parent="capture_places/bush/prairie" unique_id=816382649 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 408)
+zone = "prairie"
+
+[node name="bush_capture107" parent="capture_places/bush/prairie" unique_id=975627996 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 408)
+zone = "prairie"
+
+[node name="bush_capture108" parent="capture_places/bush/prairie" unique_id=1755310232 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 408)
+zone = "prairie"
+
+[node name="bush_capture109" parent="capture_places/bush/prairie" unique_id=2085639084 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 424)
+zone = "prairie"
+
+[node name="bush_capture110" parent="capture_places/bush/prairie" unique_id=557049952 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 424)
+zone = "prairie"
+
+[node name="bush_capture111" parent="capture_places/bush/prairie" unique_id=572680936 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 424)
+zone = "prairie"
+
+[node name="bush_capture112" parent="capture_places/bush/prairie" unique_id=1577029623 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 424)
+zone = "prairie"
+
+[node name="bush_capture113" parent="capture_places/bush/prairie" unique_id=860855996 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 440)
+zone = "prairie"
+
+[node name="bush_capture114" parent="capture_places/bush/prairie" unique_id=1519389476 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 440)
+zone = "prairie"
+
+[node name="bush_capture115" parent="capture_places/bush/prairie" unique_id=1632647317 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 440)
+zone = "prairie"
+
+[node name="bush_capture116" parent="capture_places/bush/prairie" unique_id=1929856198 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 440)
+zone = "prairie"
+
+[node name="bush_capture117" parent="capture_places/bush/prairie" unique_id=2079134442 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 456)
+zone = "prairie"
+
+[node name="bush_capture118" parent="capture_places/bush/prairie" unique_id=523209796 instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 456)
+zone = "prairie"
+
+[node name="bush_capture119" parent="capture_places/bush/prairie" unique_id=1471528030 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 456)
+zone = "prairie"
+
+[node name="bush_capture120" parent="capture_places/bush/prairie" unique_id=339496422 instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 456)
+zone = "prairie"
+
+[node name="bush_capture121" parent="capture_places/bush/prairie" unique_id=270336377 instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 440)
+zone = "prairie"
+
+[node name="bush_capture122" parent="capture_places/bush/prairie" unique_id=646664160 instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 440)
+zone = "prairie"
+
+[node name="bush_capture123" parent="capture_places/bush/prairie" unique_id=503009412 instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 440)
+zone = "prairie"
+
+[node name="bush_capture124" parent="capture_places/bush/prairie" unique_id=908792157 instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 440)
+zone = "prairie"
+
+[node name="bush_capture125" parent="capture_places/bush/prairie" unique_id=180664313 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 392)
+zone = "prairie"
+
+[node name="bush_capture126" parent="capture_places/bush/prairie" unique_id=1234739905 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 392)
+zone = "prairie"
+
+[node name="bush_capture127" parent="capture_places/bush/prairie" unique_id=704086721 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 392)
+zone = "prairie"
+
+[node name="bush_capture128" parent="capture_places/bush/prairie" unique_id=1082117847 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 392)
+zone = "prairie"
+
+[node name="bush_capture129" parent="capture_places/bush/prairie" unique_id=1802746903 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 376)
+zone = "prairie"
+
+[node name="bush_capture130" parent="capture_places/bush/prairie" unique_id=899972906 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 376)
+zone = "prairie"
+
+[node name="bush_capture131" parent="capture_places/bush/prairie" unique_id=1061009414 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 376)
+zone = "prairie"
+
+[node name="bush_capture132" parent="capture_places/bush/prairie" unique_id=1797234662 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 376)
+zone = "prairie"
+
+[node name="bush_capture133" parent="capture_places/bush/prairie" unique_id=684783301 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 408)
+zone = "prairie"
+
+[node name="bush_capture134" parent="capture_places/bush/prairie" unique_id=1594297209 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 408)
+zone = "prairie"
+
+[node name="bush_capture135" parent="capture_places/bush/prairie" unique_id=1916617743 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 408)
+zone = "prairie"
+
+[node name="bush_capture136" parent="capture_places/bush/prairie" unique_id=301033636 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 408)
+zone = "prairie"
+
+[node name="bush_capture137" parent="capture_places/bush/prairie" unique_id=1921504821 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 424)
+zone = "prairie"
+
+[node name="bush_capture138" parent="capture_places/bush/prairie" unique_id=1266367658 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 424)
+zone = "prairie"
+
+[node name="bush_capture139" parent="capture_places/bush/prairie" unique_id=178936651 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 424)
+zone = "prairie"
+
+[node name="bush_capture140" parent="capture_places/bush/prairie" unique_id=1158009052 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 424)
+zone = "prairie"
+
+[node name="bush_capture141" parent="capture_places/bush/prairie" unique_id=1224059929 instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 536)
+zone = "prairie"
+
+[node name="bush_capture142" parent="capture_places/bush/prairie" unique_id=140407876 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 536)
+zone = "prairie"
+
+[node name="bush_capture143" parent="capture_places/bush/prairie" unique_id=750738407 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 536)
+zone = "prairie"
+
+[node name="bush_capture144" parent="capture_places/bush/prairie" unique_id=1950891865 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 536)
+zone = "prairie"
+
+[node name="bush_capture145" parent="capture_places/bush/prairie" unique_id=720671919 instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 520)
+zone = "prairie"
+
+[node name="bush_capture146" parent="capture_places/bush/prairie" unique_id=662693109 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 520)
+zone = "prairie"
+
+[node name="bush_capture147" parent="capture_places/bush/prairie" unique_id=9328536 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 520)
+zone = "prairie"
+
+[node name="bush_capture148" parent="capture_places/bush/prairie" unique_id=1428352328 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 520)
+zone = "prairie"
+
+[node name="bush_capture149" parent="capture_places/bush/prairie" unique_id=879487230 instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 504)
+zone = "prairie"
+
+[node name="bush_capture150" parent="capture_places/bush/prairie" unique_id=832064457 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 504)
+zone = "prairie"
+
+[node name="bush_capture151" parent="capture_places/bush/prairie" unique_id=1138445795 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 504)
+zone = "prairie"
+
+[node name="bush_capture152" parent="capture_places/bush/prairie" unique_id=694183423 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 504)
+zone = "prairie"
+
+[node name="bush_capture153" parent="capture_places/bush/prairie" unique_id=1255385451 instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 488)
+zone = "prairie"
+
+[node name="bush_capture154" parent="capture_places/bush/prairie" unique_id=1634851547 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 488)
+zone = "prairie"
+
+[node name="bush_capture155" parent="capture_places/bush/prairie" unique_id=1635496836 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 488)
+zone = "prairie"
+
+[node name="bush_capture156" parent="capture_places/bush/prairie" unique_id=1810939372 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 488)
+zone = "prairie"
+
+[node name="bush_capture157" parent="capture_places/bush/prairie" unique_id=2124332192 instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 472)
+zone = "prairie"
+
+[node name="bush_capture158" parent="capture_places/bush/prairie" unique_id=756448333 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 472)
+zone = "prairie"
+
+[node name="bush_capture159" parent="capture_places/bush/prairie" unique_id=603965731 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 472)
+zone = "prairie"
+
+[node name="bush_capture160" parent="capture_places/bush/prairie" unique_id=406000701 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 472)
+zone = "prairie"
+
+[node name="bush_capture161" parent="capture_places/bush/prairie" unique_id=1756795077 instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 456)
+zone = "prairie"
+
+[node name="bush_capture162" parent="capture_places/bush/prairie" unique_id=801125172 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 456)
+zone = "prairie"
+
+[node name="bush_capture163" parent="capture_places/bush/prairie" unique_id=1994206260 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 456)
+zone = "prairie"
+
+[node name="bush_capture164" parent="capture_places/bush/prairie" unique_id=605146881 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 456)
+zone = "prairie"
+
+[node name="bush_capture165" parent="capture_places/bush/prairie" unique_id=857317853 instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 424)
+zone = "prairie"
+
+[node name="bush_capture168" parent="capture_places/bush/prairie" unique_id=784699184 instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 440)
+zone = "prairie"
+
+[node name="bush_capture169" parent="capture_places/bush/prairie" unique_id=1522899362 instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 424)
+zone = "prairie"
+
+[node name="bush_capture170" parent="capture_places/bush/prairie" unique_id=1803652924 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 536)
+zone = "prairie"
+
+[node name="bush_capture171" parent="capture_places/bush/prairie" unique_id=1073448396 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 520)
+zone = "prairie"
+
+[node name="bush_capture172" parent="capture_places/bush/prairie" unique_id=585456636 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 520)
+zone = "prairie"
+
+[node name="bush_capture173" parent="capture_places/bush/prairie" unique_id=1229862277 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 504)
+zone = "prairie"
+
+[node name="bush_capture174" parent="capture_places/bush/prairie" unique_id=257847872 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 504)
+zone = "prairie"
+
+[node name="bush_capture175" parent="capture_places/bush/prairie" unique_id=1914085052 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 488)
+zone = "prairie"
+
+[node name="bush_capture176" parent="capture_places/bush/prairie" unique_id=2145383561 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 488)
+zone = "prairie"
+
+[node name="bush_capture177" parent="capture_places/bush/prairie" unique_id=90462936 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 472)
+zone = "prairie"
+
+[node name="bush_capture178" parent="capture_places/bush/prairie" unique_id=1314878217 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 472)
+zone = "prairie"
+
+[node name="bush_capture179" parent="capture_places/bush/prairie" unique_id=1390074352 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 472)
+zone = "prairie"
+
+[node name="bush_capture181" parent="capture_places/bush/prairie" unique_id=1225022146 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 488)
+zone = "prairie"
+
+[node name="bush_capture182" parent="capture_places/bush/prairie" unique_id=408593565 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 456)
+zone = "prairie"
+
+[node name="bush_capture183" parent="capture_places/bush/prairie" unique_id=934174992 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 456)
+zone = "prairie"
+
+[node name="bush_capture184" parent="capture_places/bush/prairie" unique_id=267109227 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 456)
+zone = "prairie"
+
+[node name="bush_capture185" parent="capture_places/bush/prairie" unique_id=51164209 instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 440)
+zone = "prairie"
+
+[node name="bush_capture186" parent="capture_places/bush/prairie" unique_id=64815854 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 440)
+zone = "prairie"
+
+[node name="bush_capture187" parent="capture_places/bush/prairie" unique_id=409621177 instance=ExtResource("15_ssvqc")]
+position = Vector2(872, 440)
+zone = "prairie"
+
+[node name="bush_capture188" parent="capture_places/bush/prairie" unique_id=1543086591 instance=ExtResource("15_ssvqc")]
+position = Vector2(856, 440)
+zone = "prairie"
+
+[node name="bush_capture189" parent="capture_places/bush/prairie" unique_id=1653736168 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 440)
+zone = "prairie"
+
+[node name="bush_capture190" parent="capture_places/bush/prairie" unique_id=804715220 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 392)
+zone = "prairie"
+
+[node name="bush_capture191" parent="capture_places/bush/prairie" unique_id=877641681 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 392)
+zone = "prairie"
+
+[node name="bush_capture192" parent="capture_places/bush/prairie" unique_id=883876825 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 408)
+zone = "prairie"
+
+[node name="bush_capture193" parent="capture_places/bush/prairie" unique_id=358994267 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 408)
+zone = "prairie"
+
+[node name="bush_capture194" parent="capture_places/bush/prairie" unique_id=36241140 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 424)
+zone = "prairie"
+
+[node name="bush_capture195" parent="capture_places/bush/prairie" unique_id=2047750720 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 424)
+zone = "prairie"
+
+[node name="bush_capture196" parent="capture_places/bush/prairie" unique_id=1009452698 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 328)
+zone = "prairie"
+
+[node name="bush_capture202" parent="capture_places/bush/prairie" unique_id=2385476 instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 360)
+zone = "prairie"
+
+[node name="bush_capture203" parent="capture_places/bush/prairie" unique_id=1773548477 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 376)
+zone = "prairie"
+
+[node name="bush_capture204" parent="capture_places/bush/prairie" unique_id=144294931 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 312)
+zone = "prairie"
+
+[node name="bush_capture205" parent="capture_places/bush/prairie" unique_id=1782885919 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 312)
+zone = "prairie"
+
+[node name="bush_capture206" parent="capture_places/bush/prairie" unique_id=601924634 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 296)
+zone = "prairie"
+
+[node name="bush_capture207" parent="capture_places/bush/prairie" unique_id=129732578 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 296)
+zone = "prairie"
+
+[node name="bush_capture208" parent="capture_places/bush/prairie" unique_id=298682264 instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 296)
+zone = "prairie"
+
+[node name="bush_capture209" parent="capture_places/bush/prairie" unique_id=2131527698 instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 120)
+zone = "prairie"
+
+[node name="bush_capture210" parent="capture_places/bush/prairie" unique_id=1635713994 instance=ExtResource("15_ssvqc")]
+position = Vector2(648, 120)
+zone = "prairie"
+
+[node name="bush_capture211" parent="capture_places/bush/prairie" unique_id=551870026 instance=ExtResource("15_ssvqc")]
+position = Vector2(600, 120)
+zone = "prairie"
+
+[node name="bush_capture212" parent="capture_places/bush/prairie" unique_id=1367475344 instance=ExtResource("15_ssvqc")]
+position = Vector2(440, 56)
+zone = "prairie"
+
+[node name="bush_capture197" parent="capture_places/bush/prairie" unique_id=1305713351 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 328)
+zone = "prairie"
+
+[node name="bush_capture198" parent="capture_places/bush/prairie" unique_id=2059831367 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 344)
+zone = "prairie"
+
+[node name="bush_capture199" parent="capture_places/bush/prairie" unique_id=754068905 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 344)
+zone = "prairie"
+
+[node name="bush_capture200" parent="capture_places/bush/prairie" unique_id=847318870 instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 360)
+zone = "prairie"
+
+[node name="bush_capture201" parent="capture_places/bush/prairie" unique_id=900664711 instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 360)
+zone = "prairie"
+
+[node name="bush_capture180" parent="capture_places/bush/prairie" unique_id=1552577450 instance=ExtResource("15_ssvqc")]
+position = Vector2(824, 472)
+zone = "prairie"
+
+[node name="bush_capture166" parent="capture_places/bush/prairie" unique_id=1678484678 instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 424)
+zone = "prairie"
+
+[node name="bush_capture167" parent="capture_places/bush/prairie" unique_id=1104162643 instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 424)
+zone = "prairie"
 
 [node name="maison_interact" type="Node2D" parent="." unique_id=733977537]
 
