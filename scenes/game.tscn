@@ -16,7 +16,6 @@
 [ext_resource type="Texture2D" uid="uid://vqqbaictyboi" path="res://assets/decors/all_houses.png" id="13_pl11u"]
 [ext_resource type="Texture2D" uid="uid://boomj3s4fxqn6" path="res://assets/decors/all_capturable_place.png" id="14_bhx41"]
 [ext_resource type="PackedScene" uid="uid://0if7yhswhs8" path="res://scenes/pour_capturer.tscn" id="14_trtic"]
-[ext_resource type="PackedScene" uid="uid://bkc45dtehxpl8" path="res://scenes/capturer_par_passage.tscn" id="15_ssvqc"]
 [ext_resource type="PackedScene" uid="uid://cohd5ti0xfusp" path="res://scenes/pour_interagir_cours.tscn" id="16_rysoc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_suyxu"]
@@ -6200,6 +6199,10 @@ texture = ExtResource("13_pl11u")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_h3rex")
 
+[sub_resource type="TileSet" id="TileSet_ssvqc"]
+physics_layer_0/collision_layer = 0
+physics_layer_0/collision_mask = 2
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1kice"]
 size = Vector2(49, 27)
 
@@ -6287,9 +6290,10 @@ card = "card2"
 
 [node name="bush" type="Node2D" parent="capture_places" unique_id=1366293530]
 
-[node name="bush_capture" parent="capture_places/bush" unique_id=703102027 instance=ExtResource("15_ssvqc")]
-position = Vector2(648, 184)
-zone = "prairie"
+[node name="prairie" type="Node2D" parent="capture_places/bush" unique_id=965537733]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="capture_places/bush" unique_id=1345053535]
+tile_set = SubResource("TileSet_ssvqc")
 
 [node name="maison_interact" type="Node2D" parent="." unique_id=733977537]
 
