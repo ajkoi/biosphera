@@ -6278,16 +6278,18 @@ tile_set = SubResource("TileSet_fedci")
 
 [node name="capture_places" type="Node2D" parent="." unique_id=1266857565]
 
-[node name="bush_capture" parent="capture_places" unique_id=703102027 instance=ExtResource("15_ssvqc")]
-position = Vector2(648, 184)
-zone = "prairie"
-
 [node name="capture_place" parent="capture_places" unique_id=1927214055 groups=["capture_places"] instance=ExtResource("14_trtic")]
 position = Vector2(1320, 360)
 
 [node name="capture_place2" parent="capture_places" unique_id=230809215 groups=["capture_places"] instance=ExtResource("14_trtic")]
 position = Vector2(554, -86)
 card = "card2"
+
+[node name="bush" type="Node2D" parent="capture_places" unique_id=1366293530]
+
+[node name="bush_capture" parent="capture_places/bush" unique_id=703102027 instance=ExtResource("15_ssvqc")]
+position = Vector2(648, 184)
+zone = "prairie"
 
 [node name="maison_interact" type="Node2D" parent="." unique_id=733977537]
 
