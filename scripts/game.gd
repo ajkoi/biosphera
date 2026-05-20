@@ -71,7 +71,6 @@ func _close_inventory() -> void:
 		var cards = inventory_instance.get_cards()
 		for card in cards:
 			global.cards_pos[card.name] = [card.position, card.get_parent().get_parent().name != "CanvasLayer"]
-		print(global.cards_pos)
 		inventory_instance.queue_free()
 		inventory_instance = null
 		$gamenode/Player/Camera2D.enabled = true
@@ -93,7 +92,6 @@ func _on_interagible_lancer_cours(cours: Variant) -> void:
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
 
 func _on_next_quizz_prairie():
-	print($cours_subscene.get_children())
 
 	if current_instance:
 		current_instance.queue_free()

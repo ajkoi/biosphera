@@ -237,8 +237,8 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_g2els"]
-size = Vector2(8.5, 7)
+[sub_resource type="CircleShape2D" id="CircleShape2D_g2els"]
+radius = 5.0
 
 [node name="Player" type="CharacterBody2D" unique_id=51311038 groups=["player"]]
 collision_layer = 2
@@ -254,8 +254,8 @@ sprite_frames = SubResource("SpriteFrames_3vyb7")
 animation = &"walk_side"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041831260]
-position = Vector2(-1.25, -5)
-shape = SubResource("RectangleShape2D_g2els")
+position = Vector2(-1, -7)
+shape = SubResource("CircleShape2D_g2els")
 
 [node name="CanDash" type="Timer" parent="." unique_id=975876480]
 wait_time = 0.3

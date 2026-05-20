@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://c1v1w4ty21f4t" path="res://scripts/capturer_par_passage.gd" id="1_smn5w"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_386ra"]
-size = Vector2(16, 16)
+size = Vector2(14, 14)
 
 [node name="bush_capture" type="Area2D" unique_id=703102027]
 collision_layer = 0

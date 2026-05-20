@@ -14,10 +14,8 @@ func card_on(snap : Node2D):
 
 func _on_button_pressed() -> void:
 	if card_on($snap_area) && card_on($snap_area2) && $snap_area3.position == $card3.position:
-		print("c'est bon :DD")
 		fin_text.emit()
 	elif card_on($snap_area) && card_on($snap_area3) && $snap_area3.position == $card2.position:
-		print("c'est bon :DD")
 		fin_text.emit()
 	else:
 		print("essaie encore")

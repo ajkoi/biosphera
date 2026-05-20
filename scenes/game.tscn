@@ -6294,885 +6294,1931 @@ card = "card2"
 
 [node name="prairie" type="Node2D" parent="capture_places/bush" unique_id=965537733]
 
-[node name="bush_capture" parent="capture_places/bush/prairie" unique_id=703102027 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture" parent="capture_places/bush/prairie" unique_id=703102027 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 248)
 zone = "prairie"
 
-[node name="bush_capture213" parent="capture_places/bush/prairie" unique_id=84033535 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture213" parent="capture_places/bush/prairie" unique_id=84033535 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(744, 600)
 zone = "prairie"
 
-[node name="bush_capture214" parent="capture_places/bush/prairie" unique_id=2089257498 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture214" parent="capture_places/bush/prairie" unique_id=2089257498 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 600)
 zone = "prairie"
 
-[node name="bush_capture215" parent="capture_places/bush/prairie" unique_id=1124470703 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture215" parent="capture_places/bush/prairie" unique_id=1124470703 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 600)
 zone = "prairie"
 
-[node name="bush_capture216" parent="capture_places/bush/prairie" unique_id=2035908142 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture216" parent="capture_places/bush/prairie" unique_id=2035908142 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(504, 456)
 zone = "prairie"
 
-[node name="bush_capture217" parent="capture_places/bush/prairie" unique_id=143868702 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture217" parent="capture_places/bush/prairie" unique_id=143868702 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(520, 456)
 zone = "prairie"
 
-[node name="bush_capture218" parent="capture_places/bush/prairie" unique_id=881878516 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture218" parent="capture_places/bush/prairie" unique_id=881878516 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(504, 440)
 zone = "prairie"
 
-[node name="bush_capture220" parent="capture_places/bush/prairie" unique_id=1703610844 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture220" parent="capture_places/bush/prairie" unique_id=1703610844 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(504, 424)
 zone = "prairie"
 
-[node name="bush_capture219" parent="capture_places/bush/prairie" unique_id=227342170 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture219" parent="capture_places/bush/prairie" unique_id=227342170 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(520, 440)
 zone = "prairie"
 
-[node name="bush_capture2" parent="capture_places/bush/prairie" unique_id=102353414 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture2" parent="capture_places/bush/prairie" unique_id=102353414 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 248)
 zone = "prairie"
 
-[node name="bush_capture3" parent="capture_places/bush/prairie" unique_id=831823916 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture3" parent="capture_places/bush/prairie" unique_id=831823916 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 248)
 zone = "prairie"
 
-[node name="bush_capture4" parent="capture_places/bush/prairie" unique_id=112773052 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture4" parent="capture_places/bush/prairie" unique_id=112773052 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 264)
 zone = "prairie"
 
-[node name="bush_capture5" parent="capture_places/bush/prairie" unique_id=1470095705 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture5" parent="capture_places/bush/prairie" unique_id=1470095705 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 264)
 zone = "prairie"
 
-[node name="bush_capture6" parent="capture_places/bush/prairie" unique_id=1626638017 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture6" parent="capture_places/bush/prairie" unique_id=1626638017 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 264)
 zone = "prairie"
 
-[node name="bush_capture7" parent="capture_places/bush/prairie" unique_id=126809052 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture7" parent="capture_places/bush/prairie" unique_id=126809052 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 280)
 zone = "prairie"
 
-[node name="bush_capture8" parent="capture_places/bush/prairie" unique_id=360618259 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture8" parent="capture_places/bush/prairie" unique_id=360618259 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 280)
 zone = "prairie"
 
-[node name="bush_capture9" parent="capture_places/bush/prairie" unique_id=1675003685 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture9" parent="capture_places/bush/prairie" unique_id=1675003685 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 280)
 zone = "prairie"
 
-[node name="bush_capture10" parent="capture_places/bush/prairie" unique_id=2028907306 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture10" parent="capture_places/bush/prairie" unique_id=2028907306 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 296)
 zone = "prairie"
 
-[node name="bush_capture11" parent="capture_places/bush/prairie" unique_id=836355243 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture11" parent="capture_places/bush/prairie" unique_id=836355243 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 296)
 zone = "prairie"
 
-[node name="bush_capture12" parent="capture_places/bush/prairie" unique_id=274473461 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture12" parent="capture_places/bush/prairie" unique_id=274473461 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 296)
 zone = "prairie"
 
-[node name="bush_capture13" parent="capture_places/bush/prairie" unique_id=1283154447 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture13" parent="capture_places/bush/prairie" unique_id=1283154447 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 312)
 zone = "prairie"
 
-[node name="bush_capture14" parent="capture_places/bush/prairie" unique_id=472367147 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture14" parent="capture_places/bush/prairie" unique_id=472367147 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 312)
 zone = "prairie"
 
-[node name="bush_capture15" parent="capture_places/bush/prairie" unique_id=440130506 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture15" parent="capture_places/bush/prairie" unique_id=440130506 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 312)
 zone = "prairie"
 
-[node name="bush_capture16" parent="capture_places/bush/prairie" unique_id=1937063520 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture16" parent="capture_places/bush/prairie" unique_id=1937063520 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 328)
 zone = "prairie"
 
-[node name="bush_capture17" parent="capture_places/bush/prairie" unique_id=1733484071 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture17" parent="capture_places/bush/prairie" unique_id=1733484071 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 328)
 zone = "prairie"
 
-[node name="bush_capture18" parent="capture_places/bush/prairie" unique_id=502226245 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture18" parent="capture_places/bush/prairie" unique_id=502226245 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 328)
 zone = "prairie"
 
-[node name="bush_capture19" parent="capture_places/bush/prairie" unique_id=959977378 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture19" parent="capture_places/bush/prairie" unique_id=959977378 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 344)
 zone = "prairie"
 
-[node name="bush_capture25" parent="capture_places/bush/prairie" unique_id=1079651810 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture25" parent="capture_places/bush/prairie" unique_id=1079651810 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(760, 280)
 zone = "prairie"
 
-[node name="bush_capture26" parent="capture_places/bush/prairie" unique_id=621033463 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture26" parent="capture_places/bush/prairie" unique_id=621033463 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(744, 280)
 zone = "prairie"
 
-[node name="bush_capture27" parent="capture_places/bush/prairie" unique_id=1627533713 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture27" parent="capture_places/bush/prairie" unique_id=1627533713 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 280)
 zone = "prairie"
 
-[node name="bush_capture28" parent="capture_places/bush/prairie" unique_id=231034654 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture28" parent="capture_places/bush/prairie" unique_id=231034654 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 280)
 zone = "prairie"
 
-[node name="bush_capture29" parent="capture_places/bush/prairie" unique_id=1339232952 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture29" parent="capture_places/bush/prairie" unique_id=1339232952 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 280)
 zone = "prairie"
 
-[node name="bush_capture30" parent="capture_places/bush/prairie" unique_id=1996290880 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture30" parent="capture_places/bush/prairie" unique_id=1996290880 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 280)
 zone = "prairie"
 
-[node name="bush_capture31" parent="capture_places/bush/prairie" unique_id=101019080 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture31" parent="capture_places/bush/prairie" unique_id=101019080 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 280)
 zone = "prairie"
 
-[node name="bush_capture32" parent="capture_places/bush/prairie" unique_id=2127931375 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture32" parent="capture_places/bush/prairie" unique_id=2127931375 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 296)
 zone = "prairie"
 
-[node name="bush_capture33" parent="capture_places/bush/prairie" unique_id=597884128 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture33" parent="capture_places/bush/prairie" unique_id=597884128 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 296)
 zone = "prairie"
 
-[node name="bush_capture34" parent="capture_places/bush/prairie" unique_id=324386307 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture34" parent="capture_places/bush/prairie" unique_id=324386307 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 296)
 zone = "prairie"
 
-[node name="bush_capture35" parent="capture_places/bush/prairie" unique_id=1100876469 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture35" parent="capture_places/bush/prairie" unique_id=1100876469 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 296)
 zone = "prairie"
 
-[node name="bush_capture36" parent="capture_places/bush/prairie" unique_id=1739829293 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture36" parent="capture_places/bush/prairie" unique_id=1739829293 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 296)
 zone = "prairie"
 
-[node name="bush_capture37" parent="capture_places/bush/prairie" unique_id=185291558 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture37" parent="capture_places/bush/prairie" unique_id=185291558 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 312)
 zone = "prairie"
 
-[node name="bush_capture38" parent="capture_places/bush/prairie" unique_id=1704978377 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture38" parent="capture_places/bush/prairie" unique_id=1704978377 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 312)
 zone = "prairie"
 
-[node name="bush_capture39" parent="capture_places/bush/prairie" unique_id=1136706570 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture39" parent="capture_places/bush/prairie" unique_id=1136706570 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 312)
 zone = "prairie"
 
-[node name="bush_capture40" parent="capture_places/bush/prairie" unique_id=1980323009 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture40" parent="capture_places/bush/prairie" unique_id=1980323009 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 312)
 zone = "prairie"
 
-[node name="bush_capture41" parent="capture_places/bush/prairie" unique_id=524174331 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture41" parent="capture_places/bush/prairie" unique_id=524174331 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 312)
 zone = "prairie"
 
-[node name="bush_capture42" parent="capture_places/bush/prairie" unique_id=6768831 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture42" parent="capture_places/bush/prairie" unique_id=6768831 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 328)
 zone = "prairie"
 
-[node name="bush_capture43" parent="capture_places/bush/prairie" unique_id=399858552 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture43" parent="capture_places/bush/prairie" unique_id=399858552 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 328)
 zone = "prairie"
 
-[node name="bush_capture44" parent="capture_places/bush/prairie" unique_id=1803661565 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture44" parent="capture_places/bush/prairie" unique_id=1803661565 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 328)
 zone = "prairie"
 
-[node name="bush_capture45" parent="capture_places/bush/prairie" unique_id=1421014695 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture45" parent="capture_places/bush/prairie" unique_id=1421014695 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 328)
 zone = "prairie"
 
-[node name="bush_capture46" parent="capture_places/bush/prairie" unique_id=1938058902 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture46" parent="capture_places/bush/prairie" unique_id=1938058902 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 328)
 zone = "prairie"
 
-[node name="bush_capture52" parent="capture_places/bush/prairie" unique_id=1706627822 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture52" parent="capture_places/bush/prairie" unique_id=1706627822 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 360)
 zone = "prairie"
 
-[node name="bush_capture53" parent="capture_places/bush/prairie" unique_id=1988964527 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture53" parent="capture_places/bush/prairie" unique_id=1988964527 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 360)
 zone = "prairie"
 
-[node name="bush_capture54" parent="capture_places/bush/prairie" unique_id=1067798777 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture54" parent="capture_places/bush/prairie" unique_id=1067798777 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 360)
 zone = "prairie"
 
-[node name="bush_capture55" parent="capture_places/bush/prairie" unique_id=2132710995 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture55" parent="capture_places/bush/prairie" unique_id=2132710995 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 360)
 zone = "prairie"
 
-[node name="bush_capture56" parent="capture_places/bush/prairie" unique_id=321411607 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture56" parent="capture_places/bush/prairie" unique_id=321411607 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 360)
 zone = "prairie"
 
-[node name="bush_capture57" parent="capture_places/bush/prairie" unique_id=462435844 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture57" parent="capture_places/bush/prairie" unique_id=462435844 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 264)
 zone = "prairie"
 
-[node name="bush_capture58" parent="capture_places/bush/prairie" unique_id=41030946 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture58" parent="capture_places/bush/prairie" unique_id=41030946 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 264)
 zone = "prairie"
 
-[node name="bush_capture59" parent="capture_places/bush/prairie" unique_id=1236636211 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture59" parent="capture_places/bush/prairie" unique_id=1236636211 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(744, 296)
 zone = "prairie"
 
-[node name="bush_capture61" parent="capture_places/bush/prairie" unique_id=1672213520 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture61" parent="capture_places/bush/prairie" unique_id=1672213520 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(712, 296)
 zone = "prairie"
 
-[node name="bush_capture60" parent="capture_places/bush/prairie" unique_id=1002221033 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture60" parent="capture_places/bush/prairie" unique_id=1002221033 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(728, 296)
 zone = "prairie"
 
-[node name="bush_capture62" parent="capture_places/bush/prairie" unique_id=980977790 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture62" parent="capture_places/bush/prairie" unique_id=980977790 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(744, 312)
 zone = "prairie"
 
-[node name="bush_capture63" parent="capture_places/bush/prairie" unique_id=182025728 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture63" parent="capture_places/bush/prairie" unique_id=182025728 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(712, 312)
 zone = "prairie"
 
-[node name="bush_capture65" parent="capture_places/bush/prairie" unique_id=951505607 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture65" parent="capture_places/bush/prairie" unique_id=951505607 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(760, 312)
 zone = "prairie"
 
-[node name="bush_capture64" parent="capture_places/bush/prairie" unique_id=34881598 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture64" parent="capture_places/bush/prairie" unique_id=34881598 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(728, 312)
 zone = "prairie"
 
-[node name="bush_capture66" parent="capture_places/bush/prairie" unique_id=47258638 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture66" parent="capture_places/bush/prairie" unique_id=47258638 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(744, 328)
 zone = "prairie"
 
-[node name="bush_capture67" parent="capture_places/bush/prairie" unique_id=499370457 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture67" parent="capture_places/bush/prairie" unique_id=499370457 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(712, 328)
 zone = "prairie"
 
-[node name="bush_capture70" parent="capture_places/bush/prairie" unique_id=1669582913 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture70" parent="capture_places/bush/prairie" unique_id=1669582913 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(696, 328)
 zone = "prairie"
 
-[node name="bush_capture68" parent="capture_places/bush/prairie" unique_id=1403211234 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture68" parent="capture_places/bush/prairie" unique_id=1403211234 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(760, 328)
 zone = "prairie"
 
-[node name="bush_capture69" parent="capture_places/bush/prairie" unique_id=1989739052 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture69" parent="capture_places/bush/prairie" unique_id=1989739052 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(728, 328)
 zone = "prairie"
 
-[node name="bush_capture71" parent="capture_places/bush/prairie" unique_id=49509354 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture71" parent="capture_places/bush/prairie" unique_id=49509354 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(744, 344)
 zone = "prairie"
 
-[node name="bush_capture72" parent="capture_places/bush/prairie" unique_id=1442689046 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture72" parent="capture_places/bush/prairie" unique_id=1442689046 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(712, 344)
 zone = "prairie"
 
-[node name="bush_capture73" parent="capture_places/bush/prairie" unique_id=1002150722 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture73" parent="capture_places/bush/prairie" unique_id=1002150722 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(696, 344)
 zone = "prairie"
 
-[node name="bush_capture74" parent="capture_places/bush/prairie" unique_id=651304709 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture74" parent="capture_places/bush/prairie" unique_id=651304709 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(760, 344)
 zone = "prairie"
 
-[node name="bush_capture75" parent="capture_places/bush/prairie" unique_id=1589502167 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture75" parent="capture_places/bush/prairie" unique_id=1589502167 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(728, 344)
 zone = "prairie"
 
-[node name="bush_capture76" parent="capture_places/bush/prairie" unique_id=267161378 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture76" parent="capture_places/bush/prairie" unique_id=267161378 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(744, 360)
 zone = "prairie"
 
-[node name="bush_capture77" parent="capture_places/bush/prairie" unique_id=1042519922 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture77" parent="capture_places/bush/prairie" unique_id=1042519922 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(712, 360)
 zone = "prairie"
 
-[node name="bush_capture78" parent="capture_places/bush/prairie" unique_id=1829710593 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture78" parent="capture_places/bush/prairie" unique_id=1829710593 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(696, 360)
 zone = "prairie"
 
-[node name="bush_capture79" parent="capture_places/bush/prairie" unique_id=1777625239 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture79" parent="capture_places/bush/prairie" unique_id=1777625239 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(760, 360)
 zone = "prairie"
 
-[node name="bush_capture80" parent="capture_places/bush/prairie" unique_id=1744052856 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture80" parent="capture_places/bush/prairie" unique_id=1744052856 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(728, 360)
 zone = "prairie"
 
-[node name="bush_capture81" parent="capture_places/bush/prairie" unique_id=1587885012 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture81" parent="capture_places/bush/prairie" unique_id=1587885012 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(744, 376)
 zone = "prairie"
 
-[node name="bush_capture82" parent="capture_places/bush/prairie" unique_id=705788776 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture82" parent="capture_places/bush/prairie" unique_id=705788776 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(712, 376)
 zone = "prairie"
 
-[node name="bush_capture83" parent="capture_places/bush/prairie" unique_id=239531318 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture83" parent="capture_places/bush/prairie" unique_id=239531318 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(696, 376)
 zone = "prairie"
 
-[node name="bush_capture84" parent="capture_places/bush/prairie" unique_id=351874079 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture84" parent="capture_places/bush/prairie" unique_id=351874079 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(760, 376)
 zone = "prairie"
 
-[node name="bush_capture85" parent="capture_places/bush/prairie" unique_id=569571511 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture85" parent="capture_places/bush/prairie" unique_id=569571511 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(728, 376)
 zone = "prairie"
 
-[node name="bush_capture86" parent="capture_places/bush/prairie" unique_id=2015112273 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture86" parent="capture_places/bush/prairie" unique_id=2015112273 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(744, 392)
 zone = "prairie"
 
-[node name="bush_capture96" parent="capture_places/bush/prairie" unique_id=786666235 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture96" parent="capture_places/bush/prairie" unique_id=786666235 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(680, 408)
 zone = "prairie"
 
-[node name="bush_capture87" parent="capture_places/bush/prairie" unique_id=775521006 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture87" parent="capture_places/bush/prairie" unique_id=775521006 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(712, 392)
 zone = "prairie"
 
-[node name="bush_capture88" parent="capture_places/bush/prairie" unique_id=1955551301 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture88" parent="capture_places/bush/prairie" unique_id=1955551301 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(696, 392)
 zone = "prairie"
 
-[node name="bush_capture89" parent="capture_places/bush/prairie" unique_id=1270747489 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture89" parent="capture_places/bush/prairie" unique_id=1270747489 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(760, 392)
 zone = "prairie"
 
-[node name="bush_capture90" parent="capture_places/bush/prairie" unique_id=2002650854 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture90" parent="capture_places/bush/prairie" unique_id=2002650854 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(728, 392)
 zone = "prairie"
 
-[node name="bush_capture91" parent="capture_places/bush/prairie" unique_id=809606449 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture91" parent="capture_places/bush/prairie" unique_id=809606449 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(744, 408)
 zone = "prairie"
 
-[node name="bush_capture92" parent="capture_places/bush/prairie" unique_id=136681075 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture92" parent="capture_places/bush/prairie" unique_id=136681075 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(712, 408)
 zone = "prairie"
 
-[node name="bush_capture93" parent="capture_places/bush/prairie" unique_id=959685099 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture93" parent="capture_places/bush/prairie" unique_id=959685099 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(696, 408)
 zone = "prairie"
 
-[node name="bush_capture94" parent="capture_places/bush/prairie" unique_id=20304649 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture94" parent="capture_places/bush/prairie" unique_id=20304649 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(760, 408)
 zone = "prairie"
 
-[node name="bush_capture95" parent="capture_places/bush/prairie" unique_id=1433810301 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture95" parent="capture_places/bush/prairie" unique_id=1433810301 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(728, 408)
 zone = "prairie"
 
-[node name="bush_capture47" parent="capture_places/bush/prairie" unique_id=1688151614 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture47" parent="capture_places/bush/prairie" unique_id=1688151614 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 344)
 zone = "prairie"
 
-[node name="bush_capture48" parent="capture_places/bush/prairie" unique_id=272998709 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture48" parent="capture_places/bush/prairie" unique_id=272998709 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 344)
 zone = "prairie"
 
-[node name="bush_capture49" parent="capture_places/bush/prairie" unique_id=774023378 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture49" parent="capture_places/bush/prairie" unique_id=774023378 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 344)
 zone = "prairie"
 
-[node name="bush_capture50" parent="capture_places/bush/prairie" unique_id=778836307 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture50" parent="capture_places/bush/prairie" unique_id=778836307 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 344)
 zone = "prairie"
 
-[node name="bush_capture51" parent="capture_places/bush/prairie" unique_id=354163174 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture51" parent="capture_places/bush/prairie" unique_id=354163174 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 344)
 zone = "prairie"
 
-[node name="bush_capture20" parent="capture_places/bush/prairie" unique_id=1901140901 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture20" parent="capture_places/bush/prairie" unique_id=1901140901 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 344)
 zone = "prairie"
 
-[node name="bush_capture21" parent="capture_places/bush/prairie" unique_id=606028037 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture21" parent="capture_places/bush/prairie" unique_id=606028037 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 344)
 zone = "prairie"
 
-[node name="bush_capture22" parent="capture_places/bush/prairie" unique_id=746422052 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture22" parent="capture_places/bush/prairie" unique_id=746422052 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 360)
 zone = "prairie"
 
-[node name="bush_capture23" parent="capture_places/bush/prairie" unique_id=1267771015 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture23" parent="capture_places/bush/prairie" unique_id=1267771015 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 360)
 zone = "prairie"
 
-[node name="bush_capture24" parent="capture_places/bush/prairie" unique_id=601221014 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture24" parent="capture_places/bush/prairie" unique_id=601221014 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 360)
 zone = "prairie"
 
-[node name="bush_capture97" parent="capture_places/bush/prairie" unique_id=1524428902 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture97" parent="capture_places/bush/prairie" unique_id=1524428902 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 376)
 zone = "prairie"
 
-[node name="bush_capture98" parent="capture_places/bush/prairie" unique_id=1639269652 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture98" parent="capture_places/bush/prairie" unique_id=1639269652 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 376)
 zone = "prairie"
 
-[node name="bush_capture99" parent="capture_places/bush/prairie" unique_id=1133545079 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture99" parent="capture_places/bush/prairie" unique_id=1133545079 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 376)
 zone = "prairie"
 
-[node name="bush_capture100" parent="capture_places/bush/prairie" unique_id=275826438 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture100" parent="capture_places/bush/prairie" unique_id=275826438 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 376)
 zone = "prairie"
 
-[node name="bush_capture101" parent="capture_places/bush/prairie" unique_id=1470100971 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture101" parent="capture_places/bush/prairie" unique_id=1470100971 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 392)
 zone = "prairie"
 
-[node name="bush_capture102" parent="capture_places/bush/prairie" unique_id=1161240897 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture102" parent="capture_places/bush/prairie" unique_id=1161240897 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 392)
 zone = "prairie"
 
-[node name="bush_capture103" parent="capture_places/bush/prairie" unique_id=1405531628 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture103" parent="capture_places/bush/prairie" unique_id=1405531628 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 392)
 zone = "prairie"
 
-[node name="bush_capture104" parent="capture_places/bush/prairie" unique_id=643120901 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture104" parent="capture_places/bush/prairie" unique_id=643120901 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 392)
 zone = "prairie"
 
-[node name="bush_capture105" parent="capture_places/bush/prairie" unique_id=795934481 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture105" parent="capture_places/bush/prairie" unique_id=795934481 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 408)
 zone = "prairie"
 
-[node name="bush_capture106" parent="capture_places/bush/prairie" unique_id=816382649 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture106" parent="capture_places/bush/prairie" unique_id=816382649 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 408)
 zone = "prairie"
 
-[node name="bush_capture107" parent="capture_places/bush/prairie" unique_id=975627996 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture107" parent="capture_places/bush/prairie" unique_id=975627996 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 408)
 zone = "prairie"
 
-[node name="bush_capture108" parent="capture_places/bush/prairie" unique_id=1755310232 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture108" parent="capture_places/bush/prairie" unique_id=1755310232 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 408)
 zone = "prairie"
 
-[node name="bush_capture109" parent="capture_places/bush/prairie" unique_id=2085639084 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture109" parent="capture_places/bush/prairie" unique_id=2085639084 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 424)
 zone = "prairie"
 
-[node name="bush_capture110" parent="capture_places/bush/prairie" unique_id=557049952 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture110" parent="capture_places/bush/prairie" unique_id=557049952 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 424)
 zone = "prairie"
 
-[node name="bush_capture111" parent="capture_places/bush/prairie" unique_id=572680936 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture111" parent="capture_places/bush/prairie" unique_id=572680936 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 424)
 zone = "prairie"
 
-[node name="bush_capture112" parent="capture_places/bush/prairie" unique_id=1577029623 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture112" parent="capture_places/bush/prairie" unique_id=1577029623 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 424)
 zone = "prairie"
 
-[node name="bush_capture113" parent="capture_places/bush/prairie" unique_id=860855996 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture113" parent="capture_places/bush/prairie" unique_id=860855996 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 440)
 zone = "prairie"
 
-[node name="bush_capture114" parent="capture_places/bush/prairie" unique_id=1519389476 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture114" parent="capture_places/bush/prairie" unique_id=1519389476 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 440)
 zone = "prairie"
 
-[node name="bush_capture115" parent="capture_places/bush/prairie" unique_id=1632647317 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture115" parent="capture_places/bush/prairie" unique_id=1632647317 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 440)
 zone = "prairie"
 
-[node name="bush_capture116" parent="capture_places/bush/prairie" unique_id=1929856198 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture116" parent="capture_places/bush/prairie" unique_id=1929856198 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 440)
 zone = "prairie"
 
-[node name="bush_capture117" parent="capture_places/bush/prairie" unique_id=2079134442 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture117" parent="capture_places/bush/prairie" unique_id=2079134442 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 456)
 zone = "prairie"
 
-[node name="bush_capture118" parent="capture_places/bush/prairie" unique_id=523209796 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture118" parent="capture_places/bush/prairie" unique_id=523209796 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 456)
 zone = "prairie"
 
-[node name="bush_capture119" parent="capture_places/bush/prairie" unique_id=1471528030 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture119" parent="capture_places/bush/prairie" unique_id=1471528030 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(792, 456)
 zone = "prairie"
 
-[node name="bush_capture120" parent="capture_places/bush/prairie" unique_id=339496422 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture120" parent="capture_places/bush/prairie" unique_id=339496422 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(808, 456)
 zone = "prairie"
 
-[node name="bush_capture121" parent="capture_places/bush/prairie" unique_id=270336377 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture121" parent="capture_places/bush/prairie" unique_id=270336377 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(760, 440)
 zone = "prairie"
 
-[node name="bush_capture122" parent="capture_places/bush/prairie" unique_id=646664160 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture122" parent="capture_places/bush/prairie" unique_id=646664160 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(712, 440)
 zone = "prairie"
 
-[node name="bush_capture123" parent="capture_places/bush/prairie" unique_id=503009412 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture123" parent="capture_places/bush/prairie" unique_id=503009412 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(728, 440)
 zone = "prairie"
 
-[node name="bush_capture124" parent="capture_places/bush/prairie" unique_id=908792157 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture124" parent="capture_places/bush/prairie" unique_id=908792157 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(744, 440)
 zone = "prairie"
 
-[node name="bush_capture125" parent="capture_places/bush/prairie" unique_id=180664313 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture125" parent="capture_places/bush/prairie" unique_id=180664313 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 392)
 zone = "prairie"
 
-[node name="bush_capture126" parent="capture_places/bush/prairie" unique_id=1234739905 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture126" parent="capture_places/bush/prairie" unique_id=1234739905 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 392)
 zone = "prairie"
 
-[node name="bush_capture127" parent="capture_places/bush/prairie" unique_id=704086721 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture127" parent="capture_places/bush/prairie" unique_id=704086721 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 392)
 zone = "prairie"
 
-[node name="bush_capture128" parent="capture_places/bush/prairie" unique_id=1082117847 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture128" parent="capture_places/bush/prairie" unique_id=1082117847 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 392)
 zone = "prairie"
 
-[node name="bush_capture129" parent="capture_places/bush/prairie" unique_id=1802746903 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture129" parent="capture_places/bush/prairie" unique_id=1802746903 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 376)
 zone = "prairie"
 
-[node name="bush_capture130" parent="capture_places/bush/prairie" unique_id=899972906 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture130" parent="capture_places/bush/prairie" unique_id=899972906 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 376)
 zone = "prairie"
 
-[node name="bush_capture131" parent="capture_places/bush/prairie" unique_id=1061009414 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture131" parent="capture_places/bush/prairie" unique_id=1061009414 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 376)
 zone = "prairie"
 
-[node name="bush_capture132" parent="capture_places/bush/prairie" unique_id=1797234662 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture132" parent="capture_places/bush/prairie" unique_id=1797234662 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 376)
 zone = "prairie"
 
-[node name="bush_capture133" parent="capture_places/bush/prairie" unique_id=684783301 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture133" parent="capture_places/bush/prairie" unique_id=684783301 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 408)
 zone = "prairie"
 
-[node name="bush_capture134" parent="capture_places/bush/prairie" unique_id=1594297209 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture134" parent="capture_places/bush/prairie" unique_id=1594297209 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 408)
 zone = "prairie"
 
-[node name="bush_capture135" parent="capture_places/bush/prairie" unique_id=1916617743 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture135" parent="capture_places/bush/prairie" unique_id=1916617743 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 408)
 zone = "prairie"
 
-[node name="bush_capture136" parent="capture_places/bush/prairie" unique_id=301033636 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture136" parent="capture_places/bush/prairie" unique_id=301033636 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 408)
 zone = "prairie"
 
-[node name="bush_capture137" parent="capture_places/bush/prairie" unique_id=1921504821 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture137" parent="capture_places/bush/prairie" unique_id=1921504821 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 424)
 zone = "prairie"
 
-[node name="bush_capture138" parent="capture_places/bush/prairie" unique_id=1266367658 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture138" parent="capture_places/bush/prairie" unique_id=1266367658 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 424)
 zone = "prairie"
 
-[node name="bush_capture139" parent="capture_places/bush/prairie" unique_id=178936651 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture139" parent="capture_places/bush/prairie" unique_id=178936651 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 424)
 zone = "prairie"
 
-[node name="bush_capture140" parent="capture_places/bush/prairie" unique_id=1158009052 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture140" parent="capture_places/bush/prairie" unique_id=1158009052 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 424)
 zone = "prairie"
 
-[node name="bush_capture141" parent="capture_places/bush/prairie" unique_id=1224059929 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture141" parent="capture_places/bush/prairie" unique_id=1224059929 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(936, 536)
 zone = "prairie"
 
-[node name="bush_capture142" parent="capture_places/bush/prairie" unique_id=140407876 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture142" parent="capture_places/bush/prairie" unique_id=140407876 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 536)
 zone = "prairie"
 
-[node name="bush_capture143" parent="capture_places/bush/prairie" unique_id=750738407 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture143" parent="capture_places/bush/prairie" unique_id=750738407 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 536)
 zone = "prairie"
 
-[node name="bush_capture144" parent="capture_places/bush/prairie" unique_id=1950891865 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture144" parent="capture_places/bush/prairie" unique_id=1950891865 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 536)
 zone = "prairie"
 
-[node name="bush_capture145" parent="capture_places/bush/prairie" unique_id=720671919 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture145" parent="capture_places/bush/prairie" unique_id=720671919 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(936, 520)
 zone = "prairie"
 
-[node name="bush_capture146" parent="capture_places/bush/prairie" unique_id=662693109 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture146" parent="capture_places/bush/prairie" unique_id=662693109 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 520)
 zone = "prairie"
 
-[node name="bush_capture147" parent="capture_places/bush/prairie" unique_id=9328536 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture147" parent="capture_places/bush/prairie" unique_id=9328536 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 520)
 zone = "prairie"
 
-[node name="bush_capture148" parent="capture_places/bush/prairie" unique_id=1428352328 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture148" parent="capture_places/bush/prairie" unique_id=1428352328 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 520)
 zone = "prairie"
 
-[node name="bush_capture149" parent="capture_places/bush/prairie" unique_id=879487230 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture149" parent="capture_places/bush/prairie" unique_id=879487230 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(936, 504)
 zone = "prairie"
 
-[node name="bush_capture150" parent="capture_places/bush/prairie" unique_id=832064457 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture150" parent="capture_places/bush/prairie" unique_id=832064457 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 504)
 zone = "prairie"
 
-[node name="bush_capture151" parent="capture_places/bush/prairie" unique_id=1138445795 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture151" parent="capture_places/bush/prairie" unique_id=1138445795 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 504)
 zone = "prairie"
 
-[node name="bush_capture152" parent="capture_places/bush/prairie" unique_id=694183423 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture152" parent="capture_places/bush/prairie" unique_id=694183423 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 504)
 zone = "prairie"
 
-[node name="bush_capture153" parent="capture_places/bush/prairie" unique_id=1255385451 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture153" parent="capture_places/bush/prairie" unique_id=1255385451 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(936, 488)
 zone = "prairie"
 
-[node name="bush_capture154" parent="capture_places/bush/prairie" unique_id=1634851547 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture154" parent="capture_places/bush/prairie" unique_id=1634851547 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 488)
 zone = "prairie"
 
-[node name="bush_capture155" parent="capture_places/bush/prairie" unique_id=1635496836 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture155" parent="capture_places/bush/prairie" unique_id=1635496836 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 488)
 zone = "prairie"
 
-[node name="bush_capture156" parent="capture_places/bush/prairie" unique_id=1810939372 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture156" parent="capture_places/bush/prairie" unique_id=1810939372 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 488)
 zone = "prairie"
 
-[node name="bush_capture157" parent="capture_places/bush/prairie" unique_id=2124332192 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture157" parent="capture_places/bush/prairie" unique_id=2124332192 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(936, 472)
 zone = "prairie"
 
-[node name="bush_capture158" parent="capture_places/bush/prairie" unique_id=756448333 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture158" parent="capture_places/bush/prairie" unique_id=756448333 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 472)
 zone = "prairie"
 
-[node name="bush_capture159" parent="capture_places/bush/prairie" unique_id=603965731 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture159" parent="capture_places/bush/prairie" unique_id=603965731 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 472)
 zone = "prairie"
 
-[node name="bush_capture160" parent="capture_places/bush/prairie" unique_id=406000701 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture160" parent="capture_places/bush/prairie" unique_id=406000701 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 472)
 zone = "prairie"
 
-[node name="bush_capture161" parent="capture_places/bush/prairie" unique_id=1756795077 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture161" parent="capture_places/bush/prairie" unique_id=1756795077 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(936, 456)
 zone = "prairie"
 
-[node name="bush_capture162" parent="capture_places/bush/prairie" unique_id=801125172 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture162" parent="capture_places/bush/prairie" unique_id=801125172 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 456)
 zone = "prairie"
 
-[node name="bush_capture163" parent="capture_places/bush/prairie" unique_id=1994206260 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture163" parent="capture_places/bush/prairie" unique_id=1994206260 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 456)
 zone = "prairie"
 
-[node name="bush_capture164" parent="capture_places/bush/prairie" unique_id=605146881 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture164" parent="capture_places/bush/prairie" unique_id=605146881 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 456)
 zone = "prairie"
 
-[node name="bush_capture165" parent="capture_places/bush/prairie" unique_id=857317853 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture165" parent="capture_places/bush/prairie" unique_id=857317853 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(728, 424)
 zone = "prairie"
 
-[node name="bush_capture168" parent="capture_places/bush/prairie" unique_id=784699184 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture168" parent="capture_places/bush/prairie" unique_id=784699184 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(696, 440)
 zone = "prairie"
 
-[node name="bush_capture169" parent="capture_places/bush/prairie" unique_id=1522899362 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture169" parent="capture_places/bush/prairie" unique_id=1522899362 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(760, 424)
 zone = "prairie"
 
-[node name="bush_capture170" parent="capture_places/bush/prairie" unique_id=1803652924 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture170" parent="capture_places/bush/prairie" unique_id=1803652924 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 536)
 zone = "prairie"
 
-[node name="bush_capture171" parent="capture_places/bush/prairie" unique_id=1073448396 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture171" parent="capture_places/bush/prairie" unique_id=1073448396 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 520)
 zone = "prairie"
 
-[node name="bush_capture172" parent="capture_places/bush/prairie" unique_id=585456636 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture172" parent="capture_places/bush/prairie" unique_id=585456636 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 520)
 zone = "prairie"
 
-[node name="bush_capture173" parent="capture_places/bush/prairie" unique_id=1229862277 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture173" parent="capture_places/bush/prairie" unique_id=1229862277 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 504)
 zone = "prairie"
 
-[node name="bush_capture174" parent="capture_places/bush/prairie" unique_id=257847872 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture174" parent="capture_places/bush/prairie" unique_id=257847872 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 504)
 zone = "prairie"
 
-[node name="bush_capture175" parent="capture_places/bush/prairie" unique_id=1914085052 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture175" parent="capture_places/bush/prairie" unique_id=1914085052 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 488)
 zone = "prairie"
 
-[node name="bush_capture176" parent="capture_places/bush/prairie" unique_id=2145383561 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture176" parent="capture_places/bush/prairie" unique_id=2145383561 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 488)
 zone = "prairie"
 
-[node name="bush_capture177" parent="capture_places/bush/prairie" unique_id=90462936 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture177" parent="capture_places/bush/prairie" unique_id=90462936 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 472)
 zone = "prairie"
 
-[node name="bush_capture178" parent="capture_places/bush/prairie" unique_id=1314878217 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture178" parent="capture_places/bush/prairie" unique_id=1314878217 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 472)
 zone = "prairie"
 
-[node name="bush_capture179" parent="capture_places/bush/prairie" unique_id=1390074352 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture179" parent="capture_places/bush/prairie" unique_id=1390074352 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 472)
 zone = "prairie"
 
-[node name="bush_capture181" parent="capture_places/bush/prairie" unique_id=1225022146 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture181" parent="capture_places/bush/prairie" unique_id=1225022146 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 488)
 zone = "prairie"
 
-[node name="bush_capture182" parent="capture_places/bush/prairie" unique_id=408593565 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture182" parent="capture_places/bush/prairie" unique_id=408593565 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 456)
 zone = "prairie"
 
-[node name="bush_capture183" parent="capture_places/bush/prairie" unique_id=934174992 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture183" parent="capture_places/bush/prairie" unique_id=934174992 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 456)
 zone = "prairie"
 
-[node name="bush_capture184" parent="capture_places/bush/prairie" unique_id=267109227 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture184" parent="capture_places/bush/prairie" unique_id=267109227 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 456)
 zone = "prairie"
 
-[node name="bush_capture185" parent="capture_places/bush/prairie" unique_id=51164209 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture185" parent="capture_places/bush/prairie" unique_id=51164209 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(888, 440)
 zone = "prairie"
 
-[node name="bush_capture186" parent="capture_places/bush/prairie" unique_id=64815854 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture186" parent="capture_places/bush/prairie" unique_id=64815854 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 440)
 zone = "prairie"
 
-[node name="bush_capture187" parent="capture_places/bush/prairie" unique_id=409621177 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture187" parent="capture_places/bush/prairie" unique_id=409621177 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(872, 440)
 zone = "prairie"
 
-[node name="bush_capture188" parent="capture_places/bush/prairie" unique_id=1543086591 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture188" parent="capture_places/bush/prairie" unique_id=1543086591 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(856, 440)
 zone = "prairie"
 
-[node name="bush_capture189" parent="capture_places/bush/prairie" unique_id=1653736168 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture189" parent="capture_places/bush/prairie" unique_id=1653736168 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(840, 440)
 zone = "prairie"
 
-[node name="bush_capture190" parent="capture_places/bush/prairie" unique_id=804715220 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture190" parent="capture_places/bush/prairie" unique_id=804715220 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 392)
 zone = "prairie"
 
-[node name="bush_capture191" parent="capture_places/bush/prairie" unique_id=877641681 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture191" parent="capture_places/bush/prairie" unique_id=877641681 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 392)
 zone = "prairie"
 
-[node name="bush_capture192" parent="capture_places/bush/prairie" unique_id=883876825 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture192" parent="capture_places/bush/prairie" unique_id=883876825 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 408)
 zone = "prairie"
 
-[node name="bush_capture193" parent="capture_places/bush/prairie" unique_id=358994267 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture193" parent="capture_places/bush/prairie" unique_id=358994267 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 408)
 zone = "prairie"
 
-[node name="bush_capture194" parent="capture_places/bush/prairie" unique_id=36241140 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture194" parent="capture_places/bush/prairie" unique_id=36241140 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 424)
 zone = "prairie"
 
-[node name="bush_capture195" parent="capture_places/bush/prairie" unique_id=2047750720 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture195" parent="capture_places/bush/prairie" unique_id=2047750720 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 424)
 zone = "prairie"
 
-[node name="bush_capture196" parent="capture_places/bush/prairie" unique_id=1009452698 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture196" parent="capture_places/bush/prairie" unique_id=1009452698 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 328)
 zone = "prairie"
 
-[node name="bush_capture202" parent="capture_places/bush/prairie" unique_id=2385476 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture202" parent="capture_places/bush/prairie" unique_id=2385476 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(936, 360)
 zone = "prairie"
 
-[node name="bush_capture203" parent="capture_places/bush/prairie" unique_id=1773548477 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture203" parent="capture_places/bush/prairie" unique_id=1773548477 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 376)
 zone = "prairie"
 
-[node name="bush_capture204" parent="capture_places/bush/prairie" unique_id=144294931 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture204" parent="capture_places/bush/prairie" unique_id=144294931 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 312)
 zone = "prairie"
 
-[node name="bush_capture205" parent="capture_places/bush/prairie" unique_id=1782885919 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture205" parent="capture_places/bush/prairie" unique_id=1782885919 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 312)
 zone = "prairie"
 
-[node name="bush_capture206" parent="capture_places/bush/prairie" unique_id=601924634 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture206" parent="capture_places/bush/prairie" unique_id=601924634 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 296)
 zone = "prairie"
 
-[node name="bush_capture207" parent="capture_places/bush/prairie" unique_id=129732578 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture207" parent="capture_places/bush/prairie" unique_id=129732578 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 296)
 zone = "prairie"
 
-[node name="bush_capture208" parent="capture_places/bush/prairie" unique_id=298682264 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture208" parent="capture_places/bush/prairie" unique_id=298682264 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(936, 296)
 zone = "prairie"
 
-[node name="bush_capture209" parent="capture_places/bush/prairie" unique_id=2131527698 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture209" parent="capture_places/bush/prairie" unique_id=2131527698 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(696, 120)
 zone = "prairie"
 
-[node name="bush_capture210" parent="capture_places/bush/prairie" unique_id=1635713994 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture210" parent="capture_places/bush/prairie" unique_id=1635713994 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(648, 120)
 zone = "prairie"
 
-[node name="bush_capture211" parent="capture_places/bush/prairie" unique_id=551870026 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture211" parent="capture_places/bush/prairie" unique_id=551870026 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(600, 120)
 zone = "prairie"
 
-[node name="bush_capture212" parent="capture_places/bush/prairie" unique_id=1367475344 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture212" parent="capture_places/bush/prairie" unique_id=1367475344 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(440, 56)
 zone = "prairie"
 
-[node name="bush_capture197" parent="capture_places/bush/prairie" unique_id=1305713351 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture197" parent="capture_places/bush/prairie" unique_id=1305713351 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 328)
 zone = "prairie"
 
-[node name="bush_capture198" parent="capture_places/bush/prairie" unique_id=2059831367 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture198" parent="capture_places/bush/prairie" unique_id=2059831367 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 344)
 zone = "prairie"
 
-[node name="bush_capture199" parent="capture_places/bush/prairie" unique_id=754068905 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture199" parent="capture_places/bush/prairie" unique_id=754068905 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 344)
 zone = "prairie"
 
-[node name="bush_capture200" parent="capture_places/bush/prairie" unique_id=847318870 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture200" parent="capture_places/bush/prairie" unique_id=847318870 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(920, 360)
 zone = "prairie"
 
-[node name="bush_capture201" parent="capture_places/bush/prairie" unique_id=900664711 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture201" parent="capture_places/bush/prairie" unique_id=900664711 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(904, 360)
 zone = "prairie"
 
-[node name="bush_capture180" parent="capture_places/bush/prairie" unique_id=1552577450 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture180" parent="capture_places/bush/prairie" unique_id=1552577450 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(824, 472)
 zone = "prairie"
 
-[node name="bush_capture166" parent="capture_places/bush/prairie" unique_id=1678484678 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture166" parent="capture_places/bush/prairie" unique_id=1678484678 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(696, 424)
 zone = "prairie"
 
-[node name="bush_capture167" parent="capture_places/bush/prairie" unique_id=1104162643 instance=ExtResource("15_ssvqc")]
+[node name="bush_capture167" parent="capture_places/bush/prairie" unique_id=1104162643 groups=["bushes"] instance=ExtResource("15_ssvqc")]
 position = Vector2(712, 424)
 zone = "prairie"
+
+[node name="neige" type="Node2D" parent="capture_places" unique_id=288932250]
+
+[node name="desert" type="Node2D" parent="capture_places" unique_id=1625060789]
+
+[node name="bush_capture" parent="capture_places/desert" unique_id=1898804844 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1704, 392)
+zone = "desert"
+
+[node name="bush_capture2" parent="capture_places/desert" unique_id=1020326682 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1704, 408)
+zone = "desert"
+
+[node name="bush_capture139" parent="capture_places/desert" unique_id=1134085399 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1960, 360)
+zone = "desert"
+
+[node name="bush_capture140" parent="capture_places/desert" unique_id=1369432869 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1960, 376)
+zone = "desert"
+
+[node name="bush_capture141" parent="capture_places/desert" unique_id=578571112 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1960, 568)
+zone = "desert"
+
+[node name="bush_capture142" parent="capture_places/desert" unique_id=422433276 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1960, 584)
+zone = "desert"
+
+[node name="bush_capture143" parent="capture_places/desert" unique_id=1135989206 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1640, 616)
+zone = "desert"
+
+[node name="bush_capture145" parent="capture_places/desert" unique_id=80633701 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1544, 616)
+zone = "desert"
+
+[node name="bush_capture146" parent="capture_places/desert" unique_id=146652549 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1592, 520)
+zone = "desert"
+
+[node name="bush_capture147" parent="capture_places/desert" unique_id=120005311 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1640, 552)
+zone = "desert"
+
+[node name="bush_capture148" parent="capture_places/desert" unique_id=462721903 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1656, 552)
+zone = "desert"
+
+[node name="bush_capture144" parent="capture_places/desert" unique_id=2090430166 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1640, 600)
+zone = "desert"
+
+[node name="bush_capture3" parent="capture_places/desert" unique_id=1289762386 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1720, 408)
+zone = "desert"
+
+[node name="bush_capture4" parent="capture_places/desert" unique_id=872413794 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1736, 408)
+zone = "desert"
+
+[node name="bush_capture5" parent="capture_places/desert" unique_id=349360707 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1704, 424)
+zone = "desert"
+
+[node name="bush_capture6" parent="capture_places/desert" unique_id=114753996 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1720, 424)
+zone = "desert"
+
+[node name="bush_capture7" parent="capture_places/desert" unique_id=1821485193 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1736, 424)
+zone = "desert"
+
+[node name="bush_capture8" parent="capture_places/desert" unique_id=1097215731 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1720, 456)
+zone = "desert"
+
+[node name="bush_capture9" parent="capture_places/desert" unique_id=1721061449 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1736, 456)
+zone = "desert"
+
+[node name="bush_capture10" parent="capture_places/desert" unique_id=139408578 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 456)
+zone = "desert"
+
+[node name="bush_capture11" parent="capture_places/desert" unique_id=643986715 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1784, 456)
+zone = "desert"
+
+[node name="bush_capture12" parent="capture_places/desert" unique_id=1803928060 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 456)
+zone = "desert"
+
+[node name="bush_capture13" parent="capture_places/desert" unique_id=917636662 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 456)
+zone = "desert"
+
+[node name="bush_capture14" parent="capture_places/desert" unique_id=1639725205 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1720, 440)
+zone = "desert"
+
+[node name="bush_capture15" parent="capture_places/desert" unique_id=1838697433 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1736, 440)
+zone = "desert"
+
+[node name="bush_capture16" parent="capture_places/desert" unique_id=1065943346 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 440)
+zone = "desert"
+
+[node name="bush_capture17" parent="capture_places/desert" unique_id=1723530484 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 440)
+zone = "desert"
+
+[node name="bush_capture18" parent="capture_places/desert" unique_id=1924466979 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1784, 440)
+zone = "desert"
+
+[node name="bush_capture19" parent="capture_places/desert" unique_id=950594238 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 440)
+zone = "desert"
+
+[node name="bush_capture20" parent="capture_places/desert" unique_id=159347671 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 472)
+zone = "desert"
+
+[node name="bush_capture21" parent="capture_places/desert" unique_id=1399279629 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 472)
+zone = "desert"
+
+[node name="bush_capture22" parent="capture_places/desert" unique_id=610472893 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1784, 472)
+zone = "desert"
+
+[node name="bush_capture23" parent="capture_places/desert" unique_id=1592035823 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1848, 456)
+zone = "desert"
+
+[node name="bush_capture24" parent="capture_places/desert" unique_id=104533209 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1864, 456)
+zone = "desert"
+
+[node name="bush_capture25" parent="capture_places/desert" unique_id=54333681 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1880, 456)
+zone = "desert"
+
+[node name="bush_capture26" parent="capture_places/desert" unique_id=316725325 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 472)
+zone = "desert"
+
+[node name="bush_capture27" parent="capture_places/desert" unique_id=157416087 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 472)
+zone = "desert"
+
+[node name="bush_capture28" parent="capture_places/desert" unique_id=1868630953 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1832, 472)
+zone = "desert"
+
+[node name="bush_capture29" parent="capture_places/desert" unique_id=1523197031 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1784, 488)
+zone = "desert"
+
+[node name="bush_capture30" parent="capture_places/desert" unique_id=1357590675 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 488)
+zone = "desert"
+
+[node name="bush_capture31" parent="capture_places/desert" unique_id=712255993 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 488)
+zone = "desert"
+
+[node name="bush_capture32" parent="capture_places/desert" unique_id=413580743 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 424)
+zone = "desert"
+
+[node name="bush_capture33" parent="capture_places/desert" unique_id=861610037 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 424)
+zone = "desert"
+
+[node name="bush_capture34" parent="capture_places/desert" unique_id=161152744 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1784, 424)
+zone = "desert"
+
+[node name="bush_capture35" parent="capture_places/desert" unique_id=534229091 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 408)
+zone = "desert"
+
+[node name="bush_capture36" parent="capture_places/desert" unique_id=540418723 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 408)
+zone = "desert"
+
+[node name="bush_capture37" parent="capture_places/desert" unique_id=1805048380 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1784, 408)
+zone = "desert"
+
+[node name="bush_capture38" parent="capture_places/desert" unique_id=384995118 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 360)
+zone = "desert"
+
+[node name="bush_capture39" parent="capture_places/desert" unique_id=989864099 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 360)
+zone = "desert"
+
+[node name="bush_capture40" parent="capture_places/desert" unique_id=501701215 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1784, 360)
+zone = "desert"
+
+[node name="bush_capture41" parent="capture_places/desert" unique_id=1607255185 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1736, 376)
+zone = "desert"
+
+[node name="bush_capture42" parent="capture_places/desert" unique_id=1370917454 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 376)
+zone = "desert"
+
+[node name="bush_capture43" parent="capture_places/desert" unique_id=1089262596 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 376)
+zone = "desert"
+
+[node name="bush_capture44" parent="capture_places/desert" unique_id=1081442199 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1736, 392)
+zone = "desert"
+
+[node name="bush_capture45" parent="capture_places/desert" unique_id=1998602653 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 392)
+zone = "desert"
+
+[node name="bush_capture46" parent="capture_places/desert" unique_id=2133498829 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 392)
+zone = "desert"
+
+[node name="bush_capture47" parent="capture_places/desert" unique_id=1870469378 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1784, 376)
+zone = "desert"
+
+[node name="bush_capture48" parent="capture_places/desert" unique_id=646703142 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 376)
+zone = "desert"
+
+[node name="bush_capture49" parent="capture_places/desert" unique_id=292526638 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 376)
+zone = "desert"
+
+[node name="bush_capture50" parent="capture_places/desert" unique_id=1297028850 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1784, 392)
+zone = "desert"
+
+[node name="bush_capture51" parent="capture_places/desert" unique_id=1585505866 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 392)
+zone = "desert"
+
+[node name="bush_capture52" parent="capture_places/desert" unique_id=105098808 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 392)
+zone = "desert"
+
+[node name="bush_capture53" parent="capture_places/desert" unique_id=2034834359 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1832, 392)
+zone = "desert"
+
+[node name="bush_capture54" parent="capture_places/desert" unique_id=389799537 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1848, 392)
+zone = "desert"
+
+[node name="bush_capture55" parent="capture_places/desert" unique_id=315491310 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1864, 392)
+zone = "desert"
+
+[node name="bush_capture56" parent="capture_places/desert" unique_id=1493080388 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1832, 408)
+zone = "desert"
+
+[node name="bush_capture57" parent="capture_places/desert" unique_id=1342170216 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1848, 408)
+zone = "desert"
+
+[node name="bush_capture58" parent="capture_places/desert" unique_id=1329751301 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1864, 408)
+zone = "desert"
+
+[node name="bush_capture59" parent="capture_places/desert" unique_id=425637760 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1848, 280)
+zone = "desert"
+
+[node name="bush_capture60" parent="capture_places/desert" unique_id=1273802585 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1864, 280)
+zone = "desert"
+
+[node name="bush_capture61" parent="capture_places/desert" unique_id=1084942749 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1880, 280)
+zone = "desert"
+
+[node name="bush_capture62" parent="capture_places/desert" unique_id=352408283 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1832, 264)
+zone = "desert"
+
+[node name="bush_capture63" parent="capture_places/desert" unique_id=1267007987 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1848, 264)
+zone = "desert"
+
+[node name="bush_capture64" parent="capture_places/desert" unique_id=92169992 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1864, 264)
+zone = "desert"
+
+[node name="bush_capture65" parent="capture_places/desert" unique_id=1372391729 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 152)
+zone = "desert"
+
+[node name="bush_capture66" parent="capture_places/desert" unique_id=676473289 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 152)
+zone = "desert"
+
+[node name="bush_capture67" parent="capture_places/desert" unique_id=1848876803 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1784, 152)
+zone = "desert"
+
+[node name="bush_capture68" parent="capture_places/desert" unique_id=960289021 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 168)
+zone = "desert"
+
+[node name="bush_capture69" parent="capture_places/desert" unique_id=2115617371 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1784, 168)
+zone = "desert"
+
+[node name="bush_capture70" parent="capture_places/desert" unique_id=153978125 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 168)
+zone = "desert"
+
+[node name="bush_capture71" parent="capture_places/desert" unique_id=1649284989 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1560, 536)
+zone = "desert"
+
+[node name="bush_capture72" parent="capture_places/desert" unique_id=2101420814 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1576, 536)
+zone = "desert"
+
+[node name="bush_capture73" parent="capture_places/desert" unique_id=1808821323 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1592, 536)
+zone = "desert"
+
+[node name="bush_capture74" parent="capture_places/desert" unique_id=1178845965 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1592, 552)
+zone = "desert"
+
+[node name="bush_capture75" parent="capture_places/desert" unique_id=1721564664 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1608, 552)
+zone = "desert"
+
+[node name="bush_capture76" parent="capture_places/desert" unique_id=1642977097 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1624, 552)
+zone = "desert"
+
+[node name="bush_capture77" parent="capture_places/desert" unique_id=1168294425 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1608, 584)
+zone = "desert"
+
+[node name="bush_capture78" parent="capture_places/desert" unique_id=1350510283 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1624, 584)
+zone = "desert"
+
+[node name="bush_capture79" parent="capture_places/desert" unique_id=1081546020 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1640, 584)
+zone = "desert"
+
+[node name="bush_capture80" parent="capture_places/desert" unique_id=772341231 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1608, 568)
+zone = "desert"
+
+[node name="bush_capture81" parent="capture_places/desert" unique_id=1542625811 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1624, 568)
+zone = "desert"
+
+[node name="bush_capture82" parent="capture_places/desert" unique_id=1736385448 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1640, 568)
+zone = "desert"
+
+[node name="bush_capture83" parent="capture_places/desert" unique_id=1210573494 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1576, 632)
+zone = "desert"
+
+[node name="bush_capture84" parent="capture_places/desert" unique_id=826206230 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1592, 632)
+zone = "desert"
+
+[node name="bush_capture85" parent="capture_places/desert" unique_id=879423400 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1608, 632)
+zone = "desert"
+
+[node name="bush_capture86" parent="capture_places/desert" unique_id=2014894370 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1704, 632)
+zone = "desert"
+
+[node name="bush_capture87" parent="capture_places/desert" unique_id=1228475729 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1720, 632)
+zone = "desert"
+
+[node name="bush_capture88" parent="capture_places/desert" unique_id=782193227 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1736, 632)
+zone = "desert"
+
+[node name="bush_capture89" parent="capture_places/desert" unique_id=1462624622 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1736, 616)
+zone = "desert"
+
+[node name="bush_capture90" parent="capture_places/desert" unique_id=411333438 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 616)
+zone = "desert"
+
+[node name="bush_capture91" parent="capture_places/desert" unique_id=844972416 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 616)
+zone = "desert"
+
+[node name="bush_capture92" parent="capture_places/desert" unique_id=787946285 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 600)
+zone = "desert"
+
+[node name="bush_capture93" parent="capture_places/desert" unique_id=490881561 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 600)
+zone = "desert"
+
+[node name="bush_capture94" parent="capture_places/desert" unique_id=1511444325 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1832, 600)
+zone = "desert"
+
+[node name="bush_capture95" parent="capture_places/desert" unique_id=558348735 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1560, 616)
+zone = "desert"
+
+[node name="bush_capture96" parent="capture_places/desert" unique_id=1443418999 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1576, 616)
+zone = "desert"
+
+[node name="bush_capture97" parent="capture_places/desert" unique_id=936553575 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1592, 616)
+zone = "desert"
+
+[node name="bush_capture98" parent="capture_places/desert" unique_id=321909784 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, 600)
+zone = "desert"
+
+[node name="bush_capture99" parent="capture_places/desert" unique_id=1057046734 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1528, 600)
+zone = "desert"
+
+[node name="bush_capture100" parent="capture_places/desert" unique_id=1939648820 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1544, 600)
+zone = "desert"
+
+[node name="bush_capture101" parent="capture_places/desert" unique_id=855799 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1448, 584)
+zone = "desert"
+
+[node name="bush_capture102" parent="capture_places/desert" unique_id=743173939 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1464, 584)
+zone = "desert"
+
+[node name="bush_capture103" parent="capture_places/desert" unique_id=207001027 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1480, 584)
+zone = "desert"
+
+[node name="bush_capture104" parent="capture_places/desert" unique_id=1847808570 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1400, 584)
+zone = "desert"
+
+[node name="bush_capture105" parent="capture_places/desert" unique_id=1403655929 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1416, 584)
+zone = "desert"
+
+[node name="bush_capture107" parent="capture_places/desert" unique_id=1994916899 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1432, 600)
+zone = "desert"
+
+[node name="bush_capture108" parent="capture_places/desert" unique_id=1414744357 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1448, 600)
+zone = "desert"
+
+[node name="bush_capture109" parent="capture_places/desert" unique_id=521354088 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, 568)
+zone = "desert"
+
+[node name="bush_capture110" parent="capture_places/desert" unique_id=1847684098 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1400, 568)
+zone = "desert"
+
+[node name="bush_capture111" parent="capture_places/desert" unique_id=1149732370 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1480, 600)
+zone = "desert"
+
+[node name="bush_capture112" parent="capture_places/desert" unique_id=2094242531 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1496, 600)
+zone = "desert"
+
+[node name="bush_capture113" parent="capture_places/desert" unique_id=1282841411 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1608, 536)
+zone = "desert"
+
+[node name="bush_capture114" parent="capture_places/desert" unique_id=881196631 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1624, 536)
+zone = "desert"
+
+[node name="bush_capture115" parent="capture_places/desert" unique_id=2023217528 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 408)
+zone = "desert"
+
+[node name="bush_capture116" parent="capture_places/desert" unique_id=1207623805 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 408)
+zone = "desert"
+
+[node name="bush_capture117" parent="capture_places/desert" unique_id=494791262 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 424)
+zone = "desert"
+
+[node name="bush_capture118" parent="capture_places/desert" unique_id=1503488504 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 424)
+zone = "desert"
+
+[node name="bush_capture119" parent="capture_places/desert" unique_id=802747032 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1848, 424)
+zone = "desert"
+
+[node name="bush_capture120" parent="capture_places/desert" unique_id=1892251123 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1864, 424)
+zone = "desert"
+
+[node name="bush_capture121" parent="capture_places/desert" unique_id=991870873 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1928, 408)
+zone = "desert"
+
+[node name="bush_capture122" parent="capture_places/desert" unique_id=801567699 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1944, 408)
+zone = "desert"
+
+[node name="bush_capture123" parent="capture_places/desert" unique_id=1550253187 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1928, 424)
+zone = "desert"
+
+[node name="bush_capture124" parent="capture_places/desert" unique_id=751231730 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1944, 424)
+zone = "desert"
+
+[node name="bush_capture125" parent="capture_places/desert" unique_id=1233542453 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1848, 472)
+zone = "desert"
+
+[node name="bush_capture126" parent="capture_places/desert" unique_id=508147508 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1864, 472)
+zone = "desert"
+
+[node name="bush_capture127" parent="capture_places/desert" unique_id=1781149545 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1832, 488)
+zone = "desert"
+
+[node name="bush_capture128" parent="capture_places/desert" unique_id=1949770916 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1848, 488)
+zone = "desert"
+
+[node name="bush_capture129" parent="capture_places/desert" unique_id=618280299 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1944, 600)
+zone = "desert"
+
+[node name="bush_capture130" parent="capture_places/desert" unique_id=348904006 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1960, 600)
+zone = "desert"
+
+[node name="bush_capture131" parent="capture_places/desert" unique_id=2147314003 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1960, 616)
+zone = "desert"
+
+[node name="bush_capture132" parent="capture_places/desert" unique_id=2073561063 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1976, 616)
+zone = "desert"
+
+[node name="bush_capture133" parent="capture_places/desert" unique_id=653714709 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 584)
+zone = "desert"
+
+[node name="bush_capture134" parent="capture_places/desert" unique_id=8355423 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 584)
+zone = "desert"
+
+[node name="bush_capture165" parent="capture_places/desert" unique_id=996164473 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1720, 552)
+zone = "desert"
+
+[node name="bush_capture166" parent="capture_places/desert" unique_id=1005825343 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1736, 552)
+zone = "desert"
+
+[node name="bush_capture167" parent="capture_places/desert" unique_id=716990163 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 552)
+zone = "desert"
+
+[node name="bush_capture168" parent="capture_places/desert" unique_id=779567891 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 552)
+zone = "desert"
+
+[node name="bush_capture169" parent="capture_places/desert" unique_id=1218804698 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1704, 536)
+zone = "desert"
+
+[node name="bush_capture170" parent="capture_places/desert" unique_id=18242503 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1720, 536)
+zone = "desert"
+
+[node name="bush_capture171" parent="capture_places/desert" unique_id=1867747846 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1736, 536)
+zone = "desert"
+
+[node name="bush_capture173" parent="capture_places/desert" unique_id=771598098 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1704, 520)
+zone = "desert"
+
+[node name="bush_capture174" parent="capture_places/desert" unique_id=309117239 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1720, 520)
+zone = "desert"
+
+[node name="bush_capture175" parent="capture_places/desert" unique_id=168793897 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1736, 520)
+zone = "desert"
+
+[node name="bush_capture172" parent="capture_places/desert" unique_id=869194875 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 536)
+zone = "desert"
+
+[node name="bush_capture135" parent="capture_places/desert" unique_id=2084124487 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1656, 568)
+zone = "desert"
+
+[node name="bush_capture136" parent="capture_places/desert" unique_id=575300827 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1672, 568)
+zone = "desert"
+
+[node name="bush_capture137" parent="capture_places/desert" unique_id=1985341303 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1864, 440)
+zone = "desert"
+
+[node name="bush_capture149" parent="capture_places/desert" unique_id=1722689671 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1928, 440)
+zone = "desert"
+
+[node name="bush_capture150" parent="capture_places/desert" unique_id=1773042198 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1960, 392)
+zone = "desert"
+
+[node name="bush_capture151" parent="capture_places/desert" unique_id=861609099 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1880, 296)
+zone = "desert"
+
+[node name="bush_capture152" parent="capture_places/desert" unique_id=1368628949 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1896, 296)
+zone = "desert"
+
+[node name="bush_capture153" parent="capture_places/desert" unique_id=2097711207 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 232)
+zone = "desert"
+
+[node name="bush_capture154" parent="capture_places/desert" unique_id=1549055533 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1832, 232)
+zone = "desert"
+
+[node name="bush_capture155" parent="capture_places/desert" unique_id=1039108460 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 216)
+zone = "desert"
+
+[node name="bush_capture156" parent="capture_places/desert" unique_id=437444731 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1832, 216)
+zone = "desert"
+
+[node name="bush_capture157" parent="capture_places/desert" unique_id=789265284 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 200)
+zone = "desert"
+
+[node name="bush_capture158" parent="capture_places/desert" unique_id=2040111075 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 200)
+zone = "desert"
+
+[node name="bush_capture159" parent="capture_places/desert" unique_id=1123897013 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 136)
+zone = "desert"
+
+[node name="bush_capture161" parent="capture_places/desert" unique_id=657722298 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1752, 120)
+zone = "desert"
+
+[node name="bush_capture162" parent="capture_places/desert" unique_id=352325245 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1800, 184)
+zone = "desert"
+
+[node name="bush_capture163" parent="capture_places/desert" unique_id=1868444868 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1832, 248)
+zone = "desert"
+
+[node name="bush_capture164" parent="capture_places/desert" unique_id=2061133860 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1976, 632)
+zone = "desert"
+
+[node name="bush_capture160" parent="capture_places/desert" unique_id=1159429376 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1768, 136)
+zone = "desert"
+
+[node name="bush_capture138" parent="capture_places/desert" unique_id=1677771933 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1816, 440)
+zone = "desert"
+
+[node name="bush_capture106" parent="capture_places/desert" unique_id=882759367 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1432, 584)
+zone = "desert"
+
+[node name="marais" type="Node2D" parent="capture_places" unique_id=1166187048]
+
+[node name="bush_capture" parent="capture_places/marais" unique_id=1437049596 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1528, 344)
+zone = "desert"
+
+[node name="bush_capture2" parent="capture_places/marais" unique_id=529694034 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1528, 360)
+zone = "desert"
+
+[node name="bush_capture3" parent="capture_places/marais" unique_id=2009907624 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1544, 360)
+zone = "desert"
+
+[node name="bush_capture4" parent="capture_places/marais" unique_id=1664357105 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1560, 360)
+zone = "desert"
+
+[node name="bush_capture57" parent="capture_places/marais" unique_id=1235677342 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1496, 120)
+zone = "desert"
+
+[node name="bush_capture58" parent="capture_places/marais" unique_id=193817357 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, 120)
+zone = "desert"
+
+[node name="bush_capture59" parent="capture_places/marais" unique_id=422960919 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1528, 120)
+zone = "desert"
+
+[node name="bush_capture60" parent="capture_places/marais" unique_id=598321864 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1496, 136)
+zone = "desert"
+
+[node name="bush_capture61" parent="capture_places/marais" unique_id=230166146 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, 136)
+zone = "desert"
+
+[node name="bush_capture62" parent="capture_places/marais" unique_id=669432438 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1528, 136)
+zone = "desert"
+
+[node name="bush_capture63" parent="capture_places/marais" unique_id=1752032833 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1480, 152)
+zone = "desert"
+
+[node name="bush_capture64" parent="capture_places/marais" unique_id=263993326 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1496, 152)
+zone = "desert"
+
+[node name="bush_capture65" parent="capture_places/marais" unique_id=497138482 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, 152)
+zone = "desert"
+
+[node name="bush_capture66" parent="capture_places/marais" unique_id=986070747 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1560, 8)
+zone = "desert"
+
+[node name="bush_capture67" parent="capture_places/marais" unique_id=888143423 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1576, 8)
+zone = "desert"
+
+[node name="bush_capture68" parent="capture_places/marais" unique_id=1120409549 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1592, 8)
+zone = "desert"
+
+[node name="bush_capture69" parent="capture_places/marais" unique_id=1708872057 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1576, -8)
+zone = "desert"
+
+[node name="bush_capture70" parent="capture_places/marais" unique_id=1032367693 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1592, -8)
+zone = "desert"
+
+[node name="bush_capture71" parent="capture_places/marais" unique_id=1057993854 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1608, -8)
+zone = "desert"
+
+[node name="bush_capture72" parent="capture_places/marais" unique_id=691426217 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1624, -8)
+zone = "desert"
+
+[node name="bush_capture73" parent="capture_places/marais" unique_id=245940218 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1640, -8)
+zone = "desert"
+
+[node name="bush_capture74" parent="capture_places/marais" unique_id=1220063550 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1480, 168)
+zone = "desert"
+
+[node name="bush_capture76" parent="capture_places/marais" unique_id=887190944 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1480, 184)
+zone = "desert"
+
+[node name="bush_capture77" parent="capture_places/marais" unique_id=379617602 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, 104)
+zone = "desert"
+
+[node name="bush_capture78" parent="capture_places/marais" unique_id=1053514907 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1576, -24)
+zone = "desert"
+
+[node name="bush_capture79" parent="capture_places/marais" unique_id=1745923730 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 248)
+zone = "desert"
+
+[node name="bush_capture80" parent="capture_places/marais" unique_id=1417776324 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 232)
+zone = "desert"
+
+[node name="bush_capture81" parent="capture_places/marais" unique_id=819356648 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1000, 232)
+zone = "desert"
+
+[node name="bush_capture82" parent="capture_places/marais" unique_id=2138608649 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 376)
+zone = "desert"
+
+[node name="bush_capture84" parent="capture_places/marais" unique_id=2018575071 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1048, 392)
+zone = "desert"
+
+[node name="bush_capture85" parent="capture_places/marais" unique_id=1731010371 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 408)
+zone = "desert"
+
+[node name="bush_capture83" parent="capture_places/marais" unique_id=1821307938 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 376)
+zone = "desert"
+
+[node name="bush_capture75" parent="capture_places/marais" unique_id=799016586 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1496, 168)
+zone = "desert"
+
+[node name="bush_capture5" parent="capture_places/marais" unique_id=1309301675 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, 376)
+zone = "desert"
+
+[node name="bush_capture6" parent="capture_places/marais" unique_id=535723732 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1528, 376)
+zone = "desert"
+
+[node name="bush_capture7" parent="capture_places/marais" unique_id=1473276697 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, 392)
+zone = "desert"
+
+[node name="bush_capture8" parent="capture_places/marais" unique_id=1478249732 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1528, 392)
+zone = "desert"
+
+[node name="bush_capture9" parent="capture_places/marais" unique_id=614017822 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, 408)
+zone = "desert"
+
+[node name="bush_capture10" parent="capture_places/marais" unique_id=1961133033 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1528, 408)
+zone = "desert"
+
+[node name="bush_capture11" parent="capture_places/marais" unique_id=1523572384 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, 424)
+zone = "desert"
+
+[node name="bush_capture12" parent="capture_places/marais" unique_id=1477666854 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1528, 424)
+zone = "desert"
+
+[node name="bush_capture13" parent="capture_places/marais" unique_id=280478799 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1496, 440)
+zone = "desert"
+
+[node name="bush_capture14" parent="capture_places/marais" unique_id=466914745 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, 440)
+zone = "desert"
+
+[node name="bush_capture15" parent="capture_places/marais" unique_id=75169404 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1496, 456)
+zone = "desert"
+
+[node name="bush_capture17" parent="capture_places/marais" unique_id=530527706 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1480, 440)
+zone = "desert"
+
+[node name="bush_capture18" parent="capture_places/marais" unique_id=2087039482 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1480, 456)
+zone = "desert"
+
+[node name="bush_capture19" parent="capture_places/marais" unique_id=2019303360 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1496, 472)
+zone = "desert"
+
+[node name="bush_capture20" parent="capture_places/marais" unique_id=1105549892 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1480, 472)
+zone = "desert"
+
+[node name="bush_capture21" parent="capture_places/marais" unique_id=201805584 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1336, 440)
+zone = "desert"
+
+[node name="bush_capture22" parent="capture_places/marais" unique_id=1836294885 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1320, 440)
+zone = "desert"
+
+[node name="bush_capture23" parent="capture_places/marais" unique_id=297283571 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, 440)
+zone = "desert"
+
+[node name="bush_capture24" parent="capture_places/marais" unique_id=1711506164 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, 440)
+zone = "desert"
+
+[node name="bush_capture25" parent="capture_places/marais" unique_id=780258325 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, 456)
+zone = "desert"
+
+[node name="bush_capture26" parent="capture_places/marais" unique_id=18063235 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, 456)
+zone = "desert"
+
+[node name="bush_capture27" parent="capture_places/marais" unique_id=850810837 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1416, 456)
+zone = "desert"
+
+[node name="bush_capture28" parent="capture_places/marais" unique_id=879926040 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1400, 456)
+zone = "desert"
+
+[node name="bush_capture29" parent="capture_places/marais" unique_id=701824713 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1240, 392)
+zone = "desert"
+
+[node name="bush_capture30" parent="capture_places/marais" unique_id=2016192158 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1224, 392)
+zone = "desert"
+
+[node name="bush_capture31" parent="capture_places/marais" unique_id=1764242040 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1240, 408)
+zone = "desert"
+
+[node name="bush_capture32" parent="capture_places/marais" unique_id=1098263806 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1224, 408)
+zone = "desert"
+
+[node name="bush_capture33" parent="capture_places/marais" unique_id=1991170166 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1256, 424)
+zone = "desert"
+
+[node name="bush_capture34" parent="capture_places/marais" unique_id=1531654641 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1240, 424)
+zone = "desert"
+
+[node name="bush_capture35" parent="capture_places/marais" unique_id=2077391899 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1048, 504)
+zone = "desert"
+
+[node name="bush_capture36" parent="capture_places/marais" unique_id=11954215 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 504)
+zone = "desert"
+
+[node name="bush_capture37" parent="capture_places/marais" unique_id=682483521 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1080, 472)
+zone = "desert"
+
+[node name="bush_capture38" parent="capture_places/marais" unique_id=949090429 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1064, 472)
+zone = "desert"
+
+[node name="bush_capture39" parent="capture_places/marais" unique_id=97702493 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1112, 472)
+zone = "desert"
+
+[node name="bush_capture40" parent="capture_places/marais" unique_id=1268156225 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1096, 472)
+zone = "desert"
+
+[node name="bush_capture41" parent="capture_places/marais" unique_id=328088598 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1176, 504)
+zone = "desert"
+
+[node name="bush_capture42" parent="capture_places/marais" unique_id=2466462 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1160, 504)
+zone = "desert"
+
+[node name="bush_capture43" parent="capture_places/marais" unique_id=1269417943 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1208, 504)
+zone = "desert"
+
+[node name="bush_capture44" parent="capture_places/marais" unique_id=1548693627 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1192, 504)
+zone = "desert"
+
+[node name="bush_capture45" parent="capture_places/marais" unique_id=1612695794 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1128, 488)
+zone = "desert"
+
+[node name="bush_capture46" parent="capture_places/marais" unique_id=1223892895 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1160, 488)
+zone = "desert"
+
+[node name="bush_capture47" parent="capture_places/marais" unique_id=450765936 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1144, 488)
+zone = "desert"
+
+[node name="bush_capture48" parent="capture_places/marais" unique_id=624110600 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1080, 488)
+zone = "desert"
+
+[node name="bush_capture49" parent="capture_places/marais" unique_id=601156638 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1064, 488)
+zone = "desert"
+
+[node name="bush_capture50" parent="capture_places/marais" unique_id=304417219 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1064, 504)
+zone = "desert"
+
+[node name="bush_capture51" parent="capture_places/marais" unique_id=1662309345 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1128, 472)
+zone = "desert"
+
+[node name="bush_capture52" parent="capture_places/marais" unique_id=1572004711 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1224, 504)
+zone = "desert"
+
+[node name="bush_capture53" parent="capture_places/marais" unique_id=1409753322 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1240, 504)
+zone = "desert"
+
+[node name="bush_capture54" parent="capture_places/marais" unique_id=201514018 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1416, 472)
+zone = "desert"
+
+[node name="bush_capture55" parent="capture_places/marais" unique_id=1764248470 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1480, 488)
+zone = "desert"
+
+[node name="bush_capture56" parent="capture_places/marais" unique_id=62276357 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1496, 424)
+zone = "desert"
+
+[node name="bush_capture16" parent="capture_places/marais" unique_id=1673785887 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, 456)
+zone = "desert"
 
 [node name="maison_interact" type="Node2D" parent="." unique_id=733977537]
 

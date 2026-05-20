@@ -32,15 +32,16 @@ var possessed_card = {
 "pieuvre": [false, true]
 }
 var zones = {
-	"prairie" : ["poule", "coccinelle", "cheval", "grenouille"], # etc etc ... ... manger c'est bien UwU
-	"riviere":["croco", "truite"],
-	"mer":["grand_requin", "truite", "baleine", "crabe", "homard", "tortue", "dauphin", "daurade", "truite"],
-	"foret_fonce":["boa", "chat", "coccinelle", "fourmi", "grenouille"],
-	"marais":["boa", "croco"],
+	"prairie" : ["poule", "coccinelle", "cheval", "grenouille"], # vert clair
+	"riviere":["croco", "truite"], # bleu dans riviere 
+	"mer":["grand_requin", "truite", "baleine", "crabe", "homard", "tortue", "dauphin", "daurade", "truite"], # bleu dans mer
+	"foret_fonce":["boa", "chat", "coccinelle", "fourmi", "grenouille"], # vert foncé
+	"marais":["boa", "croco"], # turquoise
 	"foret_claire":["poule", "chat", "coccinelle", "fourmi", "grenouille"],
 	"caverne": ["chauve_souris"],
-	"desert": ["kangourou"],
+	"desert": ["kangourou", "elephant"], # jaune
 	"fossile": ["tigre", "archaeopteryx", "pteranodon", "ichtyosaure", "thylacine"],
+	"neige": ["cheval", "chauve_souris"] # bleu clair
 }
 
 var count_zone = {
