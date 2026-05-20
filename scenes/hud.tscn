@@ -1,24 +1,55 @@
 [gd_scene format=3 uid="uid://d3aktxwajj7re"]
 
 [ext_resource type="Script" uid="uid://b0f4lswkg7ojx" path="res://scenes/hud.gd" id="1_ahhtf"]
-[ext_resource type="FontFile" uid="uid://bohslu5t1gpyw" path="res://fonts/BigBlueTerminal/BigBlueTermPlusNerdFontPropo-Regular.ttf" id="2_oo0fn"]
+[ext_resource type="Texture2D" uid="uid://dp6e2isfgdeog" path="res://assets/bulle_rect.png" id="2_oo0fn"]
 
 [node name="HUD" type="CanvasLayer" unique_id=1358204907]
 script = ExtResource("1_ahhtf")
 
-[node name="Label" type="Label" parent="." unique_id=148310338]
-anchors_preset = -1
-anchor_left = 0.7916667
-anchor_top = 0.89444447
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 0
-grow_vertical = 0
-theme_override_fonts/font = ExtResource("2_oo0fn")
-theme_override_font_sizes/font_size = 60
-metadata/_edit_use_anchors_ = true
-
 [node name="Timer" type="Timer" parent="." unique_id=1649385182]
 wait_time = 5.0
+
+[node name="bulle" type="TextureRect" parent="." unique_id=1786274396]
+offset_left = 696.0
+offset_top = 576.0
+offset_right = 1090.0
+offset_bottom = 728.0
+texture = ExtResource("2_oo0fn")
+
+[node name="Label" type="RichTextLabel" parent="." unique_id=1653095388]
+anchors_preset = -1
+anchor_left = 0.6814815
+anchor_top = 0.84444445
+anchor_right = 0.962963
+anchor_bottom = 0.95555556
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 8.0
+offset_bottom = 8.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "LE CACA EST LIQUIDE"
+metadata/_edit_use_anchors_ = true
+
+[node name="touche_A" type="RichTextLabel" parent="." unique_id=2005395103]
+offset_top = 448.0
+offset_right = 208.0
+offset_bottom = 512.0
+bbcode_enabled = true
+text = "[img=64x64]res://assets/touches/touche_A.png[/img] Interagir"
+
+[node name="touche_E" type="RichTextLabel" parent="." unique_id=1626540496]
+offset_top = 512.0
+offset_right = 208.0
+offset_bottom = 576.0
+bbcode_enabled = true
+text = "[img=64x64]res://assets/touches/touche_E.png[/img] Arbre"
+
+[node name="touche_R" type="RichTextLabel" parent="." unique_id=1898574897]
+offset_top = 576.0
+offset_right = 208.0
+offset_bottom = 640.0
+bbcode_enabled = true
+text = "[img=64x64]res://assets/touches/touche_R.png[/img] Cartes"
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

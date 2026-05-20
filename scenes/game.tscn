@@ -5883,17 +5883,21 @@ texture = ExtResource("7_264po")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:0/0 = 0
 4:0/0 = 0
 6:0/0 = 0
 0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
 4:1/0 = 0
 5:1/0 = 0
 6:1/0 = 0
 7:1/0 = 0
 0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:2/0 = 0
 2:2/0 = 0
 3:2/0 = 0
@@ -6292,6 +6296,38 @@ card = "card2"
 
 [node name="bush_capture" parent="capture_places/bush/prairie" unique_id=703102027 instance=ExtResource("15_ssvqc")]
 position = Vector2(776, 248)
+zone = "prairie"
+
+[node name="bush_capture213" parent="capture_places/bush/prairie" unique_id=84033535 instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 600)
+zone = "prairie"
+
+[node name="bush_capture214" parent="capture_places/bush/prairie" unique_id=2089257498 instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 600)
+zone = "prairie"
+
+[node name="bush_capture215" parent="capture_places/bush/prairie" unique_id=1124470703 instance=ExtResource("15_ssvqc")]
+position = Vector2(840, 600)
+zone = "prairie"
+
+[node name="bush_capture216" parent="capture_places/bush/prairie" unique_id=2035908142 instance=ExtResource("15_ssvqc")]
+position = Vector2(504, 456)
+zone = "prairie"
+
+[node name="bush_capture217" parent="capture_places/bush/prairie" unique_id=143868702 instance=ExtResource("15_ssvqc")]
+position = Vector2(520, 456)
+zone = "prairie"
+
+[node name="bush_capture218" parent="capture_places/bush/prairie" unique_id=881878516 instance=ExtResource("15_ssvqc")]
+position = Vector2(504, 440)
+zone = "prairie"
+
+[node name="bush_capture220" parent="capture_places/bush/prairie" unique_id=1703610844 instance=ExtResource("15_ssvqc")]
+position = Vector2(504, 424)
+zone = "prairie"
+
+[node name="bush_capture219" parent="capture_places/bush/prairie" unique_id=227342170 instance=ExtResource("15_ssvqc")]
+position = Vector2(520, 440)
 zone = "prairie"
 
 [node name="bush_capture2" parent="capture_places/bush/prairie" unique_id=102353414 instance=ExtResource("15_ssvqc")]
