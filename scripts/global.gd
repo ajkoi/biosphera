@@ -1,6 +1,6 @@
 extends Node
 var possessed_card = {
-"grand_requin": [true, true], # remettre à false false
+"grand_requin": [false, false], # remettre à false false
 "truite": [false, true],
 "baleine": [false, true],
 "boa": [false, true],

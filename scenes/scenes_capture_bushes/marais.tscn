@@ -1,0 +1,1933 @@
+[gd_scene format=3 uid="uid://bpkt5rvd05tyk"]
+
+[ext_resource type="PackedScene" uid="uid://bkc45dtehxpl8" path="res://scenes/capturer_par_passage.tscn" id="1_tfex5"]
+
+[node name="marais" type="Node2D" unique_id=1379977943]
+
+[node name="bush_capture" parent="." unique_id=703102027 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1456, 376)
+zone = "foret"
+
+[node name="bush_capture2" parent="." unique_id=929195796 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1472, 360)
+zone = "foret"
+
+[node name="bush_capture5" parent="." unique_id=1435219783 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1504, 344)
+zone = "foret"
+
+[node name="bush_capture3" parent="." unique_id=118059879 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1488, 360)
+zone = "foret"
+
+[node name="bush_capture4" parent="." unique_id=1709098218 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1472, 376)
+zone = "foret"
+
+[node name="bush_capture6" parent="." unique_id=17239503 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1456, 392)
+zone = "foret"
+
+[node name="bush_capture7" parent="." unique_id=1729786053 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1472, 392)
+zone = "foret"
+
+[node name="bush_capture8" parent="." unique_id=1708711279 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1424, 392)
+zone = "foret"
+
+[node name="bush_capture9" parent="." unique_id=227467306 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1440, 392)
+zone = "foret"
+
+[node name="bush_capture10" parent="." unique_id=1005329335 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1424, 408)
+zone = "foret"
+
+[node name="bush_capture14" parent="." unique_id=1515703655 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1408, 416)
+zone = "foret"
+
+[node name="bush_capture11" parent="." unique_id=365218068 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1440, 408)
+zone = "foret"
+
+[node name="bush_capture15" parent="." unique_id=1295736767 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 496)
+zone = "foret"
+
+[node name="bush_capture16" parent="." unique_id=983578536 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 496)
+zone = "foret"
+
+[node name="bush_capture23" parent="." unique_id=1731979266 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 496)
+zone = "foret"
+
+[node name="bush_capture24" parent="." unique_id=1559040092 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 496)
+zone = "foret"
+
+[node name="bush_capture21" parent="." unique_id=840706641 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 496)
+zone = "foret"
+
+[node name="bush_capture22" parent="." unique_id=1304785374 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 480)
+zone = "foret"
+
+[node name="bush_capture17" parent="." unique_id=912224472 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 480)
+zone = "foret"
+
+[node name="bush_capture18" parent="." unique_id=1537985032 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 480)
+zone = "foret"
+
+[node name="bush_capture19" parent="." unique_id=396203020 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 480)
+zone = "foret"
+
+[node name="bush_capture20" parent="." unique_id=282462760 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 480)
+zone = "foret"
+
+[node name="bush_capture25" parent="." unique_id=1023151913 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1272, 480)
+zone = "foret"
+
+[node name="bush_capture26" parent="." unique_id=99549705 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1288, 480)
+zone = "foret"
+
+[node name="bush_capture27" parent="." unique_id=1651978723 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1256, 480)
+zone = "foret"
+
+[node name="bush_capture28" parent="." unique_id=68682971 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 480)
+zone = "foret"
+
+[node name="bush_capture29" parent="." unique_id=1073254350 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1304, 480)
+zone = "foret"
+
+[node name="bush_capture30" parent="." unique_id=723111699 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1304, 464)
+zone = "foret"
+
+[node name="bush_capture35" parent="." unique_id=311467704 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 464)
+zone = "foret"
+
+[node name="bush_capture36" parent="." unique_id=1695232154 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 464)
+zone = "foret"
+
+[node name="bush_capture37" parent="." unique_id=346602759 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1304, 496)
+zone = "foret"
+
+[node name="bush_capture38" parent="." unique_id=1011819230 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1288, 496)
+zone = "foret"
+
+[node name="bush_capture39" parent="." unique_id=551345265 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1272, 496)
+zone = "foret"
+
+[node name="bush_capture40" parent="." unique_id=1872619406 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1256, 496)
+zone = "foret"
+
+[node name="bush_capture41" parent="." unique_id=487871957 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 456)
+zone = "foret"
+
+[node name="bush_capture42" parent="." unique_id=993497534 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 456)
+zone = "foret"
+
+[node name="bush_capture43" parent="." unique_id=728249037 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 456)
+zone = "foret"
+
+[node name="bush_capture44" parent="." unique_id=257365673 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 456)
+zone = "foret"
+
+[node name="bush_capture45" parent="." unique_id=244528366 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 456)
+zone = "foret"
+
+[node name="bush_capture56" parent="." unique_id=1776028624 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 472)
+zone = "foret"
+
+[node name="bush_capture57" parent="." unique_id=1970210622 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 472)
+zone = "foret"
+
+[node name="bush_capture58" parent="." unique_id=402086872 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 392)
+zone = "foret"
+
+[node name="bush_capture59" parent="." unique_id=1090331883 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 392)
+zone = "foret"
+
+[node name="bush_capture60" parent="." unique_id=269012447 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 408)
+zone = "foret"
+
+[node name="bush_capture61" parent="." unique_id=1733918383 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 408)
+zone = "foret"
+
+[node name="bush_capture46" parent="." unique_id=934178018 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 456)
+zone = "foret"
+
+[node name="bush_capture50" parent="." unique_id=1792985108 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 440)
+zone = "foret"
+
+[node name="bush_capture51" parent="." unique_id=97887703 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 440)
+zone = "foret"
+
+[node name="bush_capture52" parent="." unique_id=379652700 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 440)
+zone = "foret"
+
+[node name="bush_capture62" parent="." unique_id=205554153 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 440)
+zone = "foret"
+
+[node name="bush_capture63" parent="." unique_id=1204000118 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 440)
+zone = "foret"
+
+[node name="bush_capture64" parent="." unique_id=2933260 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 440)
+zone = "foret"
+
+[node name="bush_capture65" parent="." unique_id=2037414505 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 440)
+zone = "foret"
+
+[node name="bush_capture66" parent="." unique_id=1127164907 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 440)
+zone = "foret"
+
+[node name="bush_capture67" parent="." unique_id=2046527608 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 440)
+zone = "foret"
+
+[node name="bush_capture450" parent="." unique_id=1451749302 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 408)
+zone = "foret"
+
+[node name="bush_capture68" parent="." unique_id=1913579069 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1064, 440)
+zone = "foret"
+
+[node name="bush_capture69" parent="." unique_id=699373632 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 424)
+zone = "foret"
+
+[node name="bush_capture70" parent="." unique_id=563210640 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 424)
+zone = "foret"
+
+[node name="bush_capture71" parent="." unique_id=47216744 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 424)
+zone = "foret"
+
+[node name="bush_capture72" parent="." unique_id=1161788038 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 424)
+zone = "foret"
+
+[node name="bush_capture73" parent="." unique_id=787726286 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 424)
+zone = "foret"
+
+[node name="bush_capture451" parent="." unique_id=817181156 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 392)
+zone = "foret"
+
+[node name="bush_capture452" parent="." unique_id=112216433 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 360)
+zone = "foret"
+
+[node name="bush_capture453" parent="." unique_id=1873533859 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 376)
+zone = "foret"
+
+[node name="bush_capture74" parent="." unique_id=309810904 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 408)
+zone = "foret"
+
+[node name="bush_capture75" parent="." unique_id=270053557 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 408)
+zone = "foret"
+
+[node name="bush_capture76" parent="." unique_id=296940268 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 408)
+zone = "foret"
+
+[node name="bush_capture77" parent="." unique_id=962106651 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 408)
+zone = "foret"
+
+[node name="bush_capture78" parent="." unique_id=85729341 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 408)
+zone = "foret"
+
+[node name="bush_capture79" parent="." unique_id=1050972542 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 392)
+zone = "foret"
+
+[node name="bush_capture80" parent="." unique_id=80422782 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 392)
+zone = "foret"
+
+[node name="bush_capture81" parent="." unique_id=1283002538 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 392)
+zone = "foret"
+
+[node name="bush_capture82" parent="." unique_id=1240739336 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 392)
+zone = "foret"
+
+[node name="bush_capture83" parent="." unique_id=354690874 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 392)
+zone = "foret"
+
+[node name="bush_capture84" parent="." unique_id=1910198339 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 360)
+zone = "foret"
+
+[node name="bush_capture85" parent="." unique_id=324197102 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 360)
+zone = "foret"
+
+[node name="bush_capture86" parent="." unique_id=676429373 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 376)
+zone = "foret"
+
+[node name="bush_capture87" parent="." unique_id=1934126617 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 376)
+zone = "foret"
+
+[node name="bush_capture88" parent="." unique_id=1680634001 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 376)
+zone = "foret"
+
+[node name="bush_capture89" parent="." unique_id=848614712 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 376)
+zone = "foret"
+
+[node name="bush_capture90" parent="." unique_id=1325796897 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 376)
+zone = "foret"
+
+[node name="bush_capture91" parent="." unique_id=1143564740 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 376)
+zone = "foret"
+
+[node name="bush_capture92" parent="." unique_id=2029833447 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 376)
+zone = "foret"
+
+[node name="bush_capture93" parent="." unique_id=956693393 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 360)
+zone = "foret"
+
+[node name="bush_capture94" parent="." unique_id=722655019 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 360)
+zone = "foret"
+
+[node name="bush_capture95" parent="." unique_id=1821087917 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 360)
+zone = "foret"
+
+[node name="bush_capture96" parent="." unique_id=882673282 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 360)
+zone = "foret"
+
+[node name="bush_capture97" parent="." unique_id=1592519566 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 360)
+zone = "foret"
+
+[node name="bush_capture454" parent="." unique_id=461155256 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 344)
+zone = "foret"
+
+[node name="bush_capture456" parent="." unique_id=1591855702 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1064, 424)
+zone = "foret"
+
+[node name="bush_capture457" parent="." unique_id=322963528 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1048, 440)
+zone = "foret"
+
+[node name="bush_capture458" parent="." unique_id=378331804 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1032, 440)
+zone = "foret"
+
+[node name="bush_capture459" parent="." unique_id=578473843 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1016, 440)
+zone = "foret"
+
+[node name="bush_capture460" parent="." unique_id=1858980612 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1032, 456)
+zone = "foret"
+
+[node name="bush_capture461" parent="." unique_id=1458066524 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1016, 456)
+zone = "foret"
+
+[node name="bush_capture462" parent="." unique_id=1968821715 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1000, 416)
+zone = "foret"
+
+[node name="bush_capture455" parent="." unique_id=2031621877 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1064, 360)
+zone = "foret"
+
+[node name="bush_capture98" parent="." unique_id=574839205 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 328)
+zone = "foret"
+
+[node name="bush_capture99" parent="." unique_id=1175361402 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 328)
+zone = "foret"
+
+[node name="bush_capture100" parent="." unique_id=1727734027 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 344)
+zone = "foret"
+
+[node name="bush_capture101" parent="." unique_id=1508873148 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 344)
+zone = "foret"
+
+[node name="bush_capture102" parent="." unique_id=2066956044 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 344)
+zone = "foret"
+
+[node name="bush_capture103" parent="." unique_id=444759930 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 344)
+zone = "foret"
+
+[node name="bush_capture104" parent="." unique_id=1394112648 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 344)
+zone = "foret"
+
+[node name="bush_capture105" parent="." unique_id=1835681463 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 344)
+zone = "foret"
+
+[node name="bush_capture106" parent="." unique_id=431215117 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 344)
+zone = "foret"
+
+[node name="bush_capture107" parent="." unique_id=1829009562 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 328)
+zone = "foret"
+
+[node name="bush_capture108" parent="." unique_id=1709320784 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 328)
+zone = "foret"
+
+[node name="bush_capture109" parent="." unique_id=1100052543 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 328)
+zone = "foret"
+
+[node name="bush_capture110" parent="." unique_id=404397533 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 328)
+zone = "foret"
+
+[node name="bush_capture111" parent="." unique_id=14007030 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 328)
+zone = "foret"
+
+[node name="bush_capture112" parent="." unique_id=1414117264 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 264)
+zone = "foret"
+
+[node name="bush_capture113" parent="." unique_id=1259234231 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 264)
+zone = "foret"
+
+[node name="bush_capture114" parent="." unique_id=1140258626 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 280)
+zone = "foret"
+
+[node name="bush_capture115" parent="." unique_id=1591528317 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 280)
+zone = "foret"
+
+[node name="bush_capture116" parent="." unique_id=204028386 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 280)
+zone = "foret"
+
+[node name="bush_capture117" parent="." unique_id=266706554 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 280)
+zone = "foret"
+
+[node name="bush_capture118" parent="." unique_id=1801205846 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 280)
+zone = "foret"
+
+[node name="bush_capture119" parent="." unique_id=35112540 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 280)
+zone = "foret"
+
+[node name="bush_capture120" parent="." unique_id=661870366 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 280)
+zone = "foret"
+
+[node name="bush_capture121" parent="." unique_id=623482822 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 264)
+zone = "foret"
+
+[node name="bush_capture122" parent="." unique_id=901181041 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 264)
+zone = "foret"
+
+[node name="bush_capture123" parent="." unique_id=1971159935 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 264)
+zone = "foret"
+
+[node name="bush_capture124" parent="." unique_id=1872538825 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 264)
+zone = "foret"
+
+[node name="bush_capture125" parent="." unique_id=1811336811 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 264)
+zone = "foret"
+
+[node name="bush_capture140" parent="." unique_id=990109055 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1304, 264)
+zone = "foret"
+
+[node name="bush_capture141" parent="." unique_id=1457381463 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1288, 264)
+zone = "foret"
+
+[node name="bush_capture142" parent="." unique_id=1239785676 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1304, 280)
+zone = "foret"
+
+[node name="bush_capture143" parent="." unique_id=1553556612 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1288, 280)
+zone = "foret"
+
+[node name="bush_capture144" parent="." unique_id=1001468047 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1272, 280)
+zone = "foret"
+
+[node name="bush_capture145" parent="." unique_id=956964157 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1256, 280)
+zone = "foret"
+
+[node name="bush_capture146" parent="." unique_id=1342609493 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 280)
+zone = "foret"
+
+[node name="bush_capture147" parent="." unique_id=805234605 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 280)
+zone = "foret"
+
+[node name="bush_capture148" parent="." unique_id=842938655 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 280)
+zone = "foret"
+
+[node name="bush_capture149" parent="." unique_id=1395797802 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1272, 264)
+zone = "foret"
+
+[node name="bush_capture150" parent="." unique_id=1996312812 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1256, 264)
+zone = "foret"
+
+[node name="bush_capture151" parent="." unique_id=481337786 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 264)
+zone = "foret"
+
+[node name="bush_capture152" parent="." unique_id=2078151225 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 264)
+zone = "foret"
+
+[node name="bush_capture153" parent="." unique_id=1725985678 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 264)
+zone = "foret"
+
+[node name="bush_capture154" parent="." unique_id=451414352 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1304, 296)
+zone = "foret"
+
+[node name="bush_capture155" parent="." unique_id=1626198933 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1288, 296)
+zone = "foret"
+
+[node name="bush_capture156" parent="." unique_id=310046461 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1304, 312)
+zone = "foret"
+
+[node name="bush_capture157" parent="." unique_id=878706357 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1288, 312)
+zone = "foret"
+
+[node name="bush_capture158" parent="." unique_id=2042789786 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1272, 312)
+zone = "foret"
+
+[node name="bush_capture159" parent="." unique_id=565211011 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1256, 312)
+zone = "foret"
+
+[node name="bush_capture160" parent="." unique_id=1315922891 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 312)
+zone = "foret"
+
+[node name="bush_capture161" parent="." unique_id=2104278493 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 312)
+zone = "foret"
+
+[node name="bush_capture162" parent="." unique_id=281031552 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 312)
+zone = "foret"
+
+[node name="bush_capture163" parent="." unique_id=1005941982 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1272, 296)
+zone = "foret"
+
+[node name="bush_capture164" parent="." unique_id=156914206 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1256, 296)
+zone = "foret"
+
+[node name="bush_capture165" parent="." unique_id=815153770 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 296)
+zone = "foret"
+
+[node name="bush_capture166" parent="." unique_id=1606802302 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 296)
+zone = "foret"
+
+[node name="bush_capture167" parent="." unique_id=1656765442 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 296)
+zone = "foret"
+
+[node name="bush_capture168" parent="." unique_id=161230951 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 232)
+zone = "foret"
+
+[node name="bush_capture169" parent="." unique_id=2031180744 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 232)
+zone = "foret"
+
+[node name="bush_capture170" parent="." unique_id=1003824 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 248)
+zone = "foret"
+
+[node name="bush_capture171" parent="." unique_id=19088088 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 248)
+zone = "foret"
+
+[node name="bush_capture172" parent="." unique_id=746112722 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 248)
+zone = "foret"
+
+[node name="bush_capture173" parent="." unique_id=1001658215 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 248)
+zone = "foret"
+
+[node name="bush_capture174" parent="." unique_id=579318307 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 248)
+zone = "foret"
+
+[node name="bush_capture175" parent="." unique_id=211389044 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 248)
+zone = "foret"
+
+[node name="bush_capture176" parent="." unique_id=1050555029 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 248)
+zone = "foret"
+
+[node name="bush_capture177" parent="." unique_id=636156337 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 232)
+zone = "foret"
+
+[node name="bush_capture178" parent="." unique_id=1545636117 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 232)
+zone = "foret"
+
+[node name="bush_capture179" parent="." unique_id=1419744412 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 232)
+zone = "foret"
+
+[node name="bush_capture180" parent="." unique_id=1586312798 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 232)
+zone = "foret"
+
+[node name="bush_capture181" parent="." unique_id=402167161 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 232)
+zone = "foret"
+
+[node name="bush_capture182" parent="." unique_id=1804132802 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 200)
+zone = "foret"
+
+[node name="bush_capture183" parent="." unique_id=1165558470 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 200)
+zone = "foret"
+
+[node name="bush_capture184" parent="." unique_id=1713129395 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 216)
+zone = "foret"
+
+[node name="bush_capture185" parent="." unique_id=537247194 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 216)
+zone = "foret"
+
+[node name="bush_capture186" parent="." unique_id=1153354637 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 216)
+zone = "foret"
+
+[node name="bush_capture187" parent="." unique_id=938128176 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 216)
+zone = "foret"
+
+[node name="bush_capture188" parent="." unique_id=698974253 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 216)
+zone = "foret"
+
+[node name="bush_capture189" parent="." unique_id=666788925 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 216)
+zone = "foret"
+
+[node name="bush_capture190" parent="." unique_id=1610712705 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 216)
+zone = "foret"
+
+[node name="bush_capture191" parent="." unique_id=553183931 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 200)
+zone = "foret"
+
+[node name="bush_capture192" parent="." unique_id=378777000 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 200)
+zone = "foret"
+
+[node name="bush_capture193" parent="." unique_id=607474381 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 200)
+zone = "foret"
+
+[node name="bush_capture194" parent="." unique_id=1760284488 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 200)
+zone = "foret"
+
+[node name="bush_capture195" parent="." unique_id=1736602289 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 200)
+zone = "foret"
+
+[node name="bush_capture196" parent="." unique_id=638623181 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 168)
+zone = "foret"
+
+[node name="bush_capture197" parent="." unique_id=356497352 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 168)
+zone = "foret"
+
+[node name="bush_capture198" parent="." unique_id=2085806915 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 184)
+zone = "foret"
+
+[node name="bush_capture199" parent="." unique_id=513177154 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 184)
+zone = "foret"
+
+[node name="bush_capture200" parent="." unique_id=652668045 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 184)
+zone = "foret"
+
+[node name="bush_capture201" parent="." unique_id=1095813053 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 184)
+zone = "foret"
+
+[node name="bush_capture202" parent="." unique_id=1654943979 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 184)
+zone = "foret"
+
+[node name="bush_capture203" parent="." unique_id=1974111078 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 184)
+zone = "foret"
+
+[node name="bush_capture204" parent="." unique_id=708035892 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 184)
+zone = "foret"
+
+[node name="bush_capture205" parent="." unique_id=2078275968 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 168)
+zone = "foret"
+
+[node name="bush_capture206" parent="." unique_id=1619747160 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 168)
+zone = "foret"
+
+[node name="bush_capture207" parent="." unique_id=1105956693 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 168)
+zone = "foret"
+
+[node name="bush_capture208" parent="." unique_id=11608232 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 168)
+zone = "foret"
+
+[node name="bush_capture209" parent="." unique_id=1733542989 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 168)
+zone = "foret"
+
+[node name="bush_capture210" parent="." unique_id=4770728 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 232)
+zone = "foret"
+
+[node name="bush_capture211" parent="." unique_id=640303032 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 232)
+zone = "foret"
+
+[node name="bush_capture212" parent="." unique_id=650665568 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 248)
+zone = "foret"
+
+[node name="bush_capture213" parent="." unique_id=1655587198 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 248)
+zone = "foret"
+
+[node name="bush_capture214" parent="." unique_id=1607359436 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 248)
+zone = "foret"
+
+[node name="bush_capture215" parent="." unique_id=806946482 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 248)
+zone = "foret"
+
+[node name="bush_capture465" parent="." unique_id=24772419 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1048, 264)
+zone = "foret"
+
+[node name="bush_capture466" parent="." unique_id=1552853270 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 280)
+zone = "foret"
+
+[node name="bush_capture467" parent="." unique_id=364627195 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 216)
+zone = "foret"
+
+[node name="bush_capture216" parent="." unique_id=1936589399 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1064, 248)
+zone = "foret"
+
+[node name="bush_capture463" parent="." unique_id=1930432538 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 264)
+zone = "foret"
+
+[node name="bush_capture464" parent="." unique_id=1899280150 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1064, 264)
+zone = "foret"
+
+[node name="bush_capture217" parent="." unique_id=1076129009 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1048, 248)
+zone = "foret"
+
+[node name="bush_capture219" parent="." unique_id=1915106838 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 232)
+zone = "foret"
+
+[node name="bush_capture220" parent="." unique_id=741472082 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 232)
+zone = "foret"
+
+[node name="bush_capture468" parent="." unique_id=156997263 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 200)
+zone = "foret"
+
+[node name="bush_capture469" parent="." unique_id=1744330328 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 168)
+zone = "foret"
+
+[node name="bush_capture470" parent="." unique_id=768696779 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 184)
+zone = "foret"
+
+[node name="bush_capture474" parent="." unique_id=331663614 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1048, 216)
+zone = "foret"
+
+[node name="bush_capture475" parent="." unique_id=817393806 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1048, 200)
+zone = "foret"
+
+[node name="bush_capture476" parent="." unique_id=270862855 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1064, 168)
+zone = "foret"
+
+[node name="bush_capture477" parent="." unique_id=423676943 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1080, 152)
+zone = "foret"
+
+[node name="bush_capture471" parent="." unique_id=659733962 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1064, 216)
+zone = "foret"
+
+[node name="bush_capture472" parent="." unique_id=1510522612 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1064, 184)
+zone = "foret"
+
+[node name="bush_capture473" parent="." unique_id=989511399 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1064, 200)
+zone = "foret"
+
+[node name="bush_capture221" parent="." unique_id=1212784580 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1064, 232)
+zone = "foret"
+
+[node name="bush_capture222" parent="." unique_id=1142179771 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1048, 232)
+zone = "foret"
+
+[node name="bush_capture218" parent="." unique_id=1437398290 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1456, 376)
+zone = "foret"
+
+[node name="bush_capture223" parent="." unique_id=212169341 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 216)
+zone = "foret"
+
+[node name="bush_capture224" parent="." unique_id=798182737 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 216)
+zone = "foret"
+
+[node name="bush_capture225" parent="." unique_id=816035309 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 216)
+zone = "foret"
+
+[node name="bush_capture226" parent="." unique_id=521843335 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 200)
+zone = "foret"
+
+[node name="bush_capture227" parent="." unique_id=1365197974 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 200)
+zone = "foret"
+
+[node name="bush_capture228" parent="." unique_id=784516740 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 200)
+zone = "foret"
+
+[node name="bush_capture229" parent="." unique_id=577874901 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 184)
+zone = "foret"
+
+[node name="bush_capture230" parent="." unique_id=385709375 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 184)
+zone = "foret"
+
+[node name="bush_capture231" parent="." unique_id=612335287 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 184)
+zone = "foret"
+
+[node name="bush_capture232" parent="." unique_id=489328020 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 168)
+zone = "foret"
+
+[node name="bush_capture233" parent="." unique_id=890454177 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 168)
+zone = "foret"
+
+[node name="bush_capture234" parent="." unique_id=770864474 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 168)
+zone = "foret"
+
+[node name="bush_capture235" parent="." unique_id=1804854580 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 152)
+zone = "foret"
+
+[node name="bush_capture236" parent="." unique_id=998887259 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 152)
+zone = "foret"
+
+[node name="bush_capture237" parent="." unique_id=724488733 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 152)
+zone = "foret"
+
+[node name="bush_capture238" parent="." unique_id=1648137453 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 136)
+zone = "foret"
+
+[node name="bush_capture239" parent="." unique_id=1431828605 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 136)
+zone = "foret"
+
+[node name="bush_capture240" parent="." unique_id=1197444265 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 136)
+zone = "foret"
+
+[node name="bush_capture241" parent="." unique_id=1685728860 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 152)
+zone = "foret"
+
+[node name="bush_capture242" parent="." unique_id=804831499 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 152)
+zone = "foret"
+
+[node name="bush_capture243" parent="." unique_id=295303952 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 152)
+zone = "foret"
+
+[node name="bush_capture244" parent="." unique_id=658845348 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 136)
+zone = "foret"
+
+[node name="bush_capture245" parent="." unique_id=1539436535 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 136)
+zone = "foret"
+
+[node name="bush_capture247" parent="." unique_id=2015712232 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 152)
+zone = "foret"
+
+[node name="bush_capture248" parent="." unique_id=1169863390 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 152)
+zone = "foret"
+
+[node name="bush_capture251" parent="." unique_id=587042972 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1256, 248)
+zone = "foret"
+
+[node name="bush_capture252" parent="." unique_id=1404204211 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 328)
+zone = "foret"
+
+[node name="bush_capture253" parent="." unique_id=1277556926 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 328)
+zone = "foret"
+
+[node name="bush_capture254" parent="." unique_id=707412952 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 344)
+zone = "foret"
+
+[node name="bush_capture255" parent="." unique_id=1891245419 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 344)
+zone = "foret"
+
+[node name="bush_capture256" parent="." unique_id=796277803 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 360)
+zone = "foret"
+
+[node name="bush_capture257" parent="." unique_id=1293076010 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 360)
+zone = "foret"
+
+[node name="bush_capture258" parent="." unique_id=305482802 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 264)
+zone = "foret"
+
+[node name="bush_capture259" parent="." unique_id=298554677 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 264)
+zone = "foret"
+
+[node name="bush_capture264" parent="." unique_id=849668731 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 280)
+zone = "foret"
+
+[node name="bush_capture265" parent="." unique_id=1949583741 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 280)
+zone = "foret"
+
+[node name="bush_capture266" parent="." unique_id=1651853966 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 296)
+zone = "foret"
+
+[node name="bush_capture267" parent="." unique_id=1813349680 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 296)
+zone = "foret"
+
+[node name="bush_capture268" parent="." unique_id=1033762018 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 312)
+zone = "foret"
+
+[node name="bush_capture270" parent="." unique_id=977625046 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1304, 328)
+zone = "foret"
+
+[node name="bush_capture271" parent="." unique_id=2099567286 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 344)
+zone = "foret"
+
+[node name="bush_capture269" parent="." unique_id=1704340508 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 312)
+zone = "foret"
+
+[node name="bush_capture272" parent="." unique_id=509296201 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 264)
+zone = "foret"
+
+[node name="bush_capture273" parent="." unique_id=717907679 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 280)
+zone = "foret"
+
+[node name="bush_capture274" parent="." unique_id=1345935381 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 296)
+zone = "foret"
+
+[node name="bush_capture275" parent="." unique_id=13336215 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 312)
+zone = "foret"
+
+[node name="bush_capture276" parent="." unique_id=2053012357 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 248)
+zone = "foret"
+
+[node name="bush_capture277" parent="." unique_id=901991275 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 264)
+zone = "foret"
+
+[node name="bush_capture278" parent="." unique_id=594234557 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 280)
+zone = "foret"
+
+[node name="bush_capture279" parent="." unique_id=467768304 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 296)
+zone = "foret"
+
+[node name="bush_capture280" parent="." unique_id=926774840 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 248)
+zone = "foret"
+
+[node name="bush_capture281" parent="." unique_id=1515841157 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 264)
+zone = "foret"
+
+[node name="bush_capture282" parent="." unique_id=1059787882 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 280)
+zone = "foret"
+
+[node name="bush_capture283" parent="." unique_id=212693478 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 296)
+zone = "foret"
+
+[node name="bush_capture284" parent="." unique_id=554335287 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 232)
+zone = "foret"
+
+[node name="bush_capture285" parent="." unique_id=354161349 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 248)
+zone = "foret"
+
+[node name="bush_capture286" parent="." unique_id=946129053 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 264)
+zone = "foret"
+
+[node name="bush_capture287" parent="." unique_id=633317556 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 280)
+zone = "foret"
+
+[node name="bush_capture288" parent="." unique_id=1710193753 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 232)
+zone = "foret"
+
+[node name="bush_capture289" parent="." unique_id=812907826 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 248)
+zone = "foret"
+
+[node name="bush_capture290" parent="." unique_id=1828401284 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 264)
+zone = "foret"
+
+[node name="bush_capture291" parent="." unique_id=1676890021 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 280)
+zone = "foret"
+
+[node name="bush_capture292" parent="." unique_id=1106497942 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 200)
+zone = "foret"
+
+[node name="bush_capture293" parent="." unique_id=2028873639 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 216)
+zone = "foret"
+
+[node name="bush_capture294" parent="." unique_id=1479034078 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 232)
+zone = "foret"
+
+[node name="bush_capture295" parent="." unique_id=1513225311 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 248)
+zone = "foret"
+
+[node name="bush_capture296" parent="." unique_id=1830892536 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 168)
+zone = "foret"
+
+[node name="bush_capture297" parent="." unique_id=1878649447 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 184)
+zone = "foret"
+
+[node name="bush_capture298" parent="." unique_id=1506111459 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 200)
+zone = "foret"
+
+[node name="bush_capture299" parent="." unique_id=1657090959 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 216)
+zone = "foret"
+
+[node name="bush_capture300" parent="." unique_id=417217257 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 168)
+zone = "foret"
+
+[node name="bush_capture301" parent="." unique_id=1993452039 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 184)
+zone = "foret"
+
+[node name="bush_capture302" parent="." unique_id=1753550248 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 200)
+zone = "foret"
+
+[node name="bush_capture303" parent="." unique_id=1028466162 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 216)
+zone = "foret"
+
+[node name="bush_capture304" parent="." unique_id=480220898 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 136)
+zone = "foret"
+
+[node name="bush_capture305" parent="." unique_id=875982464 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 152)
+zone = "foret"
+
+[node name="bush_capture306" parent="." unique_id=305955666 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 168)
+zone = "foret"
+
+[node name="bush_capture307" parent="." unique_id=1235289411 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 184)
+zone = "foret"
+
+[node name="bush_capture308" parent="." unique_id=781448733 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, 120)
+zone = "foret"
+
+[node name="bush_capture309" parent="." unique_id=696616246 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, 136)
+zone = "foret"
+
+[node name="bush_capture310" parent="." unique_id=1871371961 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, 152)
+zone = "foret"
+
+[node name="bush_capture311" parent="." unique_id=108119447 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, 168)
+zone = "foret"
+
+[node name="bush_capture312" parent="." unique_id=486073182 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 184)
+zone = "foret"
+
+[node name="bush_capture313" parent="." unique_id=618763466 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 200)
+zone = "foret"
+
+[node name="bush_capture314" parent="." unique_id=1650343114 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 216)
+zone = "foret"
+
+[node name="bush_capture315" parent="." unique_id=181328209 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 232)
+zone = "foret"
+
+[node name="bush_capture316" parent="." unique_id=2073833338 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 200)
+zone = "foret"
+
+[node name="bush_capture317" parent="." unique_id=314264840 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 216)
+zone = "foret"
+
+[node name="bush_capture318" parent="." unique_id=897255993 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 232)
+zone = "foret"
+
+[node name="bush_capture319" parent="." unique_id=1638205325 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 248)
+zone = "foret"
+
+[node name="bush_capture320" parent="." unique_id=1735626789 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 184)
+zone = "foret"
+
+[node name="bush_capture321" parent="." unique_id=2083216792 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 200)
+zone = "foret"
+
+[node name="bush_capture322" parent="." unique_id=1748672108 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 216)
+zone = "foret"
+
+[node name="bush_capture323" parent="." unique_id=1378774033 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 232)
+zone = "foret"
+
+[node name="bush_capture324" parent="." unique_id=1883123857 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 248)
+zone = "foret"
+
+[node name="bush_capture325" parent="." unique_id=1128042209 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 184)
+zone = "foret"
+
+[node name="bush_capture326" parent="." unique_id=568183199 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 200)
+zone = "foret"
+
+[node name="bush_capture327" parent="." unique_id=1698875246 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 216)
+zone = "foret"
+
+[node name="bush_capture328" parent="." unique_id=607940797 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 232)
+zone = "foret"
+
+[node name="bush_capture329" parent="." unique_id=285499308 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 248)
+zone = "foret"
+
+[node name="bush_capture330" parent="." unique_id=1442425240 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 184)
+zone = "foret"
+
+[node name="bush_capture334" parent="." unique_id=1147618986 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1336, 168)
+zone = "foret"
+
+[node name="bush_capture335" parent="." unique_id=344636947 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 168)
+zone = "foret"
+
+[node name="bush_capture336" parent="." unique_id=572921869 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 168)
+zone = "foret"
+
+[node name="bush_capture337" parent="." unique_id=591356205 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 168)
+zone = "foret"
+
+[node name="bush_capture338" parent="." unique_id=2057359865 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 184)
+zone = "foret"
+
+[node name="bush_capture339" parent="." unique_id=1724457391 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 168)
+zone = "foret"
+
+[node name="bush_capture340" parent="." unique_id=1150257892 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 152)
+zone = "foret"
+
+[node name="bush_capture341" parent="." unique_id=821724266 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 136)
+zone = "foret"
+
+[node name="bush_capture342" parent="." unique_id=1330341318 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 152)
+zone = "foret"
+
+[node name="bush_capture343" parent="." unique_id=197446755 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 136)
+zone = "foret"
+
+[node name="bush_capture344" parent="." unique_id=2060315367 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 152)
+zone = "foret"
+
+[node name="bush_capture345" parent="." unique_id=992190663 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 136)
+zone = "foret"
+
+[node name="bush_capture348" parent="." unique_id=1310847241 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 136)
+zone = "foret"
+
+[node name="bush_capture349" parent="." unique_id=44247437 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 152)
+zone = "foret"
+
+[node name="bush_capture350" parent="." unique_id=2006372535 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 120)
+zone = "foret"
+
+[node name="bush_capture351" parent="." unique_id=1078923033 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 104)
+zone = "foret"
+
+[node name="bush_capture352" parent="." unique_id=1833881150 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 104)
+zone = "foret"
+
+[node name="bush_capture353" parent="." unique_id=1851602821 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 120)
+zone = "foret"
+
+[node name="bush_capture354" parent="." unique_id=306945485 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 88)
+zone = "foret"
+
+[node name="bush_capture355" parent="." unique_id=1139258784 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 72)
+zone = "foret"
+
+[node name="bush_capture356" parent="." unique_id=1894884448 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, 88)
+zone = "foret"
+
+[node name="bush_capture357" parent="." unique_id=2147131402 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, 104)
+zone = "foret"
+
+[node name="bush_capture358" parent="." unique_id=221800528 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, 72)
+zone = "foret"
+
+[node name="bush_capture359" parent="." unique_id=1989494363 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, 56)
+zone = "foret"
+
+[node name="bush_capture360" parent="." unique_id=12176919 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1464, 72)
+zone = "foret"
+
+[node name="bush_capture361" parent="." unique_id=964799198 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1464, 88)
+zone = "foret"
+
+[node name="bush_capture362" parent="." unique_id=92519288 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1464, 56)
+zone = "foret"
+
+[node name="bush_capture363" parent="." unique_id=234124552 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1464, 40)
+zone = "foret"
+
+[node name="bush_capture364" parent="." unique_id=1927268412 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1480, 72)
+zone = "foret"
+
+[node name="bush_capture365" parent="." unique_id=1707947552 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1480, 88)
+zone = "foret"
+
+[node name="bush_capture366" parent="." unique_id=1309919121 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1480, 56)
+zone = "foret"
+
+[node name="bush_capture367" parent="." unique_id=1641727626 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1480, 40)
+zone = "foret"
+
+[node name="bush_capture368" parent="." unique_id=1939736292 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1480, 8)
+zone = "foret"
+
+[node name="bush_capture369" parent="." unique_id=1877296255 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1480, 24)
+zone = "foret"
+
+[node name="bush_capture370" parent="." unique_id=850493313 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1480, -8)
+zone = "foret"
+
+[node name="bush_capture371" parent="." unique_id=1136250659 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1480, -24)
+zone = "foret"
+
+[node name="bush_capture372" parent="." unique_id=824947381 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1496, 24)
+zone = "foret"
+
+[node name="bush_capture373" parent="." unique_id=1094942814 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1496, 40)
+zone = "foret"
+
+[node name="bush_capture374" parent="." unique_id=1594925854 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1496, 8)
+zone = "foret"
+
+[node name="bush_capture375" parent="." unique_id=266380788 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1496, -8)
+zone = "foret"
+
+[node name="bush_capture376" parent="." unique_id=1872361843 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1512, -8)
+zone = "foret"
+
+[node name="bush_capture377" parent="." unique_id=945975212 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1512, 8)
+zone = "foret"
+
+[node name="bush_capture380" parent="." unique_id=1575287491 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1544, -24)
+zone = "foret"
+
+[node name="bush_capture480" parent="." unique_id=1626451015 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1608, 32)
+zone = "foret"
+
+[node name="bush_capture481" parent="." unique_id=1132267383 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1592, 32)
+zone = "foret"
+
+[node name="bush_capture482" parent="." unique_id=1789949650 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1624, 16)
+zone = "foret"
+
+[node name="bush_capture381" parent="." unique_id=2000395305 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1528, -24)
+zone = "foret"
+
+[node name="bush_capture382" parent="." unique_id=1604879484 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1464, 24)
+zone = "foret"
+
+[node name="bush_capture383" parent="." unique_id=1929892060 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, 24)
+zone = "foret"
+
+[node name="bush_capture384" parent="." unique_id=1842203550 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, 40)
+zone = "foret"
+
+[node name="bush_capture385" parent="." unique_id=2059746755 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 40)
+zone = "foret"
+
+[node name="bush_capture386" parent="." unique_id=1926619365 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 56)
+zone = "foret"
+
+[node name="bush_capture387" parent="." unique_id=42779606 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 56)
+zone = "foret"
+
+[node name="bush_capture388" parent="." unique_id=535511160 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 72)
+zone = "foret"
+
+[node name="bush_capture389" parent="." unique_id=1343587420 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 72)
+zone = "foret"
+
+[node name="bush_capture390" parent="." unique_id=670869211 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 88)
+zone = "foret"
+
+[node name="bush_capture391" parent="." unique_id=1170234217 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 88)
+zone = "foret"
+
+[node name="bush_capture392" parent="." unique_id=1576797962 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 120)
+zone = "foret"
+
+[node name="bush_capture393" parent="." unique_id=1406926541 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 120)
+zone = "foret"
+
+[node name="bush_capture394" parent="." unique_id=1811442323 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 104)
+zone = "foret"
+
+[node name="bush_capture395" parent="." unique_id=1377706524 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 104)
+zone = "foret"
+
+[node name="bush_capture396" parent="." unique_id=1858703100 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 120)
+zone = "foret"
+
+[node name="bush_capture397" parent="." unique_id=1729423478 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1352, 120)
+zone = "foret"
+
+[node name="bush_capture398" parent="." unique_id=2014220630 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 40)
+zone = "foret"
+
+[node name="bush_capture400" parent="." unique_id=1794056171 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 56)
+zone = "foret"
+
+[node name="bush_capture401" parent="." unique_id=68311014 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 88)
+zone = "foret"
+
+[node name="bush_capture402" parent="." unique_id=615613954 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 72)
+zone = "foret"
+
+[node name="bush_capture403" parent="." unique_id=1911074057 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1368, 104)
+zone = "foret"
+
+[node name="bush_capture404" parent="." unique_id=1161593011 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 24)
+zone = "foret"
+
+[node name="bush_capture405" parent="." unique_id=64851948 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 24)
+zone = "foret"
+
+[node name="bush_capture406" parent="." unique_id=1962217042 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 24)
+zone = "foret"
+
+[node name="bush_capture407" parent="." unique_id=260805114 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1416, 8)
+zone = "foret"
+
+[node name="bush_capture408" parent="." unique_id=1459739090 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 8)
+zone = "foret"
+
+[node name="bush_capture409" parent="." unique_id=923939461 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, 8)
+zone = "foret"
+
+[node name="bush_capture410" parent="." unique_id=518494031 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, 8)
+zone = "foret"
+
+[node name="bush_capture411" parent="." unique_id=976190517 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, -8)
+zone = "foret"
+
+[node name="bush_capture413" parent="." unique_id=1491015100 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1464, 8)
+zone = "foret"
+
+[node name="bush_capture414" parent="." unique_id=1532096515 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1464, -8)
+zone = "foret"
+
+[node name="bush_capture415" parent="." unique_id=983027369 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1448, -24)
+zone = "foret"
+
+[node name="bush_capture416" parent="." unique_id=1258327838 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1464, -24)
+zone = "foret"
+
+[node name="bush_capture417" parent="." unique_id=1285054988 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1496, -24)
+zone = "foret"
+
+[node name="bush_capture418" parent="." unique_id=973487925 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1496, -40)
+zone = "foret"
+
+[node name="bush_capture419" parent="." unique_id=2920086 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1568, 136)
+zone = "foret"
+
+[node name="bush_capture420" parent="." unique_id=1323398648 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1568, 120)
+zone = "foret"
+
+[node name="bush_capture421" parent="." unique_id=1125827627 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1584, 136)
+zone = "foret"
+
+[node name="bush_capture446" parent="." unique_id=357030218 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1600, 136)
+zone = "foret"
+
+[node name="bush_capture422" parent="." unique_id=410149433 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1584, 120)
+zone = "foret"
+
+[node name="bush_capture423" parent="." unique_id=1476516321 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1568, 104)
+zone = "foret"
+
+[node name="bush_capture424" parent="." unique_id=1445195478 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1584, 104)
+zone = "foret"
+
+[node name="bush_capture425" parent="." unique_id=1820225293 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1568, 152)
+zone = "foret"
+
+[node name="bush_capture426" parent="." unique_id=1221463410 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1584, 152)
+zone = "foret"
+
+[node name="bush_capture427" parent="." unique_id=513638480 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1536, 168)
+zone = "foret"
+
+[node name="bush_capture428" parent="." unique_id=1241566195 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1552, 168)
+zone = "foret"
+
+[node name="bush_capture429" parent="." unique_id=1045994563 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1568, 168)
+zone = "foret"
+
+[node name="bush_capture430" parent="." unique_id=1094427077 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1584, 168)
+zone = "foret"
+
+[node name="bush_capture431" parent="." unique_id=386224044 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1568, 184)
+zone = "foret"
+
+[node name="bush_capture432" parent="." unique_id=1015906168 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1584, 184)
+zone = "foret"
+
+[node name="bush_capture433" parent="." unique_id=830328877 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1536, 184)
+zone = "foret"
+
+[node name="bush_capture434" parent="." unique_id=48499391 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1552, 184)
+zone = "foret"
+
+[node name="bush_capture435" parent="." unique_id=161131340 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1536, 200)
+zone = "foret"
+
+[node name="bush_capture436" parent="." unique_id=1504276770 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1552, 216)
+zone = "foret"
+
+[node name="bush_capture439" parent="." unique_id=654932851 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1552, 200)
+zone = "foret"
+
+[node name="bush_capture440" parent="." unique_id=1013874411 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1536, 216)
+zone = "foret"
+
+[node name="bush_capture445" parent="." unique_id=183480982 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1520, 200)
+zone = "foret"
+
+[node name="bush_capture441" parent="." unique_id=704019072 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1552, 232)
+zone = "foret"
+
+[node name="bush_capture442" parent="." unique_id=1032201743 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1536, 232)
+zone = "foret"
+
+[node name="bush_capture443" parent="." unique_id=1819787907 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1520, 216)
+zone = "foret"
+
+[node name="bush_capture444" parent="." unique_id=167508885 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1520, 232)
+zone = "foret"
+
+[node name="bush_capture447" parent="." unique_id=1527210169 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1504, 248)
+zone = "foret"
+
+[node name="bush_capture448" parent="." unique_id=420189461 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1504, 328)
+zone = "foret"
+
+[node name="bush_capture449" parent="." unique_id=697165693 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1456, 360)
+zone = "foret"
+
+[node name="bush_capture437" parent="." unique_id=1397150162 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1568, 200)
+zone = "foret"
+
+[node name="bush_capture438" parent="." unique_id=1352901781 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1568, 216)
+zone = "foret"
+
+[node name="bush_capture412" parent="." unique_id=553760327 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1432, -8)
+zone = "foret"
+
+[node name="bush_capture399" parent="." unique_id=99153700 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1400, 40)
+zone = "foret"
+
+[node name="bush_capture378" parent="." unique_id=418561822 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1512, -24)
+zone = "foret"
+
+[node name="bush_capture379" parent="." unique_id=440085523 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1512, -40)
+zone = "foret"
+
+[node name="bush_capture346" parent="." unique_id=2064839611 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 152)
+zone = "foret"
+
+[node name="bush_capture347" parent="." unique_id=746351667 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1384, 136)
+zone = "foret"
+
+[node name="bush_capture331" parent="." unique_id=195696610 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 200)
+zone = "foret"
+
+[node name="bush_capture332" parent="." unique_id=2075766390 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 216)
+zone = "foret"
+
+[node name="bush_capture333" parent="." unique_id=1900957745 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1320, 232)
+zone = "foret"
+
+[node name="bush_capture262" parent="." unique_id=103765018 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1272, 328)
+zone = "foret"
+
+[node name="bush_capture263" parent="." unique_id=1710265050 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1288, 328)
+zone = "foret"
+
+[node name="bush_capture260" parent="." unique_id=1988635427 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 328)
+zone = "foret"
+
+[node name="bush_capture261" parent="." unique_id=845704528 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1256, 328)
+zone = "foret"
+
+[node name="bush_capture249" parent="." unique_id=138675253 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 136)
+zone = "foret"
+
+[node name="bush_capture250" parent="." unique_id=1988786278 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 136)
+zone = "foret"
+
+[node name="bush_capture246" parent="." unique_id=405538641 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 136)
+zone = "foret"
+
+[node name="bush_capture478" parent="." unique_id=1654773183 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 120)
+zone = "foret"
+
+[node name="bush_capture479" parent="." unique_id=888541678 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 120)
+zone = "foret"
+
+[node name="bush_capture126" parent="." unique_id=56165094 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 296)
+zone = "foret"
+
+[node name="bush_capture127" parent="." unique_id=1638687499 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 296)
+zone = "foret"
+
+[node name="bush_capture128" parent="." unique_id=1325599731 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 312)
+zone = "foret"
+
+[node name="bush_capture129" parent="." unique_id=533391342 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 312)
+zone = "foret"
+
+[node name="bush_capture130" parent="." unique_id=354441331 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 312)
+zone = "foret"
+
+[node name="bush_capture131" parent="." unique_id=439281322 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 312)
+zone = "foret"
+
+[node name="bush_capture132" parent="." unique_id=1090051365 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 312)
+zone = "foret"
+
+[node name="bush_capture133" parent="." unique_id=80697404 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 312)
+zone = "foret"
+
+[node name="bush_capture134" parent="." unique_id=252731913 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 312)
+zone = "foret"
+
+[node name="bush_capture135" parent="." unique_id=1175656844 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 296)
+zone = "foret"
+
+[node name="bush_capture136" parent="." unique_id=2035705015 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1144, 296)
+zone = "foret"
+
+[node name="bush_capture137" parent="." unique_id=1134303290 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1128, 296)
+zone = "foret"
+
+[node name="bush_capture138" parent="." unique_id=1020686612 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1112, 296)
+zone = "foret"
+
+[node name="bush_capture139" parent="." unique_id=1718170929 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1096, 296)
+zone = "foret"
+
+[node name="bush_capture53" parent="." unique_id=905039098 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 424)
+zone = "foret"
+
+[node name="bush_capture54" parent="." unique_id=355722172 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1176, 424)
+zone = "foret"
+
+[node name="bush_capture55" parent="." unique_id=1881394640 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1160, 424)
+zone = "foret"
+
+[node name="bush_capture47" parent="." unique_id=311684822 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1224, 472)
+zone = "foret"
+
+[node name="bush_capture48" parent="." unique_id=1211187940 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1208, 472)
+zone = "foret"
+
+[node name="bush_capture49" parent="." unique_id=1409664506 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1192, 472)
+zone = "foret"
+
+[node name="bush_capture31" parent="." unique_id=1996877765 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1272, 464)
+zone = "foret"
+
+[node name="bush_capture32" parent="." unique_id=459477018 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1288, 464)
+zone = "foret"
+
+[node name="bush_capture33" parent="." unique_id=1764020742 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1240, 464)
+zone = "foret"
+
+[node name="bush_capture34" parent="." unique_id=1894371864 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1256, 464)
+zone = "foret"
+
+[node name="bush_capture12" parent="." unique_id=133327531 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1440, 424)
+zone = "foret"
+
+[node name="bush_capture13" parent="." unique_id=366950562 groups=["bushes"] instance=ExtResource("1_tfex5")]
+position = Vector2(1440, 440)
+zone = "foret"
