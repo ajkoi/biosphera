@@ -35,9 +35,8 @@ var zones = {
 	"prairie" : ["poule", "coccinelle", "cheval", "grenouille"], # vert clair
 	"riviere":["croco", "truite"], # bleu dans riviere 
 	"mer":["grand_requin", "truite", "baleine", "crabe", "homard", "tortue", "dauphin", "daurade", "truite"], # bleu dans mer
-	"foret_fonce":["boa", "chat", "coccinelle", "fourmi", "grenouille"], # vert foncé
 	"marais":["boa", "croco"], # turquoise
-	"foret_claire":["poule", "chat", "coccinelle", "fourmi", "grenouille"],
+	"foret":["poule", "chat", "coccinelle", "fourmi", "grenouille", "boa", "chat", "coccinelle", "fourmi", "grenouille"], # vert foncé
 	"caverne": ["chauve_souris"],
 	"desert": ["kangourou", "elephant"], # jaune
 	"fossile": ["tigre", "archaeopteryx", "pteranodon", "ichtyosaure", "thylacine"],
@@ -48,9 +47,9 @@ var count_zone = {
 	"prairie" : 0,
 	"riviere":0,
 	"mer":0,
-	"foret_fonce":0,
+	"foret":0,
 	"marais":0,
-	"foret_claire":0,
+	"neige":0,
 	"caverne": 0,
 	"desert": 0,
 	"fossile": 0,
