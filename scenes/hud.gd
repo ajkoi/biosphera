@@ -3,6 +3,7 @@ extends CanvasLayer
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	$touche_A.visible = false
 	$Label.visible = false
 	$bulle.visible = false
 	for place in get_tree().get_nodes_in_group("capture_places"): # connecter à tout les nodes
@@ -10,6 +11,10 @@ func _ready() -> void:
 	for bush in get_tree().get_nodes_in_group("bushes"):
 		bush.on_capture.connect(on_capture)
 		bush.on_capture_label.connect(on_capture_label)
+	for interact in get_tree().get_nodes_in_group("interagibles"):
+		interact.body_entered.connect(body_enter)
+		interact.body_exited.connect(body_exit)
+	
 
 
 func on_capture(card):
@@ -18,7 +23,11 @@ func on_capture(card):
 	$bulle.visible = true
 	$Label.text = "Tu as débloqué le/la " + card
 
-
+func body_enter(_body):
+	$touche_A.visible = true
+	
+func body_exit(_body):
+	$touche_A.visible = false
 func _on_timer_timeout() -> void:
 	$Label.visible = false
 	$bulle.visible = false
