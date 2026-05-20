@@ -43,6 +43,17 @@ var zones = {
 	"neige": ["cheval", "chauve_souris"] # bleu clair
 }
 
+func revert_dic(dic: Dictionary):
+	var cards_zones = {}
+	for card in possessed_card.keys():
+		cards_zones[card] = {}
+	for key in dic.keys():
+		for card in dic[key]:
+			cards_zones[card][key] = null
+	return cards_zones
+
+@onready var card_zones = revert_dic(zones)
+
 var count_zone = {
 	"prairie" : 0,
 	"riviere":0,

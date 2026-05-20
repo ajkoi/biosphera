@@ -504,10 +504,6 @@ zone = "desert"
 position = Vector2(1448, 600)
 zone = "desert"
 
-[node name="bush_capture185" parent="." unique_id=1983759795 groups=["bushes"] instance=ExtResource("1_ljrqd")]
-position = Vector2(1464, 600)
-zone = "desert"
-
 [node name="bush_capture109" parent="." unique_id=58773818 groups=["bushes"] instance=ExtResource("1_ljrqd")]
 position = Vector2(1384, 568)
 zone = "desert"

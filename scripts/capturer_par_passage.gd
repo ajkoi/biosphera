@@ -1,6 +1,6 @@
 extends Area2D
 @export var zone :String
-@export var PROBA = 0.1
+@export var PROBA = 0.9
 var rng = RandomNumberGenerator.new()
 @onready var lendoc = len(global.zones[zone])
 signal on_capture(card)
@@ -11,20 +11,27 @@ func _on_body_entered(body: Node2D) -> void: # Pour actualiser, avec une proba u
 	if "player" in body.get_groups():
 		var cartes = global.zones[zone]
 		var count = 0
+		var carte_exam = null
 		if global.count_zone[zone] == lendoc:
 			return
 		if rng.randf() <= PROBA:
 			var randn = rng.randi_range(0, len(global.zones[zone]) - 1)
-
+			carte_exam = cartes[randn]
+			
 			while global.possessed_card[cartes[randn]][0] and global.possessed_card[cartes[randn]][1]: # on veut que la carte n'ai jamais été déocouverte
 				count += 1
 				if count >= lendoc:
 					return 
 				randn = rng.randi_range(0, len(global.zones[zone]) - 1)
-			if global.possessed_card[cartes[randn]][0]: # si la carte à été trouvée, on actualise le label
-				global.possessed_card[cartes[randn]][1] = true
-				on_capture_label.emit(cartes[randn])
+				carte_exam = cartes[randn]
+			if global.possessed_card[carte_exam][0]: # si la carte à été trouvée, on actualise le label
+				global.possessed_card[carte_exam][1] = true
+				on_capture_label.emit(carte_exam)
+				for zones in global.card_zones[carte_exam].keys():
+					print(carte_exam)
+					global.count_zone[zones] += 1
+					print(global.count_zone)
+
 			else:
-				global.possessed_card[cartes[randn]][0] = true # si la carte n'a pas été trouvée, on rajoute la carte
-				on_capture.emit(cartes[randn])
-				global.count_zone[zone] += 1
+				global.possessed_card[carte_exam][0] = true # si la carte n'a pas été trouvée, on rajoute la carte
+				on_capture.emit(carte_exam)

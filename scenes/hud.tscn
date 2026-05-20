@@ -32,12 +32,11 @@ text = "LE CACA EST LIQUIDE"
 metadata/_edit_use_anchors_ = true
 
 [node name="touche_A" type="RichTextLabel" parent="." unique_id=2005395103]
-visible = false
 offset_top = 448.0
 offset_right = 208.0
 offset_bottom = 512.0
 bbcode_enabled = true
-text = "[img=64x64]res://assets/touches/touche_A.png[/img] Interagir"
+scroll_active = false
 
 [node name="touche_E" type="RichTextLabel" parent="." unique_id=1626540496]
 offset_top = 512.0

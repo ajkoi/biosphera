@@ -1012,14 +1012,6 @@ zone = "riviere"
 position = Vector2(968, 296)
 zone = "riviere"
 
-[node name="bush_capture156" parent="." unique_id=1078744193 groups=["bushes"] instance=ExtResource("1_fwqmq")]
-position = Vector2(968, 312)
-zone = "riviere"
-
-[node name="bush_capture157" parent="." unique_id=555419774 groups=["bushes"] instance=ExtResource("1_fwqmq")]
-position = Vector2(968, 328)
-zone = "riviere"
-
 [node name="bush_capture158" parent="." unique_id=1809812012 groups=["bushes"] instance=ExtResource("1_fwqmq")]
 position = Vector2(968, 280)
 zone = "riviere"
@@ -1034,10 +1026,6 @@ zone = "riviere"
 
 [node name="bush_capture161" parent="." unique_id=10548289 groups=["bushes"] instance=ExtResource("1_fwqmq")]
 position = Vector2(968, 392)
-zone = "riviere"
-
-[node name="bush_capture162" parent="." unique_id=735435093 groups=["bushes"] instance=ExtResource("1_fwqmq")]
-position = Vector2(968, 344)
 zone = "riviere"
 
 [node name="bush_capture163" parent="." unique_id=1267072472 groups=["bushes"] instance=ExtResource("1_fwqmq")]
@@ -1112,32 +1100,12 @@ zone = "riviere"
 position = Vector2(984, 536)
 zone = "riviere"
 
-[node name="bush_capture181" parent="." unique_id=330600495 groups=["bushes"] instance=ExtResource("1_fwqmq")]
-position = Vector2(984, 552)
-zone = "riviere"
-
 [node name="bush_capture182" parent="." unique_id=887480004 groups=["bushes"] instance=ExtResource("1_fwqmq")]
 position = Vector2(984, 504)
 zone = "riviere"
 
-[node name="bush_capture183" parent="." unique_id=165358428 groups=["bushes"] instance=ExtResource("1_fwqmq")]
-position = Vector2(968, 552)
-zone = "riviere"
-
-[node name="bush_capture184" parent="." unique_id=1250692066 groups=["bushes"] instance=ExtResource("1_fwqmq")]
-position = Vector2(968, 568)
-zone = "riviere"
-
-[node name="bush_capture185" parent="." unique_id=1851954436 groups=["bushes"] instance=ExtResource("1_fwqmq")]
-position = Vector2(968, 584)
-zone = "riviere"
-
 [node name="bush_capture186" parent="." unique_id=558378942 groups=["bushes"] instance=ExtResource("1_fwqmq")]
 position = Vector2(968, 536)
-zone = "riviere"
-
-[node name="bush_capture187" parent="." unique_id=1933157874 groups=["bushes"] instance=ExtResource("1_fwqmq")]
-position = Vector2(984, 584)
 zone = "riviere"
 
 [node name="bush_capture188" parent="." unique_id=922175820 groups=["bushes"] instance=ExtResource("1_fwqmq")]
@@ -1146,10 +1114,6 @@ zone = "riviere"
 
 [node name="bush_capture189" parent="." unique_id=1804648759 groups=["bushes"] instance=ExtResource("1_fwqmq")]
 position = Vector2(984, 616)
-zone = "riviere"
-
-[node name="bush_capture190" parent="." unique_id=1289978512 groups=["bushes"] instance=ExtResource("1_fwqmq")]
-position = Vector2(984, 568)
 zone = "riviere"
 
 [node name="bush_capture191" parent="." unique_id=2064466330 groups=["bushes"] instance=ExtResource("1_fwqmq")]
