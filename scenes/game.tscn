@@ -16,6 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://vqqbaictyboi" path="res://assets/decors/all_houses.png" id="13_pl11u"]
 [ext_resource type="Texture2D" uid="uid://boomj3s4fxqn6" path="res://assets/decors/all_capturable_place.png" id="14_bhx41"]
 [ext_resource type="PackedScene" uid="uid://0if7yhswhs8" path="res://scenes/pour_capturer.tscn" id="14_trtic"]
+[ext_resource type="PackedScene" uid="uid://bkc45dtehxpl8" path="res://scenes/capturer_par_passage.tscn" id="15_ssvqc"]
 [ext_resource type="PackedScene" uid="uid://bi6ioiwpt3e6u" path="res://scenes/scenes_capture_bushes/prairie.tscn" id="16_264po"]
 [ext_resource type="PackedScene" uid="uid://cohd5ti0xfusp" path="res://scenes/pour_interagir_cours.tscn" id="16_rysoc"]
 [ext_resource type="PackedScene" uid="uid://cpm420ujrii00" path="res://scenes/scenes_capture_bushes/neige.tscn" id="17_5newe"]
@@ -6316,6 +6317,1938 @@ card = "card2"
 
 [node name="marais" parent="capture_places/bush" unique_id=1379977943 instance=ExtResource("20_37s47")]
 
+[node name="riviere" type="Node2D" parent="capture_places/bush" unique_id=1912071845]
+
+[node name="bush_capture" parent="capture_places/bush/riviere" unique_id=703102027 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1224, 136)
+zone = "foret"
+
+[node name="bush_capture2" parent="capture_places/bush/riviere" unique_id=1806551219 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1240, 136)
+zone = "foret"
+
+[node name="bush_capture3" parent="capture_places/bush/riviere" unique_id=2122167347 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1256, 136)
+zone = "foret"
+
+[node name="bush_capture4" parent="capture_places/bush/riviere" unique_id=293140158 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1256, 152)
+zone = "foret"
+
+[node name="bush_capture5" parent="capture_places/bush/riviere" unique_id=2069879202 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1272, 152)
+zone = "foret"
+
+[node name="bush_capture6" parent="capture_places/bush/riviere" unique_id=1828717091 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1272, 168)
+zone = "foret"
+
+[node name="bush_capture7" parent="capture_places/bush/riviere" unique_id=1552579313 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1272, 184)
+zone = "foret"
+
+[node name="bush_capture8" parent="capture_places/bush/riviere" unique_id=1584945433 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1288, 184)
+zone = "foret"
+
+[node name="bush_capture11" parent="capture_places/bush/riviere" unique_id=226069056 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1272, 200)
+zone = "foret"
+
+[node name="bush_capture12" parent="capture_places/bush/riviere" unique_id=1335206918 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1288, 200)
+zone = "foret"
+
+[node name="bush_capture15" parent="capture_places/bush/riviere" unique_id=1783410992 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1288, 232)
+zone = "foret"
+
+[node name="bush_capture16" parent="capture_places/bush/riviere" unique_id=1877687055 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1288, 136)
+zone = "foret"
+
+[node name="bush_capture17" parent="capture_places/bush/riviere" unique_id=2040910442 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1272, 136)
+zone = "foret"
+
+[node name="bush_capture18" parent="capture_places/bush/riviere" unique_id=68068614 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1288, 120)
+zone = "foret"
+
+[node name="bush_capture19" parent="capture_places/bush/riviere" unique_id=587404659 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1272, 120)
+zone = "foret"
+
+[node name="bush_capture20" parent="capture_places/bush/riviere" unique_id=609105114 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1224, 120)
+zone = "foret"
+
+[node name="bush_capture21" parent="capture_places/bush/riviere" unique_id=335429663 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1208, 120)
+zone = "foret"
+
+[node name="bush_capture22" parent="capture_places/bush/riviere" unique_id=1697380328 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1256, 120)
+zone = "foret"
+
+[node name="bush_capture23" parent="capture_places/bush/riviere" unique_id=1255479571 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1240, 120)
+zone = "foret"
+
+[node name="bush_capture24" parent="capture_places/bush/riviere" unique_id=1296719448 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1192, 120)
+zone = "foret"
+
+[node name="bush_capture25" parent="capture_places/bush/riviere" unique_id=2049991058 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1272, 104)
+zone = "foret"
+
+[node name="bush_capture26" parent="capture_places/bush/riviere" unique_id=1243037358 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1224, 104)
+zone = "foret"
+
+[node name="bush_capture27" parent="capture_places/bush/riviere" unique_id=36218523 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1208, 104)
+zone = "foret"
+
+[node name="bush_capture28" parent="capture_places/bush/riviere" unique_id=51589755 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1256, 104)
+zone = "foret"
+
+[node name="bush_capture29" parent="capture_places/bush/riviere" unique_id=1368768957 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1240, 104)
+zone = "foret"
+
+[node name="bush_capture30" parent="capture_places/bush/riviere" unique_id=809887218 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1192, 104)
+zone = "foret"
+
+[node name="bush_capture31" parent="capture_places/bush/riviere" unique_id=2075409313 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1256, 88)
+zone = "foret"
+
+[node name="bush_capture32" parent="capture_places/bush/riviere" unique_id=245231862 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1208, 88)
+zone = "foret"
+
+[node name="bush_capture33" parent="capture_places/bush/riviere" unique_id=1424384131 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1192, 88)
+zone = "foret"
+
+[node name="bush_capture34" parent="capture_places/bush/riviere" unique_id=1803815951 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1240, 88)
+zone = "foret"
+
+[node name="bush_capture196" parent="capture_places/bush/riviere" unique_id=822383533 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1336, 104)
+zone = "foret"
+
+[node name="bush_capture197" parent="capture_places/bush/riviere" unique_id=1217546755 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1336, 88)
+zone = "foret"
+
+[node name="bush_capture199" parent="capture_places/bush/riviere" unique_id=1813782181 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, 88)
+zone = "foret"
+
+[node name="bush_capture200" parent="capture_places/bush/riviere" unique_id=610162083 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1336, 72)
+zone = "foret"
+
+[node name="bush_capture201" parent="capture_places/bush/riviere" unique_id=655246737 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, 72)
+zone = "foret"
+
+[node name="bush_capture202" parent="capture_places/bush/riviere" unique_id=1948961584 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, 56)
+zone = "foret"
+
+[node name="bush_capture203" parent="capture_places/bush/riviere" unique_id=1952367627 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, 56)
+zone = "foret"
+
+[node name="bush_capture204" parent="capture_places/bush/riviere" unique_id=714866371 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1320, 56)
+zone = "foret"
+
+[node name="bush_capture205" parent="capture_places/bush/riviere" unique_id=2074794648 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1336, 56)
+zone = "foret"
+
+[node name="bush_capture206" parent="capture_places/bush/riviere" unique_id=1175414773 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1304, 40)
+zone = "foret"
+
+[node name="bush_capture207" parent="capture_places/bush/riviere" unique_id=1838340592 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1320, 40)
+zone = "foret"
+
+[node name="bush_capture208" parent="capture_places/bush/riviere" unique_id=1811176590 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1336, 40)
+zone = "foret"
+
+[node name="bush_capture209" parent="capture_places/bush/riviere" unique_id=886162896 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, 40)
+zone = "foret"
+
+[node name="bush_capture210" parent="capture_places/bush/riviere" unique_id=958673702 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, 8)
+zone = "foret"
+
+[node name="bush_capture211" parent="capture_places/bush/riviere" unique_id=324916258 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, 8)
+zone = "foret"
+
+[node name="bush_capture220" parent="capture_places/bush/riviere" unique_id=1294283179 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -8)
+zone = "foret"
+
+[node name="bush_capture221" parent="capture_places/bush/riviere" unique_id=9835651 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -8)
+zone = "foret"
+
+[node name="bush_capture222" parent="capture_places/bush/riviere" unique_id=980429194 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -24)
+zone = "foret"
+
+[node name="bush_capture223" parent="capture_places/bush/riviere" unique_id=1464832286 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1400, -24)
+zone = "foret"
+
+[node name="bush_capture224" parent="capture_places/bush/riviere" unique_id=891505805 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1400, -40)
+zone = "foret"
+
+[node name="bush_capture242" parent="capture_places/bush/riviere" unique_id=1737409024 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -40)
+zone = "foret"
+
+[node name="bush_capture243" parent="capture_places/bush/riviere" unique_id=1043430516 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, -8)
+zone = "foret"
+
+[node name="bush_capture244" parent="capture_places/bush/riviere" unique_id=1589413941 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1336, -8)
+zone = "foret"
+
+[node name="bush_capture225" parent="capture_places/bush/riviere" unique_id=1241842889 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1416, -40)
+zone = "foret"
+
+[node name="bush_capture226" parent="capture_places/bush/riviere" unique_id=577220805 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1416, -56)
+zone = "foret"
+
+[node name="bush_capture289" parent="capture_places/bush/riviere" unique_id=2011601583 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1432, -72)
+zone = "foret"
+
+[node name="bush_capture227" parent="capture_places/bush/riviere" unique_id=1959330241 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1432, -56)
+zone = "foret"
+
+[node name="bush_capture228" parent="capture_places/bush/riviere" unique_id=222977450 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1448, -56)
+zone = "foret"
+
+[node name="bush_capture229" parent="capture_places/bush/riviere" unique_id=1789267652 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1464, -56)
+zone = "foret"
+
+[node name="bush_capture230" parent="capture_places/bush/riviere" unique_id=59042869 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1448, -72)
+zone = "foret"
+
+[node name="bush_capture231" parent="capture_places/bush/riviere" unique_id=877344090 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1464, -72)
+zone = "foret"
+
+[node name="bush_capture232" parent="capture_places/bush/riviere" unique_id=363213199 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1448, -88)
+zone = "foret"
+
+[node name="bush_capture233" parent="capture_places/bush/riviere" unique_id=696209012 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1464, -88)
+zone = "foret"
+
+[node name="bush_capture245" parent="capture_places/bush/riviere" unique_id=1543122012 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1480, -72)
+zone = "foret"
+
+[node name="bush_capture246" parent="capture_places/bush/riviere" unique_id=988928840 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1496, -72)
+zone = "foret"
+
+[node name="bush_capture247" parent="capture_places/bush/riviere" unique_id=1734469525 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1480, -88)
+zone = "foret"
+
+[node name="bush_capture248" parent="capture_places/bush/riviere" unique_id=1045716514 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1496, -88)
+zone = "foret"
+
+[node name="bush_capture249" parent="capture_places/bush/riviere" unique_id=3049210 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, -72)
+zone = "foret"
+
+[node name="bush_capture250" parent="capture_places/bush/riviere" unique_id=1191018883 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1528, -72)
+zone = "foret"
+
+[node name="bush_capture251" parent="capture_places/bush/riviere" unique_id=1978669792 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1512, -88)
+zone = "foret"
+
+[node name="bush_capture252" parent="capture_places/bush/riviere" unique_id=518116985 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1528, -88)
+zone = "foret"
+
+[node name="bush_capture253" parent="capture_places/bush/riviere" unique_id=801939029 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1544, -72)
+zone = "foret"
+
+[node name="bush_capture254" parent="capture_places/bush/riviere" unique_id=1132487278 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1560, -72)
+zone = "foret"
+
+[node name="bush_capture255" parent="capture_places/bush/riviere" unique_id=2041858515 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1544, -88)
+zone = "foret"
+
+[node name="bush_capture256" parent="capture_places/bush/riviere" unique_id=224886775 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1560, -88)
+zone = "foret"
+
+[node name="bush_capture257" parent="capture_places/bush/riviere" unique_id=518202351 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1576, -72)
+zone = "foret"
+
+[node name="bush_capture258" parent="capture_places/bush/riviere" unique_id=1673850891 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1592, -72)
+zone = "foret"
+
+[node name="bush_capture259" parent="capture_places/bush/riviere" unique_id=389449137 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1576, -88)
+zone = "foret"
+
+[node name="bush_capture260" parent="capture_places/bush/riviere" unique_id=1251815295 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1592, -88)
+zone = "foret"
+
+[node name="bush_capture261" parent="capture_places/bush/riviere" unique_id=944943686 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1608, -72)
+zone = "foret"
+
+[node name="bush_capture262" parent="capture_places/bush/riviere" unique_id=1623922019 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1624, -72)
+zone = "foret"
+
+[node name="bush_capture263" parent="capture_places/bush/riviere" unique_id=208639876 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1608, -88)
+zone = "foret"
+
+[node name="bush_capture264" parent="capture_places/bush/riviere" unique_id=554588634 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1624, -88)
+zone = "foret"
+
+[node name="bush_capture265" parent="capture_places/bush/riviere" unique_id=1103595866 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1640, -72)
+zone = "foret"
+
+[node name="bush_capture266" parent="capture_places/bush/riviere" unique_id=99625838 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1656, -72)
+zone = "foret"
+
+[node name="bush_capture267" parent="capture_places/bush/riviere" unique_id=1104601356 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1640, -88)
+zone = "foret"
+
+[node name="bush_capture268" parent="capture_places/bush/riviere" unique_id=670639974 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1656, -88)
+zone = "foret"
+
+[node name="bush_capture269" parent="capture_places/bush/riviere" unique_id=939679722 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1672, -72)
+zone = "foret"
+
+[node name="bush_capture270" parent="capture_places/bush/riviere" unique_id=1650158837 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1688, -72)
+zone = "foret"
+
+[node name="bush_capture271" parent="capture_places/bush/riviere" unique_id=990787455 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1672, -88)
+zone = "foret"
+
+[node name="bush_capture273" parent="capture_places/bush/riviere" unique_id=1125038076 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1544, -104)
+zone = "foret"
+
+[node name="bush_capture274" parent="capture_places/bush/riviere" unique_id=1446595724 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1560, -104)
+zone = "foret"
+
+[node name="bush_capture275" parent="capture_places/bush/riviere" unique_id=890425708 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1576, -104)
+zone = "foret"
+
+[node name="bush_capture276" parent="capture_places/bush/riviere" unique_id=1614432657 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1592, -104)
+zone = "foret"
+
+[node name="bush_capture277" parent="capture_places/bush/riviere" unique_id=1345612247 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1608, -104)
+zone = "foret"
+
+[node name="bush_capture278" parent="capture_places/bush/riviere" unique_id=1157759467 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1624, -104)
+zone = "foret"
+
+[node name="bush_capture279" parent="capture_places/bush/riviere" unique_id=504554087 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1640, -104)
+zone = "foret"
+
+[node name="bush_capture280" parent="capture_places/bush/riviere" unique_id=1578378376 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1656, -104)
+zone = "foret"
+
+[node name="bush_capture281" parent="capture_places/bush/riviere" unique_id=2035817747 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1672, -104)
+zone = "foret"
+
+[node name="bush_capture272" parent="capture_places/bush/riviere" unique_id=1646113711 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1688, -88)
+zone = "foret"
+
+[node name="bush_capture234" parent="capture_places/bush/riviere" unique_id=1389770553 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, -24)
+zone = "foret"
+
+[node name="bush_capture235" parent="capture_places/bush/riviere" unique_id=848345788 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -24)
+zone = "foret"
+
+[node name="bush_capture236" parent="capture_places/bush/riviere" unique_id=481171670 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, -40)
+zone = "foret"
+
+[node name="bush_capture237" parent="capture_places/bush/riviere" unique_id=1193277441 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -40)
+zone = "foret"
+
+[node name="bush_capture238" parent="capture_places/bush/riviere" unique_id=605373543 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -56)
+zone = "foret"
+
+[node name="bush_capture239" parent="capture_places/bush/riviere" unique_id=899627020 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1400, -56)
+zone = "foret"
+
+[node name="bush_capture240" parent="capture_places/bush/riviere" unique_id=1793781385 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -72)
+zone = "foret"
+
+[node name="bush_capture282" parent="capture_places/bush/riviere" unique_id=1850007797 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -56)
+zone = "foret"
+
+[node name="bush_capture283" parent="capture_places/bush/riviere" unique_id=1943398009 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, -56)
+zone = "foret"
+
+[node name="bush_capture284" parent="capture_places/bush/riviere" unique_id=1241291207 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, -72)
+zone = "foret"
+
+[node name="bush_capture285" parent="capture_places/bush/riviere" unique_id=351184 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -72)
+zone = "foret"
+
+[node name="bush_capture286" parent="capture_places/bush/riviere" unique_id=1704319381 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1416, -72)
+zone = "foret"
+
+[node name="bush_capture241" parent="capture_places/bush/riviere" unique_id=590731581 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1400, -72)
+zone = "foret"
+
+[node name="bush_capture287" parent="capture_places/bush/riviere" unique_id=1511991266 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1432, -88)
+zone = "foret"
+
+[node name="bush_capture288" parent="capture_places/bush/riviere" unique_id=558528653 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1416, -88)
+zone = "foret"
+
+[node name="bush_capture290" parent="capture_places/bush/riviere" unique_id=1210194852 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1400, -88)
+zone = "foret"
+
+[node name="bush_capture291" parent="capture_places/bush/riviere" unique_id=1810246782 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -88)
+zone = "foret"
+
+[node name="bush_capture292" parent="capture_places/bush/riviere" unique_id=226468265 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -120)
+zone = "foret"
+
+[node name="bush_capture293" parent="capture_places/bush/riviere" unique_id=418473453 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1432, -104)
+zone = "foret"
+
+[node name="bush_capture294" parent="capture_places/bush/riviere" unique_id=1403803847 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1416, -104)
+zone = "foret"
+
+[node name="bush_capture295" parent="capture_places/bush/riviere" unique_id=656561631 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1400, -104)
+zone = "foret"
+
+[node name="bush_capture296" parent="capture_places/bush/riviere" unique_id=837798782 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -104)
+zone = "foret"
+
+[node name="bush_capture299" parent="capture_places/bush/riviere" unique_id=1700598438 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -136)
+zone = "foret"
+
+[node name="bush_capture300" parent="capture_places/bush/riviere" unique_id=59553378 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -152)
+zone = "foret"
+
+[node name="bush_capture301" parent="capture_places/bush/riviere" unique_id=298137634 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -184)
+zone = "foret"
+
+[node name="bush_capture302" parent="capture_places/bush/riviere" unique_id=483457489 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -168)
+zone = "foret"
+
+[node name="bush_capture303" parent="capture_places/bush/riviere" unique_id=181281301 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -136)
+zone = "foret"
+
+[node name="bush_capture304" parent="capture_places/bush/riviere" unique_id=1503472365 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -152)
+zone = "foret"
+
+[node name="bush_capture305" parent="capture_places/bush/riviere" unique_id=1899495025 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -184)
+zone = "foret"
+
+[node name="bush_capture306" parent="capture_places/bush/riviere" unique_id=1780473515 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -168)
+zone = "foret"
+
+[node name="bush_capture307" parent="capture_places/bush/riviere" unique_id=1946422230 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -200)
+zone = "foret"
+
+[node name="bush_capture308" parent="capture_places/bush/riviere" unique_id=433285145 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -216)
+zone = "foret"
+
+[node name="bush_capture309" parent="capture_places/bush/riviere" unique_id=1283454746 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -248)
+zone = "foret"
+
+[node name="bush_capture310" parent="capture_places/bush/riviere" unique_id=550540957 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -232)
+zone = "foret"
+
+[node name="bush_capture311" parent="capture_places/bush/riviere" unique_id=1628131579 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -200)
+zone = "foret"
+
+[node name="bush_capture312" parent="capture_places/bush/riviere" unique_id=993080272 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -216)
+zone = "foret"
+
+[node name="bush_capture313" parent="capture_places/bush/riviere" unique_id=1170164614 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -248)
+zone = "foret"
+
+[node name="bush_capture314" parent="capture_places/bush/riviere" unique_id=1887400083 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -232)
+zone = "foret"
+
+[node name="bush_capture315" parent="capture_places/bush/riviere" unique_id=246783675 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -264)
+zone = "foret"
+
+[node name="bush_capture316" parent="capture_places/bush/riviere" unique_id=1862083766 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -296)
+zone = "foret"
+
+[node name="bush_capture317" parent="capture_places/bush/riviere" unique_id=648313657 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1384, -280)
+zone = "foret"
+
+[node name="bush_capture318" parent="capture_places/bush/riviere" unique_id=1719072844 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -264)
+zone = "foret"
+
+[node name="bush_capture319" parent="capture_places/bush/riviere" unique_id=566620316 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -296)
+zone = "foret"
+
+[node name="bush_capture320" parent="capture_places/bush/riviere" unique_id=1855175258 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -280)
+zone = "foret"
+
+[node name="bush_capture297" parent="capture_places/bush/riviere" unique_id=215062417 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -104)
+zone = "foret"
+
+[node name="bush_capture298" parent="capture_places/bush/riviere" unique_id=1598817949 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, -88)
+zone = "foret"
+
+[node name="bush_capture218" parent="capture_places/bush/riviere" unique_id=515794786 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1336, 8)
+zone = "foret"
+
+[node name="bush_capture219" parent="capture_places/bush/riviere" unique_id=986225431 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, 8)
+zone = "foret"
+
+[node name="bush_capture212" parent="capture_places/bush/riviere" unique_id=1649965336 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1288, 24)
+zone = "foret"
+
+[node name="bush_capture213" parent="capture_places/bush/riviere" unique_id=229561146 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1304, 24)
+zone = "foret"
+
+[node name="bush_capture214" parent="capture_places/bush/riviere" unique_id=1356412866 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1320, 24)
+zone = "foret"
+
+[node name="bush_capture215" parent="capture_places/bush/riviere" unique_id=457448969 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1336, 24)
+zone = "foret"
+
+[node name="bush_capture216" parent="capture_places/bush/riviere" unique_id=1786197544 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1352, 24)
+zone = "foret"
+
+[node name="bush_capture217" parent="capture_places/bush/riviere" unique_id=1216046273 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, 24)
+zone = "foret"
+
+[node name="bush_capture35" parent="capture_places/bush/riviere" unique_id=2075124087 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1224, 88)
+zone = "foret"
+
+[node name="bush_capture36" parent="capture_places/bush/riviere" unique_id=2081780126 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1176, 88)
+zone = "foret"
+
+[node name="bush_capture37" parent="capture_places/bush/riviere" unique_id=247703214 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1240, 72)
+zone = "foret"
+
+[node name="bush_capture38" parent="capture_places/bush/riviere" unique_id=1921007273 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1192, 72)
+zone = "foret"
+
+[node name="bush_capture39" parent="capture_places/bush/riviere" unique_id=759804083 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1176, 72)
+zone = "foret"
+
+[node name="bush_capture40" parent="capture_places/bush/riviere" unique_id=1802770624 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1224, 72)
+zone = "foret"
+
+[node name="bush_capture41" parent="capture_places/bush/riviere" unique_id=1822846435 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1208, 72)
+zone = "foret"
+
+[node name="bush_capture42" parent="capture_places/bush/riviere" unique_id=1223105461 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1160, 72)
+zone = "foret"
+
+[node name="bush_capture43" parent="capture_places/bush/riviere" unique_id=1967000542 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1160, 88)
+zone = "foret"
+
+[node name="bush_capture44" parent="capture_places/bush/riviere" unique_id=1400201997 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1112, 88)
+zone = "foret"
+
+[node name="bush_capture45" parent="capture_places/bush/riviere" unique_id=394915625 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1096, 88)
+zone = "foret"
+
+[node name="bush_capture46" parent="capture_places/bush/riviere" unique_id=1800047465 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1144, 88)
+zone = "foret"
+
+[node name="bush_capture47" parent="capture_places/bush/riviere" unique_id=448665406 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1128, 88)
+zone = "foret"
+
+[node name="bush_capture48" parent="capture_places/bush/riviere" unique_id=626852697 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1080, 88)
+zone = "foret"
+
+[node name="bush_capture49" parent="capture_places/bush/riviere" unique_id=1423564710 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1144, 72)
+zone = "foret"
+
+[node name="bush_capture50" parent="capture_places/bush/riviere" unique_id=1087428911 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1096, 72)
+zone = "foret"
+
+[node name="bush_capture51" parent="capture_places/bush/riviere" unique_id=1983316341 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1080, 72)
+zone = "foret"
+
+[node name="bush_capture52" parent="capture_places/bush/riviere" unique_id=80800555 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1128, 72)
+zone = "foret"
+
+[node name="bush_capture53" parent="capture_places/bush/riviere" unique_id=1651554676 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1112, 72)
+zone = "foret"
+
+[node name="bush_capture54" parent="capture_places/bush/riviere" unique_id=1094056090 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1064, 72)
+zone = "foret"
+
+[node name="bush_capture55" parent="capture_places/bush/riviere" unique_id=2026019516 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1128, 104)
+zone = "foret"
+
+[node name="bush_capture56" parent="capture_places/bush/riviere" unique_id=1243169874 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1080, 104)
+zone = "foret"
+
+[node name="bush_capture57" parent="capture_places/bush/riviere" unique_id=249428696 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1064, 104)
+zone = "foret"
+
+[node name="bush_capture58" parent="capture_places/bush/riviere" unique_id=1686844783 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1112, 104)
+zone = "foret"
+
+[node name="bush_capture59" parent="capture_places/bush/riviere" unique_id=146287191 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1096, 104)
+zone = "foret"
+
+[node name="bush_capture60" parent="capture_places/bush/riviere" unique_id=1886758301 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1048, 104)
+zone = "foret"
+
+[node name="bush_capture61" parent="capture_places/bush/riviere" unique_id=461553965 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1064, 88)
+zone = "foret"
+
+[node name="bush_capture62" parent="capture_places/bush/riviere" unique_id=1561614250 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 88)
+zone = "foret"
+
+[node name="bush_capture63" parent="capture_places/bush/riviere" unique_id=1560596834 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1000, 88)
+zone = "foret"
+
+[node name="bush_capture64" parent="capture_places/bush/riviere" unique_id=1125532851 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1048, 88)
+zone = "foret"
+
+[node name="bush_capture65" parent="capture_places/bush/riviere" unique_id=179520623 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 88)
+zone = "foret"
+
+[node name="bush_capture66" parent="capture_places/bush/riviere" unique_id=469863553 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 88)
+zone = "foret"
+
+[node name="bush_capture67" parent="capture_places/bush/riviere" unique_id=155548407 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1080, 120)
+zone = "foret"
+
+[node name="bush_capture68" parent="capture_places/bush/riviere" unique_id=129236180 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 120)
+zone = "foret"
+
+[node name="bush_capture69" parent="capture_places/bush/riviere" unique_id=234912561 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 120)
+zone = "foret"
+
+[node name="bush_capture70" parent="capture_places/bush/riviere" unique_id=1468704571 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1064, 120)
+zone = "foret"
+
+[node name="bush_capture71" parent="capture_places/bush/riviere" unique_id=1562651287 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1048, 120)
+zone = "foret"
+
+[node name="bush_capture72" parent="capture_places/bush/riviere" unique_id=739455588 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1000, 120)
+zone = "foret"
+
+[node name="bush_capture85" parent="capture_places/bush/riviere" unique_id=2132088582 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1064, 136)
+zone = "foret"
+
+[node name="bush_capture86" parent="capture_places/bush/riviere" unique_id=655818539 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 136)
+zone = "foret"
+
+[node name="bush_capture87" parent="capture_places/bush/riviere" unique_id=257324656 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1000, 136)
+zone = "foret"
+
+[node name="bush_capture88" parent="capture_places/bush/riviere" unique_id=1136208494 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1048, 136)
+zone = "foret"
+
+[node name="bush_capture89" parent="capture_places/bush/riviere" unique_id=1855678119 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 136)
+zone = "foret"
+
+[node name="bush_capture90" parent="capture_places/bush/riviere" unique_id=602226235 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 136)
+zone = "foret"
+
+[node name="bush_capture91" parent="capture_places/bush/riviere" unique_id=2006551257 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1048, 152)
+zone = "foret"
+
+[node name="bush_capture92" parent="capture_places/bush/riviere" unique_id=746973856 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1000, 152)
+zone = "foret"
+
+[node name="bush_capture93" parent="capture_places/bush/riviere" unique_id=1818845408 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 152)
+zone = "foret"
+
+[node name="bush_capture94" parent="capture_places/bush/riviere" unique_id=1446989430 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 152)
+zone = "foret"
+
+[node name="bush_capture95" parent="capture_places/bush/riviere" unique_id=1039901377 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 152)
+zone = "foret"
+
+[node name="bush_capture96" parent="capture_places/bush/riviere" unique_id=634706565 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 152)
+zone = "foret"
+
+[node name="bush_capture97" parent="capture_places/bush/riviere" unique_id=416803296 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 168)
+zone = "foret"
+
+[node name="bush_capture98" parent="capture_places/bush/riviere" unique_id=1906364895 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 168)
+zone = "foret"
+
+[node name="bush_capture99" parent="capture_places/bush/riviere" unique_id=2017128043 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 168)
+zone = "foret"
+
+[node name="bush_capture100" parent="capture_places/bush/riviere" unique_id=1533039111 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 168)
+zone = "foret"
+
+[node name="bush_capture101" parent="capture_places/bush/riviere" unique_id=440812799 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1000, 168)
+zone = "foret"
+
+[node name="bush_capture102" parent="capture_places/bush/riviere" unique_id=1707661679 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 168)
+zone = "foret"
+
+[node name="bush_capture103" parent="capture_places/bush/riviere" unique_id=967717455 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 184)
+zone = "foret"
+
+[node name="bush_capture104" parent="capture_places/bush/riviere" unique_id=1396130627 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 184)
+zone = "foret"
+
+[node name="bush_capture105" parent="capture_places/bush/riviere" unique_id=1701312084 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 184)
+zone = "foret"
+
+[node name="bush_capture106" parent="capture_places/bush/riviere" unique_id=1813665242 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 184)
+zone = "foret"
+
+[node name="bush_capture107" parent="capture_places/bush/riviere" unique_id=794781669 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1000, 184)
+zone = "foret"
+
+[node name="bush_capture108" parent="capture_places/bush/riviere" unique_id=936456082 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 184)
+zone = "foret"
+
+[node name="bush_capture109" parent="capture_places/bush/riviere" unique_id=269126588 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 200)
+zone = "foret"
+
+[node name="bush_capture110" parent="capture_places/bush/riviere" unique_id=2046209132 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 200)
+zone = "foret"
+
+[node name="bush_capture111" parent="capture_places/bush/riviere" unique_id=13742386 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 200)
+zone = "foret"
+
+[node name="bush_capture112" parent="capture_places/bush/riviere" unique_id=1120895861 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1000, 200)
+zone = "foret"
+
+[node name="bush_capture113" parent="capture_places/bush/riviere" unique_id=671628663 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 200)
+zone = "foret"
+
+[node name="bush_capture114" parent="capture_places/bush/riviere" unique_id=192920046 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 200)
+zone = "foret"
+
+[node name="bush_capture115" parent="capture_places/bush/riviere" unique_id=1645257574 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 120)
+zone = "foret"
+
+[node name="bush_capture116" parent="capture_places/bush/riviere" unique_id=1561307413 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 120)
+zone = "foret"
+
+[node name="bush_capture117" parent="capture_places/bush/riviere" unique_id=1567198505 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 120)
+zone = "foret"
+
+[node name="bush_capture118" parent="capture_places/bush/riviere" unique_id=1499613827 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 120)
+zone = "foret"
+
+[node name="bush_capture119" parent="capture_places/bush/riviere" unique_id=57943998 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 120)
+zone = "foret"
+
+[node name="bush_capture120" parent="capture_places/bush/riviere" unique_id=1054441627 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 120)
+zone = "foret"
+
+[node name="bush_capture121" parent="capture_places/bush/riviere" unique_id=181749365 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 136)
+zone = "foret"
+
+[node name="bush_capture122" parent="capture_places/bush/riviere" unique_id=886027497 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 136)
+zone = "foret"
+
+[node name="bush_capture123" parent="capture_places/bush/riviere" unique_id=1459951507 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 136)
+zone = "foret"
+
+[node name="bush_capture124" parent="capture_places/bush/riviere" unique_id=103439576 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 136)
+zone = "foret"
+
+[node name="bush_capture125" parent="capture_places/bush/riviere" unique_id=1835838257 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 136)
+zone = "foret"
+
+[node name="bush_capture126" parent="capture_places/bush/riviere" unique_id=124470570 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 136)
+zone = "foret"
+
+[node name="bush_capture127" parent="capture_places/bush/riviere" unique_id=1935247128 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 88)
+zone = "foret"
+
+[node name="bush_capture128" parent="capture_places/bush/riviere" unique_id=1070247121 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 88)
+zone = "foret"
+
+[node name="bush_capture129" parent="capture_places/bush/riviere" unique_id=828315715 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 88)
+zone = "foret"
+
+[node name="bush_capture130" parent="capture_places/bush/riviere" unique_id=1800724229 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 88)
+zone = "foret"
+
+[node name="bush_capture131" parent="capture_places/bush/riviere" unique_id=2029016748 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 88)
+zone = "foret"
+
+[node name="bush_capture132" parent="capture_places/bush/riviere" unique_id=1668602891 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 88)
+zone = "foret"
+
+[node name="bush_capture133" parent="capture_places/bush/riviere" unique_id=899522946 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 104)
+zone = "foret"
+
+[node name="bush_capture134" parent="capture_places/bush/riviere" unique_id=1500507818 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 104)
+zone = "foret"
+
+[node name="bush_capture135" parent="capture_places/bush/riviere" unique_id=974719798 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 104)
+zone = "foret"
+
+[node name="bush_capture136" parent="capture_places/bush/riviere" unique_id=967634177 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(888, 104)
+zone = "foret"
+
+[node name="bush_capture137" parent="capture_places/bush/riviere" unique_id=1145121113 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(936, 152)
+zone = "foret"
+
+[node name="bush_capture138" parent="capture_places/bush/riviere" unique_id=1157816184 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(920, 152)
+zone = "foret"
+
+[node name="bush_capture139" parent="capture_places/bush/riviere" unique_id=1495294086 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 152)
+zone = "foret"
+
+[node name="bush_capture151" parent="capture_places/bush/riviere" unique_id=119987182 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 232)
+zone = "foret"
+
+[node name="bush_capture152" parent="capture_places/bush/riviere" unique_id=1976678930 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 248)
+zone = "foret"
+
+[node name="bush_capture153" parent="capture_places/bush/riviere" unique_id=667992318 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 264)
+zone = "foret"
+
+[node name="bush_capture154" parent="capture_places/bush/riviere" unique_id=1902837936 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 216)
+zone = "foret"
+
+[node name="bush_capture155" parent="capture_places/bush/riviere" unique_id=1232572529 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 296)
+zone = "foret"
+
+[node name="bush_capture156" parent="capture_places/bush/riviere" unique_id=1806844881 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 312)
+zone = "foret"
+
+[node name="bush_capture157" parent="capture_places/bush/riviere" unique_id=1043963084 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 328)
+zone = "foret"
+
+[node name="bush_capture158" parent="capture_places/bush/riviere" unique_id=1238466534 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 280)
+zone = "foret"
+
+[node name="bush_capture159" parent="capture_places/bush/riviere" unique_id=1407031827 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 360)
+zone = "foret"
+
+[node name="bush_capture160" parent="capture_places/bush/riviere" unique_id=1564504055 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 376)
+zone = "foret"
+
+[node name="bush_capture161" parent="capture_places/bush/riviere" unique_id=105908818 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 392)
+zone = "foret"
+
+[node name="bush_capture162" parent="capture_places/bush/riviere" unique_id=360417703 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 344)
+zone = "foret"
+
+[node name="bush_capture163" parent="capture_places/bush/riviere" unique_id=534516259 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 408)
+zone = "foret"
+
+[node name="bush_capture164" parent="capture_places/bush/riviere" unique_id=1480119196 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 424)
+zone = "foret"
+
+[node name="bush_capture165" parent="capture_places/bush/riviere" unique_id=1931724701 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 440)
+zone = "foret"
+
+[node name="bush_capture166" parent="capture_places/bush/riviere" unique_id=666815942 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 392)
+zone = "foret"
+
+[node name="bush_capture167" parent="capture_places/bush/riviere" unique_id=828941636 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 424)
+zone = "foret"
+
+[node name="bush_capture168" parent="capture_places/bush/riviere" unique_id=1753037145 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 440)
+zone = "foret"
+
+[node name="bush_capture169" parent="capture_places/bush/riviere" unique_id=244235051 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 456)
+zone = "foret"
+
+[node name="bush_capture170" parent="capture_places/bush/riviere" unique_id=1086906800 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 408)
+zone = "foret"
+
+[node name="bush_capture171" parent="capture_places/bush/riviere" unique_id=1030359654 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 488)
+zone = "foret"
+
+[node name="bush_capture172" parent="capture_places/bush/riviere" unique_id=1480760121 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 504)
+zone = "foret"
+
+[node name="bush_capture173" parent="capture_places/bush/riviere" unique_id=1352340360 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 520)
+zone = "foret"
+
+[node name="bush_capture174" parent="capture_places/bush/riviere" unique_id=1839690022 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 472)
+zone = "foret"
+
+[node name="bush_capture175" parent="capture_places/bush/riviere" unique_id=1346565751 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 456)
+zone = "foret"
+
+[node name="bush_capture176" parent="capture_places/bush/riviere" unique_id=222392541 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 472)
+zone = "foret"
+
+[node name="bush_capture177" parent="capture_places/bush/riviere" unique_id=1333481178 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 488)
+zone = "foret"
+
+[node name="bush_capture178" parent="capture_places/bush/riviere" unique_id=751183394 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 440)
+zone = "foret"
+
+[node name="bush_capture179" parent="capture_places/bush/riviere" unique_id=1183984689 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 520)
+zone = "foret"
+
+[node name="bush_capture180" parent="capture_places/bush/riviere" unique_id=592013891 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 536)
+zone = "foret"
+
+[node name="bush_capture181" parent="capture_places/bush/riviere" unique_id=39113396 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 552)
+zone = "foret"
+
+[node name="bush_capture182" parent="capture_places/bush/riviere" unique_id=1906206484 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 504)
+zone = "foret"
+
+[node name="bush_capture183" parent="capture_places/bush/riviere" unique_id=1128778829 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 552)
+zone = "foret"
+
+[node name="bush_capture184" parent="capture_places/bush/riviere" unique_id=865624367 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 568)
+zone = "foret"
+
+[node name="bush_capture185" parent="capture_places/bush/riviere" unique_id=494325938 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 584)
+zone = "foret"
+
+[node name="bush_capture186" parent="capture_places/bush/riviere" unique_id=842034266 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 536)
+zone = "foret"
+
+[node name="bush_capture187" parent="capture_places/bush/riviere" unique_id=1742004318 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 584)
+zone = "foret"
+
+[node name="bush_capture188" parent="capture_places/bush/riviere" unique_id=1990812431 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 600)
+zone = "foret"
+
+[node name="bush_capture189" parent="capture_places/bush/riviere" unique_id=1612748570 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 616)
+zone = "foret"
+
+[node name="bush_capture190" parent="capture_places/bush/riviere" unique_id=145131026 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 568)
+zone = "foret"
+
+[node name="bush_capture191" parent="capture_places/bush/riviere" unique_id=116936333 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 616)
+zone = "foret"
+
+[node name="bush_capture192" parent="capture_places/bush/riviere" unique_id=879322332 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 632)
+zone = "foret"
+
+[node name="bush_capture193" parent="capture_places/bush/riviere" unique_id=1511067865 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 648)
+zone = "foret"
+
+[node name="bush_capture194" parent="capture_places/bush/riviere" unique_id=1192895821 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 600)
+zone = "foret"
+
+[node name="bush_capture195" parent="capture_places/bush/riviere" unique_id=548062204 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 648)
+zone = "foret"
+
+[node name="bush_capture198" parent="capture_places/bush/riviere" unique_id=648291345 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 632)
+zone = "foret"
+
+[node name="bush_capture140" parent="capture_places/bush/riviere" unique_id=1654546604 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(904, 152)
+zone = "foret"
+
+[node name="bush_capture141" parent="capture_places/bush/riviere" unique_id=45200958 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1048, 56)
+zone = "foret"
+
+[node name="bush_capture142" parent="capture_places/bush/riviere" unique_id=1623610072 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 56)
+zone = "foret"
+
+[node name="bush_capture143" parent="capture_places/bush/riviere" unique_id=44320300 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1064, 56)
+zone = "foret"
+
+[node name="bush_capture149" parent="capture_places/bush/riviere" unique_id=1061326409 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1080, 56)
+zone = "foret"
+
+[node name="bush_capture150" parent="capture_places/bush/riviere" unique_id=2055124680 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1096, 56)
+zone = "foret"
+
+[node name="bush_capture144" parent="capture_places/bush/riviere" unique_id=1320663541 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 56)
+zone = "foret"
+
+[node name="bush_capture145" parent="capture_places/bush/riviere" unique_id=1681837449 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1064, 40)
+zone = "foret"
+
+[node name="bush_capture146" parent="capture_places/bush/riviere" unique_id=1715572594 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1048, 40)
+zone = "foret"
+
+[node name="bush_capture147" parent="capture_places/bush/riviere" unique_id=1171894959 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1080, 40)
+zone = "foret"
+
+[node name="bush_capture148" parent="capture_places/bush/riviere" unique_id=1361445067 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 40)
+zone = "foret"
+
+[node name="bush_capture73" parent="capture_places/bush/riviere" unique_id=1752889658 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 104)
+zone = "foret"
+
+[node name="bush_capture74" parent="capture_places/bush/riviere" unique_id=1022358496 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 104)
+zone = "foret"
+
+[node name="bush_capture75" parent="capture_places/bush/riviere" unique_id=1856965654 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 104)
+zone = "foret"
+
+[node name="bush_capture76" parent="capture_places/bush/riviere" unique_id=2097682888 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 104)
+zone = "foret"
+
+[node name="bush_capture77" parent="capture_places/bush/riviere" unique_id=950822959 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1000, 104)
+zone = "foret"
+
+[node name="bush_capture78" parent="capture_places/bush/riviere" unique_id=10716610 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(952, 104)
+zone = "foret"
+
+[node name="bush_capture327" parent="capture_places/bush/riviere" unique_id=1356903405 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 80)
+zone = "foret"
+
+[node name="bush_capture328" parent="capture_places/bush/riviere" unique_id=363353567 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 80)
+zone = "foret"
+
+[node name="bush_capture329" parent="capture_places/bush/riviere" unique_id=1335586245 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 80)
+zone = "foret"
+
+[node name="bush_capture330" parent="capture_places/bush/riviere" unique_id=1087389295 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 80)
+zone = "foret"
+
+[node name="bush_capture331" parent="capture_places/bush/riviere" unique_id=1043224575 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 80)
+zone = "foret"
+
+[node name="bush_capture332" parent="capture_places/bush/riviere" unique_id=1720901954 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 80)
+zone = "foret"
+
+[node name="bush_capture333" parent="capture_places/bush/riviere" unique_id=765767911 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 64)
+zone = "foret"
+
+[node name="bush_capture334" parent="capture_places/bush/riviere" unique_id=918166560 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 64)
+zone = "foret"
+
+[node name="bush_capture335" parent="capture_places/bush/riviere" unique_id=312473136 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(792, 64)
+zone = "foret"
+
+[node name="bush_capture336" parent="capture_places/bush/riviere" unique_id=670172075 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(776, 64)
+zone = "foret"
+
+[node name="bush_capture337" parent="capture_places/bush/riviere" unique_id=1189620645 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(808, 64)
+zone = "foret"
+
+[node name="bush_capture338" parent="capture_places/bush/riviere" unique_id=1056158212 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(760, 64)
+zone = "foret"
+
+[node name="bush_capture339" parent="capture_places/bush/riviere" unique_id=70478889 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 80)
+zone = "foret"
+
+[node name="bush_capture340" parent="capture_places/bush/riviere" unique_id=1245098577 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 80)
+zone = "foret"
+
+[node name="bush_capture341" parent="capture_places/bush/riviere" unique_id=927504582 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(648, 80)
+zone = "foret"
+
+[node name="bush_capture342" parent="capture_places/bush/riviere" unique_id=613698375 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(632, 80)
+zone = "foret"
+
+[node name="bush_capture343" parent="capture_places/bush/riviere" unique_id=838161233 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(680, 80)
+zone = "foret"
+
+[node name="bush_capture344" parent="capture_places/bush/riviere" unique_id=1462158511 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(664, 80)
+zone = "foret"
+
+[node name="bush_capture345" parent="capture_places/bush/riviere" unique_id=301288198 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(632, 64)
+zone = "foret"
+
+[node name="bush_capture346" parent="capture_places/bush/riviere" unique_id=32707909 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(648, 64)
+zone = "foret"
+
+[node name="bush_capture347" parent="capture_places/bush/riviere" unique_id=1218758939 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 64)
+zone = "foret"
+
+[node name="bush_capture348" parent="capture_places/bush/riviere" unique_id=1945251731 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(680, 64)
+zone = "foret"
+
+[node name="bush_capture349" parent="capture_places/bush/riviere" unique_id=1662901571 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 64)
+zone = "foret"
+
+[node name="bush_capture350" parent="capture_places/bush/riviere" unique_id=1816671093 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(664, 64)
+zone = "foret"
+
+[node name="bush_capture351" parent="capture_places/bush/riviere" unique_id=280729684 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 48)
+zone = "foret"
+
+[node name="bush_capture352" parent="capture_places/bush/riviere" unique_id=1122733630 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 48)
+zone = "foret"
+
+[node name="bush_capture353" parent="capture_places/bush/riviere" unique_id=1183271385 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(680, 48)
+zone = "foret"
+
+[node name="bush_capture354" parent="capture_places/bush/riviere" unique_id=1953909128 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(664, 48)
+zone = "foret"
+
+[node name="bush_capture355" parent="capture_places/bush/riviere" unique_id=1056326738 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 48)
+zone = "foret"
+
+[node name="bush_capture356" parent="capture_places/bush/riviere" unique_id=1885694383 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 48)
+zone = "foret"
+
+[node name="bush_capture357" parent="capture_places/bush/riviere" unique_id=1390597293 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(664, 32)
+zone = "foret"
+
+[node name="bush_capture358" parent="capture_places/bush/riviere" unique_id=27905863 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(680, 32)
+zone = "foret"
+
+[node name="bush_capture359" parent="capture_places/bush/riviere" unique_id=445227834 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(728, 32)
+zone = "foret"
+
+[node name="bush_capture360" parent="capture_places/bush/riviere" unique_id=1120410876 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(712, 32)
+zone = "foret"
+
+[node name="bush_capture361" parent="capture_places/bush/riviere" unique_id=93284444 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(744, 32)
+zone = "foret"
+
+[node name="bush_capture362" parent="capture_places/bush/riviere" unique_id=76349467 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(696, 32)
+zone = "foret"
+
+[node name="bush_capture363" parent="capture_places/bush/riviere" unique_id=1085383427 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(648, 48)
+zone = "foret"
+
+[node name="bush_capture364" parent="capture_places/bush/riviere" unique_id=130892952 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(632, 48)
+zone = "foret"
+
+[node name="bush_capture365" parent="capture_places/bush/riviere" unique_id=1649835625 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(584, 48)
+zone = "foret"
+
+[node name="bush_capture366" parent="capture_places/bush/riviere" unique_id=1752176075 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(568, 48)
+zone = "foret"
+
+[node name="bush_capture367" parent="capture_places/bush/riviere" unique_id=703317685 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(616, 48)
+zone = "foret"
+
+[node name="bush_capture368" parent="capture_places/bush/riviere" unique_id=1694747220 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(600, 48)
+zone = "foret"
+
+[node name="bush_capture369" parent="capture_places/bush/riviere" unique_id=974799136 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(568, 32)
+zone = "foret"
+
+[node name="bush_capture370" parent="capture_places/bush/riviere" unique_id=1676914627 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(584, 32)
+zone = "foret"
+
+[node name="bush_capture371" parent="capture_places/bush/riviere" unique_id=1431131731 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(632, 32)
+zone = "foret"
+
+[node name="bush_capture372" parent="capture_places/bush/riviere" unique_id=767358271 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(616, 32)
+zone = "foret"
+
+[node name="bush_capture373" parent="capture_places/bush/riviere" unique_id=624707370 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(648, 32)
+zone = "foret"
+
+[node name="bush_capture374" parent="capture_places/bush/riviere" unique_id=372510805 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(600, 32)
+zone = "foret"
+
+[node name="bush_capture376" parent="capture_places/bush/riviere" unique_id=1455623708 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(520, 56)
+zone = "foret"
+
+[node name="bush_capture384" parent="capture_places/bush/riviere" unique_id=1763367917 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(552, 56)
+zone = "foret"
+
+[node name="bush_capture385" parent="capture_places/bush/riviere" unique_id=666623115 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(536, 56)
+zone = "foret"
+
+[node name="bush_capture387" parent="capture_places/bush/riviere" unique_id=224810044 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(520, 40)
+zone = "foret"
+
+[node name="bush_capture388" parent="capture_places/bush/riviere" unique_id=614156313 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(552, 40)
+zone = "foret"
+
+[node name="bush_capture389" parent="capture_places/bush/riviere" unique_id=897595578 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(536, 40)
+zone = "foret"
+
+[node name="bush_capture383" parent="capture_places/bush/riviere" unique_id=532617629 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(520, 24)
+zone = "foret"
+
+[node name="bush_capture386" parent="capture_places/bush/riviere" unique_id=964017017 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(552, 24)
+zone = "foret"
+
+[node name="bush_capture390" parent="capture_places/bush/riviere" unique_id=548200362 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(536, 24)
+zone = "foret"
+
+[node name="bush_capture391" parent="capture_places/bush/riviere" unique_id=800467740 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(520, 8)
+zone = "foret"
+
+[node name="bush_capture392" parent="capture_places/bush/riviere" unique_id=1720849646 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(552, 8)
+zone = "foret"
+
+[node name="bush_capture393" parent="capture_places/bush/riviere" unique_id=1754451115 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(536, 8)
+zone = "foret"
+
+[node name="bush_capture394" parent="capture_places/bush/riviere" unique_id=1055990369 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(568, 16)
+zone = "foret"
+
+[node name="bush_capture395" parent="capture_places/bush/riviere" unique_id=678387693 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(600, 16)
+zone = "foret"
+
+[node name="bush_capture396" parent="capture_places/bush/riviere" unique_id=1456460588 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(584, 16)
+zone = "foret"
+
+[node name="bush_capture397" parent="capture_places/bush/riviere" unique_id=75190297 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(568, 0)
+zone = "foret"
+
+[node name="bush_capture398" parent="capture_places/bush/riviere" unique_id=1230531309 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(600, 0)
+zone = "foret"
+
+[node name="bush_capture399" parent="capture_places/bush/riviere" unique_id=1965385111 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(584, 0)
+zone = "foret"
+
+[node name="bush_capture400" parent="capture_places/bush/riviere" unique_id=1434771931 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(616, 16)
+zone = "foret"
+
+[node name="bush_capture401" parent="capture_places/bush/riviere" unique_id=365866061 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(648, 16)
+zone = "foret"
+
+[node name="bush_capture426" parent="capture_places/bush/riviere" unique_id=1955246587 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(664, 16)
+zone = "foret"
+
+[node name="bush_capture427" parent="capture_places/bush/riviere" unique_id=1950798734 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(680, 16)
+zone = "foret"
+
+[node name="bush_capture402" parent="capture_places/bush/riviere" unique_id=1375357679 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(632, 16)
+zone = "foret"
+
+[node name="bush_capture403" parent="capture_places/bush/riviere" unique_id=99507728 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(616, 0)
+zone = "foret"
+
+[node name="bush_capture404" parent="capture_places/bush/riviere" unique_id=624759138 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(648, 0)
+zone = "foret"
+
+[node name="bush_capture405" parent="capture_places/bush/riviere" unique_id=136592225 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(632, 0)
+zone = "foret"
+
+[node name="bush_capture422" parent="capture_places/bush/riviere" unique_id=329794434 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(600, -16)
+zone = "foret"
+
+[node name="bush_capture424" parent="capture_places/bush/riviere" unique_id=1864531070 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(616, -16)
+zone = "foret"
+
+[node name="bush_capture425" parent="capture_places/bush/riviere" unique_id=1155408387 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(632, -16)
+zone = "foret"
+
+[node name="bush_capture406" parent="capture_places/bush/riviere" unique_id=1433373719 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(552, -16)
+zone = "foret"
+
+[node name="bush_capture407" parent="capture_places/bush/riviere" unique_id=401190995 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(584, -16)
+zone = "foret"
+
+[node name="bush_capture408" parent="capture_places/bush/riviere" unique_id=194038758 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(568, -16)
+zone = "foret"
+
+[node name="bush_capture409" parent="capture_places/bush/riviere" unique_id=1760875495 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(552, -32)
+zone = "foret"
+
+[node name="bush_capture410" parent="capture_places/bush/riviere" unique_id=1283560364 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(584, -32)
+zone = "foret"
+
+[node name="bush_capture411" parent="capture_places/bush/riviere" unique_id=1834118882 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(568, -32)
+zone = "foret"
+
+[node name="bush_capture412" parent="capture_places/bush/riviere" unique_id=1171387046 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(504, -16)
+zone = "foret"
+
+[node name="bush_capture413" parent="capture_places/bush/riviere" unique_id=1777425834 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(536, -16)
+zone = "foret"
+
+[node name="bush_capture414" parent="capture_places/bush/riviere" unique_id=677218080 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(520, -16)
+zone = "foret"
+
+[node name="bush_capture415" parent="capture_places/bush/riviere" unique_id=577385336 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(504, -32)
+zone = "foret"
+
+[node name="bush_capture416" parent="capture_places/bush/riviere" unique_id=94749470 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(536, -32)
+zone = "foret"
+
+[node name="bush_capture417" parent="capture_places/bush/riviere" unique_id=1031227420 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(520, -32)
+zone = "foret"
+
+[node name="bush_capture429" parent="capture_places/bush/riviere" unique_id=447078593 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(264, -8)
+zone = "foret"
+
+[node name="bush_capture430" parent="capture_places/bush/riviere" unique_id=1788066491 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(280, -8)
+zone = "foret"
+
+[node name="bush_capture431" parent="capture_places/bush/riviere" unique_id=1221095948 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(264, -24)
+zone = "foret"
+
+[node name="bush_capture432" parent="capture_places/bush/riviere" unique_id=809632026 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(280, -24)
+zone = "foret"
+
+[node name="bush_capture433" parent="capture_places/bush/riviere" unique_id=1706925775 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(216, -8)
+zone = "foret"
+
+[node name="bush_capture434" parent="capture_places/bush/riviere" unique_id=1418198328 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(248, -8)
+zone = "foret"
+
+[node name="bush_capture435" parent="capture_places/bush/riviere" unique_id=980921406 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(232, -8)
+zone = "foret"
+
+[node name="bush_capture439" parent="capture_places/bush/riviere" unique_id=1550366146 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(216, 8)
+zone = "foret"
+
+[node name="bush_capture440" parent="capture_places/bush/riviere" unique_id=1023286823 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(248, 8)
+zone = "foret"
+
+[node name="bush_capture441" parent="capture_places/bush/riviere" unique_id=141480143 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(232, 8)
+zone = "foret"
+
+[node name="bush_capture442" parent="capture_places/bush/riviere" unique_id=1496048040 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(184, 8)
+zone = "foret"
+
+[node name="bush_capture443" parent="capture_places/bush/riviere" unique_id=1866482245 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(200, 8)
+zone = "foret"
+
+[node name="bush_capture444" parent="capture_places/bush/riviere" unique_id=793057528 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(184, -8)
+zone = "foret"
+
+[node name="bush_capture445" parent="capture_places/bush/riviere" unique_id=1946617666 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(200, -8)
+zone = "foret"
+
+[node name="bush_capture446" parent="capture_places/bush/riviere" unique_id=1255610156 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(152, -40)
+zone = "foret"
+
+[node name="bush_capture447" parent="capture_places/bush/riviere" unique_id=1115869150 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(168, -40)
+zone = "foret"
+
+[node name="bush_capture450" parent="capture_places/bush/riviere" unique_id=1818860338 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(152, -24)
+zone = "foret"
+
+[node name="bush_capture451" parent="capture_places/bush/riviere" unique_id=1383029152 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(168, -24)
+zone = "foret"
+
+[node name="bush_capture452" parent="capture_places/bush/riviere" unique_id=1782232676 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(152, -8)
+zone = "foret"
+
+[node name="bush_capture453" parent="capture_places/bush/riviere" unique_id=1324627157 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(168, -8)
+zone = "foret"
+
+[node name="bush_capture454" parent="capture_places/bush/riviere" unique_id=1956007297 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(120, -8)
+zone = "foret"
+
+[node name="bush_capture455" parent="capture_places/bush/riviere" unique_id=763091891 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(136, -8)
+zone = "foret"
+
+[node name="bush_capture456" parent="capture_places/bush/riviere" unique_id=713885363 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(120, -24)
+zone = "foret"
+
+[node name="bush_capture457" parent="capture_places/bush/riviere" unique_id=436144228 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(136, -24)
+zone = "foret"
+
+[node name="bush_capture458" parent="capture_places/bush/riviere" unique_id=436871555 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(136, -40)
+zone = "foret"
+
+[node name="bush_capture459" parent="capture_places/bush/riviere" unique_id=378893714 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(56, 8)
+zone = "foret"
+
+[node name="bush_capture465" parent="capture_places/bush/riviere" unique_id=950793870 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(56, 40)
+zone = "foret"
+
+[node name="bush_capture460" parent="capture_places/bush/riviere" unique_id=1292738408 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(24, 8)
+zone = "foret"
+
+[node name="bush_capture461" parent="capture_places/bush/riviere" unique_id=291763303 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(40, 8)
+zone = "foret"
+
+[node name="bush_capture468" parent="capture_places/bush/riviere" unique_id=627026408 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(24, -8)
+zone = "foret"
+
+[node name="bush_capture469" parent="capture_places/bush/riviere" unique_id=285844459 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(-8, -8)
+zone = "foret"
+
+[node name="bush_capture470" parent="capture_places/bush/riviere" unique_id=1811907572 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(8, -8)
+zone = "foret"
+
+[node name="bush_capture471" parent="capture_places/bush/riviere" unique_id=542516672 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(-24, -8)
+zone = "foret"
+
+[node name="bush_capture472" parent="capture_places/bush/riviere" unique_id=253436640 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(-56, -8)
+zone = "foret"
+
+[node name="bush_capture473" parent="capture_places/bush/riviere" unique_id=632842076 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(-40, -8)
+zone = "foret"
+
+[node name="bush_capture474" parent="capture_places/bush/riviere" unique_id=555944881 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(-8, -24)
+zone = "foret"
+
+[node name="bush_capture475" parent="capture_places/bush/riviere" unique_id=158212096 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(-40, -24)
+zone = "foret"
+
+[node name="bush_capture476" parent="capture_places/bush/riviere" unique_id=2008226768 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(-24, -24)
+zone = "foret"
+
+[node name="bush_capture477" parent="capture_places/bush/riviere" unique_id=228590066 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(40, -24)
+zone = "foret"
+
+[node name="bush_capture478" parent="capture_places/bush/riviere" unique_id=1875585605 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(8, -24)
+zone = "foret"
+
+[node name="bush_capture479" parent="capture_places/bush/riviere" unique_id=1623469600 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(24, -24)
+zone = "foret"
+
+[node name="bush_capture480" parent="capture_places/bush/riviere" unique_id=339701586 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(-40, 8)
+zone = "foret"
+
+[node name="bush_capture481" parent="capture_places/bush/riviere" unique_id=1854981540 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(-72, 8)
+zone = "foret"
+
+[node name="bush_capture482" parent="capture_places/bush/riviere" unique_id=1865020594 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(-56, 8)
+zone = "foret"
+
+[node name="bush_capture463" parent="capture_places/bush/riviere" unique_id=1400291104 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(56, 24)
+zone = "foret"
+
+[node name="bush_capture466" parent="capture_places/bush/riviere" unique_id=46511554 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(56, -24)
+zone = "foret"
+
+[node name="bush_capture483" parent="capture_places/bush/riviere" unique_id=50459795 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(40, -40)
+zone = "foret"
+
+[node name="bush_capture484" parent="capture_places/bush/riviere" unique_id=1408668424 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(24, -40)
+zone = "foret"
+
+[node name="bush_capture485" parent="capture_places/bush/riviere" unique_id=1867304387 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(56, -40)
+zone = "foret"
+
+[node name="bush_capture486" parent="capture_places/bush/riviere" unique_id=1509905365 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(56, -56)
+zone = "foret"
+
+[node name="bush_capture487" parent="capture_places/bush/riviere" unique_id=993442306 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(40, -56)
+zone = "foret"
+
+[node name="bush_capture488" parent="capture_places/bush/riviere" unique_id=1854038118 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(72, -56)
+zone = "foret"
+
+[node name="bush_capture467" parent="capture_places/bush/riviere" unique_id=858559377 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(56, -8)
+zone = "foret"
+
+[node name="bush_capture464" parent="capture_places/bush/riviere" unique_id=1241731011 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(40, 24)
+zone = "foret"
+
+[node name="bush_capture462" parent="capture_places/bush/riviere" unique_id=990808622 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(40, -8)
+zone = "foret"
+
+[node name="bush_capture448" parent="capture_places/bush/riviere" unique_id=849301929 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(184, -24)
+zone = "foret"
+
+[node name="bush_capture449" parent="capture_places/bush/riviere" unique_id=580453184 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(200, -24)
+zone = "foret"
+
+[node name="bush_capture436" parent="capture_places/bush/riviere" unique_id=1062678900 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(216, -24)
+zone = "foret"
+
+[node name="bush_capture437" parent="capture_places/bush/riviere" unique_id=234018805 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(248, -24)
+zone = "foret"
+
+[node name="bush_capture438" parent="capture_places/bush/riviere" unique_id=278579077 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(232, -24)
+zone = "foret"
+
+[node name="bush_capture418" parent="capture_places/bush/riviere" unique_id=839276216 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(472, 8)
+zone = "foret"
+
+[node name="bush_capture419" parent="capture_places/bush/riviere" unique_id=2097545202 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(504, 8)
+zone = "foret"
+
+[node name="bush_capture420" parent="capture_places/bush/riviere" unique_id=820946370 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(488, 8)
+zone = "foret"
+
+[node name="bush_capture421" parent="capture_places/bush/riviere" unique_id=409483351 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(472, -8)
+zone = "foret"
+
+[node name="bush_capture423" parent="capture_places/bush/riviere" unique_id=776137248 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(488, -8)
+zone = "foret"
+
+[node name="bush_capture375" parent="capture_places/bush/riviere" unique_id=317879515 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(584, 80)
+zone = "foret"
+
+[node name="bush_capture377" parent="capture_places/bush/riviere" unique_id=1202917992 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(616, 80)
+zone = "foret"
+
+[node name="bush_capture378" parent="capture_places/bush/riviere" unique_id=2062895395 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(600, 80)
+zone = "foret"
+
+[node name="bush_capture379" parent="capture_places/bush/riviere" unique_id=379649351 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(568, 64)
+zone = "foret"
+
+[node name="bush_capture380" parent="capture_places/bush/riviere" unique_id=1214017849 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(584, 64)
+zone = "foret"
+
+[node name="bush_capture381" parent="capture_places/bush/riviere" unique_id=1106921509 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(616, 64)
+zone = "foret"
+
+[node name="bush_capture382" parent="capture_places/bush/riviere" unique_id=1970616223 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(600, 64)
+zone = "foret"
+
+[node name="bush_capture79" parent="capture_places/bush/riviere" unique_id=683068112 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1048, 72)
+zone = "foret"
+
+[node name="bush_capture80" parent="capture_places/bush/riviere" unique_id=961125545 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1000, 72)
+zone = "foret"
+
+[node name="bush_capture81" parent="capture_places/bush/riviere" unique_id=1757297964 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(984, 72)
+zone = "foret"
+
+[node name="bush_capture82" parent="capture_places/bush/riviere" unique_id=656293089 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1032, 72)
+zone = "foret"
+
+[node name="bush_capture83" parent="capture_places/bush/riviere" unique_id=972085259 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1016, 72)
+zone = "foret"
+
+[node name="bush_capture84" parent="capture_places/bush/riviere" unique_id=35974312 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(968, 72)
+zone = "foret"
+
+[node name="bush_capture13" parent="capture_places/bush/riviere" unique_id=739028601 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1272, 216)
+zone = "foret"
+
+[node name="bush_capture14" parent="capture_places/bush/riviere" unique_id=1012873127 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1288, 216)
+zone = "foret"
+
+[node name="bush_capture9" parent="capture_places/bush/riviere" unique_id=259589373 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1288, 168)
+zone = "foret"
+
+[node name="bush_capture10" parent="capture_places/bush/riviere" unique_id=215498837 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1288, 152)
+zone = "foret"
+
+[node name="mer" type="Node2D" parent="capture_places/bush" unique_id=437947759]
+
+[node name="bush_capture" parent="capture_places/bush/mer" unique_id=384085481 groups=["bushes"] instance=ExtResource("15_ssvqc")]
+position = Vector2(1368, 776)
+zone = "foret"
+
 [node name="maison_interact" type="Node2D" parent="." unique_id=733977537]
 
 [node name="interagible" parent="maison_interact" unique_id=309649967 groups=["interagibles"] instance=ExtResource("16_rysoc")]
@@ -6360,6 +8293,7 @@ position = Vector2(0, 7)
 shape = SubResource("RectangleShape2D_rysoc")
 
 [node name="HUD" parent="." unique_id=1358204907 instance=ExtResource("8_ir15t")]
+visible = false
 
 [node name="cours_subscene" type="CanvasLayer" parent="." unique_id=1853335984]
 

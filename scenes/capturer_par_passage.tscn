@@ -12,6 +12,6 @@ zone = "prairie"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1083443329]
 shape = SubResource("RectangleShape2D_386ra")
-debug_color = Color(0.12162516, 0.52166826, 1, 0.41960785)
+debug_color = Color(0.65882355, 0.5137255, 0, 0.68235296)
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -896,10 +896,6 @@ zone = "foret"
 position = Vector2(1048, 232)
 zone = "foret"
 
-[node name="bush_capture218" parent="." unique_id=1437398290 groups=["bushes"] instance=ExtResource("1_tfex5")]
-position = Vector2(1456, 376)
-zone = "foret"
-
 [node name="bush_capture223" parent="." unique_id=212169341 groups=["bushes"] instance=ExtResource("1_tfex5")]
 position = Vector2(1128, 216)
 zone = "foret"
