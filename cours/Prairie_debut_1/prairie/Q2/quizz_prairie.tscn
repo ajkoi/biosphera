@@ -1,40 +1,83 @@
-[gd_scene format=3 uid="uid://b5g1vd5oaaru2"]
+[gd_scene format=3 uid="uid://cbmhm4u22jd4q"]
 
 [ext_resource type="PackedScene" uid="uid://d2s1n3cqw80dr" path="res://cours/Prairie_debut_1/card_char.tscn" id="1_ps73m"]
 [ext_resource type="Script" uid="uid://bcitqux7uwqhh" path="res://cours/Prairie_debut_1/quizz_prairie.gd" id="1_ufqan"]
+[ext_resource type="Texture2D" uid="uid://r3meln4orm1r" path="res://cours/Prairie_debut_1/intru_qcm_fond.png" id="2_ejwti"]
 [ext_resource type="PackedScene" uid="uid://cxtpdasranags" path="res://cours/Prairie_debut_1/zone_snap.tscn" id="2_ufqan"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lcyo2"]
+size = Vector2(224, 224)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w233w"]
+size = Vector2(224, 224)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fnrnp"]
+size = Vector2(224, 224)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lcyo2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_w233w"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fnrnp"]
 
 [node name="QuizzPrairie" type="Node2D" unique_id=1664171537]
 script = ExtResource("1_ufqan")
 
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1530064131]
+offset_right = 1080.0
+offset_bottom = 720.0
+size_flags_vertical = 0
+texture = ExtResource("2_ejwti")
+expand_mode = 1
+metadata/_edit_use_anchors_ = true
+
 [node name="snap_area" parent="." unique_id=1844146208 instance=ExtResource("2_ufqan")]
-position = Vector2(192, 256)
+position = Vector2(168, 216)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="snap_area" unique_id=1758446882]
+shape = SubResource("RectangleShape2D_lcyo2")
+debug_color = Color(0, 0.60784316, 0.2784314, 0.8039216)
 
 [node name="snap_area2" parent="." unique_id=309539922 instance=ExtResource("2_ufqan")]
-position = Vector2(448, 256)
+position = Vector2(440, 216)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="snap_area2" unique_id=50766362]
+shape = SubResource("RectangleShape2D_w233w")
+debug_color = Color(0, 0.60784316, 0.2784314, 0.8039216)
 
 [node name="snap_area3" parent="." unique_id=1806511756 instance=ExtResource("2_ufqan")]
-position = Vector2(896, 256)
+position = Vector2(872, 216)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="snap_area3" unique_id=2006393717]
+shape = SubResource("RectangleShape2D_fnrnp")
+debug_color = Color(0.61069953, 0.5367334, 0.1397526, 0.41960785)
 
 [node name="card" parent="." unique_id=24245917 groups=["cards"] instance=ExtResource("1_ps73m")]
-position = Vector2(640, 512)
+position = Vector2(568, 608)
+path_img = "res://cours/Prairie_debut_1/Prairie_debut/QCM_Prairie_debut_contexte/doc_prairie/guepe.PNG"
 
-[node name="card2" parent="." unique_id=344693630 groups=["cards"] instance=ExtResource("1_ps73m")]
-position = Vector2(448, 512)
+[node name="card3" parent="." unique_id=344693630 groups=["cards"] instance=ExtResource("1_ps73m")]
+position = Vector2(376, 608)
+path_img = "res://cours/Prairie_debut_1/Prairie_debut/QCM_Prairie_debut_contexte/doc_prairie/aigle.PNG"
 
-[node name="card3" parent="." unique_id=281087004 groups=["cards"] instance=ExtResource("1_ps73m")]
-position = Vector2(128, 512)
+[node name="card2" parent="." unique_id=281087004 groups=["cards"] instance=ExtResource("1_ps73m")]
+position = Vector2(184, 608)
 
 [node name="Button" type="Button" parent="." unique_id=18005591]
-offset_left = 768.0
-offset_top = 488.0
+offset_left = 864.0
+offset_top = 632.0
 offset_right = 1024.0
-offset_bottom = 576.0
+offset_bottom = 680.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_lcyo2")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_w233w")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_fnrnp")
 text = "Vérifier"
 
 [node name="Label" type="Label" parent="." unique_id=821873407]
-offset_right = 174.0
-offset_bottom = 21.0
+offset_left = 840.0
+offset_top = 504.0
+offset_right = 1072.0
+offset_bottom = 568.0
 text = "Qui est l'intrus?"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

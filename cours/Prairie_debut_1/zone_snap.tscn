@@ -1,9 +1,7 @@
 [gd_scene format=3 uid="uid://cxtpdasranags"]
 
-[ext_resource type="Texture2D" uid="uid://b2y62stk8cmp4" path="res://assets/interactions/test1.png" id="1_pfht1"]
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ngimd"]
-size = Vector2(184, 256)
+size = Vector2(128, 128)
 
 [node name="snap_area" type="StaticBody2D" unique_id=1844146208]
 visibility_layer = 2
@@ -11,10 +9,5 @@ collision_layer = 4
 collision_mask = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1053171237]
-position = Vector2(-3.9999847, 0)
 shape = SubResource("RectangleShape2D_ngimd")
-
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=564560170]
-position = Vector2(-3.9999905, 0)
-scale = Vector2(5.7500005, 8)
-texture = ExtResource("1_pfht1")
+debug_color = Color(0.83335984, 0.34342477, 0.49283195, 0.41960785)
