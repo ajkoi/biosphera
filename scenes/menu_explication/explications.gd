@@ -9,11 +9,6 @@ signal fin_text
 @onready var labels_texts = File_utils.get_files(path, "txt") # les paths de fichiers
 @onready var labels_sounds = File_utils.get_files(path, "wav")
 @onready var created_labels = [] # les nodes crées pour les labels
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	print(labels_texts)
-
-
 
 	
 func _input(event: InputEvent) -> void:

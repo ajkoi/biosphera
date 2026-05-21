@@ -80,27 +80,24 @@ func _close_inventory() -> void:
 func _on_interagible_lancer_cours(cours: Variant) -> void:
 	var cours_instance = COURS_SCENE.instantiate()
 	cours_quizz_paths = File_utils.get_dirs(global.path_cours[cours])
-	print("cours_quizz")
-	print(cours_quizz_paths)
 	cours_instance.path = cours_quizz_paths[0]
 	if cours == "cours_prairie":
+		cours_quizz_paths = ["",load("res://cours/Prairie_debut_1/prairie/Q1/quizz_prairie.tscn"), load("res://cours/Prairie_debut_1/prairie/Q2/quizz_prairie.tscn"), load("res://cours/Prairie_debut_1/prairie/Q3/quizz_prairie.tscn")]
 		cours_instance.fin_text.connect(_on_next_quizz_prairie, CONNECT_ONE_SHOT)
 
 	else:
 		cours_instance.fin_text.connect(_on_next_quizz, CONNECT_ONE_SHOT)
-		current_instance = cours_instance
+	current_instance = cours_instance
 	$cours_subscene.add_child(cours_instance)
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
 
 func _on_next_quizz_prairie():
-
 	if current_instance:
 		current_instance.queue_free()
 		current_instance = null
 	if index + 1 < len(cours_quizz_paths):
 		index += 1
-		var scene_quizz = load(File_utils.get_files(cours_quizz_paths[index], "tscn")[0])
-		var scene_quizz_inst = scene_quizz.instantiate()
+		var scene_quizz_inst = cours_quizz_paths[index].instantiate()
 		current_instance = scene_quizz_inst
 		$cours_subscene.add_child(scene_quizz_inst)
 		scene_quizz_inst.fin_text.connect(_on_next_quizz_prairie, CONNECT_ONE_SHOT)

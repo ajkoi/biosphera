@@ -6356,7 +6356,7 @@ shape = SubResource("RectangleShape2D_5newe")
 
 [node name="interagible3" parent="maison_interact" unique_id=90184031 groups=["interagibles"] instance=ExtResource("16_rysoc")]
 position = Vector2(776, 174)
-cours = "cours_neige"
+cours = "cours_prairie"
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible3" unique_id=955994335]
 position = Vector2(0, 7)

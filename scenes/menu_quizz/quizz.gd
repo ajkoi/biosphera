@@ -16,6 +16,7 @@ func _ready() -> void:
 
 func load_quests():
 	var data = File_utils.load_json(doc_path)
+	print(data)
 	ans = data["ans"]
 	$questionlabel.text = data["question"]
 	$rep0.text = data["rep0"]
