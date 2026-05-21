@@ -2,7 +2,9 @@ extends Control
 @onready var cards = get_tree().get_nodes_in_group("cards")
 @onready var lenca = len(cards)
 var ptr = 0
-
+func _ready() -> void:
+	for i in cards:
+		i.visible = false
 func _on_back_pressed() -> void:
 	ptr -= 1
 	ptr %= lenca

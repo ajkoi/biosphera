@@ -16,7 +16,6 @@ func _ready() -> void:
 
 func load_quests():
 	var data = File_utils.load_json(doc_path)
-	print(data)
 	ans = data["ans"]
 	$questionlabel.text = data["question"]
 	$rep0.text = data["rep0"]
@@ -26,7 +25,9 @@ func load_quests():
 		
 func loadfiles():
 	var docs_o = []
+	print(File_utils.get_files(doc_path, "PNG"))
 	for file in File_utils.get_files(doc_path, "PNG"):
+		
 		var Loaded_file = load(file)
 		var Texture_rec = TextureRect.new()
 		Texture_rec.texture = Loaded_file

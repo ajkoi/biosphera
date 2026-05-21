@@ -6301,7 +6301,6 @@ position = Vector2(1318, 358)
 
 [node name="capture_place2" parent="capture_places" unique_id=230809215 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
 position = Vector2(552, -88)
-card = "card2"
 
 [node name="bush" type="Node2D" parent="capture_places" unique_id=1366293530]
 

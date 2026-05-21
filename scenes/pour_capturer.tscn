@@ -7,7 +7,6 @@ size = Vector2(20, 19)
 
 [node name="capture_place" type="Area2D" unique_id=1927214055]
 script = ExtResource("1_k16yn")
-card = "card1"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1109838635]
 shape = SubResource("RectangleShape2D_bp41e")

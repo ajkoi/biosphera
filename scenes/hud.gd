@@ -13,6 +13,7 @@ func _ready() -> void:
 func connect_sign():
 	for place in get_tree().get_nodes_in_group("capture_places"): # connecter à tout les nodes
 		place.capture.connect(on_capture)
+		place.capture_lab.connect(on_capture_label)
 	for bush in get_tree().get_nodes_in_group("bushes"):
 		bush.on_capture.connect(on_capture)
 		bush.on_capture_label.connect(on_capture_label)

@@ -1,13 +1,13 @@
 extends Node
 var possessed_card = {
 "grand_requin": [false, false],
-"truite": [false, true],
-"baleine": [false, true],
-"boa": [false, true],
-"croco": [false, true],
-"chauve_souris": [false, true],
-"chat": [false, true],
-"coccinelle": [false, true],
+"truite": [false, false],
+"baleine": [false, false],
+"boa": [false, false],
+"croco": [false, false],
+"chauve_souris": [false, false],
+"chat": [false, false],
+"coccinelle": [false, false],
 "fourmi": [false, false],
 "archaeopteryx": [false, false],
 "mammouth": [false, false],
@@ -22,13 +22,13 @@ var possessed_card = {
 "cheval": [false, false],
 "grenouille": [false, false],
 "tortue": [true, false],
-"dauphin": [true, false],
+"dauphin": [true, true],
 "daurade": [false, false],
 "poule": [false, false],
 "pigeon": [true, false],
 "espadon": [true, false],
 "trex": [true, false],
-"loup": [true, true],
+"loup": [true, false],
 "pieuvre": [false, false]
 }
 var zones = {
@@ -39,7 +39,7 @@ var zones = {
 	"foret":["poule", "chat", "coccinelle", "fourmi", "grenouille", "boa", "chat", "coccinelle", "fourmi", "grenouille"], # vert foncé
 	"caverne": ["chauve_souris"],
 	"desert": ["kangourou", "elephant"], # jaune
-	"fossile": ["tigre", "archaeopteryx", "pteranodon", "ichtyosaure", "thylacine"],
+	"fossile": ["tigre", "archaeopteryx", "pteranodon", "ichtyosaure", "thylacine", "mammouth"],
 	"neige": ["cheval", "chauve_souris"] # bleu clair
 }
 

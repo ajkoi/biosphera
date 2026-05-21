@@ -31,6 +31,7 @@ static func get_files(path, ext):
 	var file = dir.get_next()
 	while file != "":
 		file = file.replace(".remap", "")
+		file = file.replace(".import", "")
 		if not dir.current_is_dir() and file.ends_with(ext):
 			files.append(path.path_join(file)) # path_join permet de combiner le chemin de manière safe
 		file = dir.get_next()
