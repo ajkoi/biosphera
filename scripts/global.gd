@@ -39,7 +39,7 @@ var zones = {
 	"foret":["poule", "chat", "coccinelle", "fourmi", "grenouille", "boa", "chat", "coccinelle", "fourmi", "grenouille"], # vert foncé
 	"caverne": ["chauve_souris"],
 	"desert": ["kangourou", "elephant"], # jaune
-	"fossile": ["tigre", "archaeopteryx", "pteranodon", "ichtyosaure", "thylacine", "mammouth"],
+	"fossile": ["tigre", "archaeopteryx", "pteranodon", "ichtyosaure", "thylacine", "mammouth"], # on choppe dans les crevasses
 	"neige": ["cheval", "chauve_souris"] # bleu clair
 }
 

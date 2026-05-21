@@ -20,15 +20,25 @@ func connect_sign():
 	for interact in get_tree().get_nodes_in_group("interagibles"):
 		interact.body_entered.connect(body_enter)
 		interact.body_exited.connect(body_exit)
+	for i in get_tree().get_nodes_in_group("hist"):
+		i.dis.connect(diss)
+		
+func diss(node:Node2D):
+	node.body_entered.disconnect(body_enter)
+	node.dis.disconnect(diss)
 func on_capture(card):
 	$Timer.start()
 	$Label.visible = true
 	$bulle.visible = true
 	$Label.text = "Tu as débloqué le/la " + card
 
-func body_enter(body):
-	print(body)
-	$touche_A.text = "[img=64x64]res://assets/touches/touche_A.png[/img] Interagir"
+func body_enter(body: Node2D):
+	print(body.get("is_disabled"))
+	if body.get("is_disabled")==true:
+		return 
+	else:
+		$touche_A.text = "[img=64x64]res://assets/touches/touche_A.png[/img] Interagir"
+	
 	
 func body_exit(_body):
 	$touche_A.text = ""

@@ -24,6 +24,7 @@
 [ext_resource type="PackedScene" uid="uid://bpkt5rvd05tyk" path="res://scenes/scenes_capture_bushes/marais.tscn" id="20_37s47"]
 [ext_resource type="PackedScene" uid="uid://bwuxjyoxk7yck" path="res://scenes/scenes_capture_bushes/riviere.tscn" id="21_e1j6l"]
 [ext_resource type="PackedScene" uid="uid://4vvydnj01j1q" path="res://scenes/scenes_capture_bushes/mer.tscn" id="22_e1j6l"]
+[ext_resource type="Texture2D" uid="uid://bh1wh0pms52xr" path="res://assets/bulle_900x220.png" id="25_pl11u"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_suyxu"]
 texture = ExtResource("3_ir15t")
@@ -6265,7 +6266,7 @@ tile_set = SubResource("TileSet_i4re6")
 [node name="Player" parent="gamenode" unique_id=51311038 instance=ExtResource("1_uwrxv")]
 z_index = 1
 y_sort_enabled = true
-position = Vector2(699, 190)
+position = Vector2(64, 464)
 collision_layer = 3
 collision_mask = 1
 BASESPEED = 100
@@ -6302,6 +6303,90 @@ position = Vector2(1318, 358)
 [node name="capture_place2" parent="capture_places" unique_id=230809215 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
 position = Vector2(552, -88)
 
+[node name="capture_place22" parent="capture_places" unique_id=815972406 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(440, -328)
+
+[node name="capture_place23" parent="capture_places" unique_id=96384631 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(984, -344)
+
+[node name="capture_place28" parent="capture_places" unique_id=1700663278 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(1240, -312)
+
+[node name="capture_place3" parent="capture_places" unique_id=60381139 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(824, 24)
+
+[node name="capture_place4" parent="capture_places" unique_id=283378223 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(1080, -24)
+
+[node name="capture_place5" parent="capture_places" unique_id=1058927413 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(200, -488)
+
+[node name="capture_place6" parent="capture_places" unique_id=1308482217 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(232, -536)
+
+[node name="capture_place7" parent="capture_places" unique_id=301128401 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(88, 56)
+
+[node name="capture_place8" parent="capture_places" unique_id=249177719 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(120, -88)
+
+[node name="capture_place9" parent="capture_places" unique_id=1795361939 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(232, 88)
+
+[node name="capture_place10" parent="capture_places" unique_id=787871238 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(440, 552)
+
+[node name="capture_place24" parent="capture_places" unique_id=1691884238 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(472, 248)
+
+[node name="capture_place25" parent="capture_places" unique_id=1496946346 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(456, 168)
+
+[node name="capture_place26" parent="capture_places" unique_id=308621832 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(232, 216)
+
+[node name="capture_place27" parent="capture_places" unique_id=644838376 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(280, 376)
+
+[node name="capture_place11" parent="capture_places" unique_id=1294601919 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(344, 728)
+
+[node name="capture_place12" parent="capture_places" unique_id=2119547616 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(776, 504)
+
+[node name="capture_place13" parent="capture_places" unique_id=452028683 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(1416, 520)
+
+[node name="capture_place14" parent="capture_places" unique_id=1843364978 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(1464, 568)
+
+[node name="capture_place15" parent="capture_places" unique_id=1479354709 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(1576, 552)
+
+[node name="capture_place16" parent="capture_places" unique_id=1828185940 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(1976, 696)
+
+[node name="capture_place29" parent="capture_places" unique_id=215201930 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(1880, 840)
+
+[node name="capture_place30" parent="capture_places" unique_id=216576663 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(1656, 680)
+
+[node name="capture_place17" parent="capture_places" unique_id=1649891387 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(2040, 360)
+
+[node name="capture_place18" parent="capture_places" unique_id=1546174148 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(1608, 296)
+
+[node name="capture_place19" parent="capture_places" unique_id=1324333294 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(1544, 24)
+
+[node name="capture_place20" parent="capture_places" unique_id=1128512708 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(1864, -408)
+
+[node name="capture_place21" parent="capture_places" unique_id=119318707 groups=["capture_places", "interagibles"] instance=ExtResource("14_trtic")]
+position = Vector2(2040, -488)
+
 [node name="bush" type="Node2D" parent="capture_places" unique_id=1366293530]
 
 [node name="prairie" parent="capture_places/bush" unique_id=254862651 instance=ExtResource("16_264po")]
@@ -6327,6 +6412,22 @@ cours = "cours_neige"
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible" unique_id=786052340]
 position = Vector2(-3, 3)
 shape = SubResource("RectangleShape2D_1kice")
+
+[node name="interagible6" parent="maison_interact" unique_id=1514177275 groups=["hist", "interagibles"] instance=ExtResource("16_rysoc")]
+position = Vector2(24, 416)
+cours = "histoire"
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible6" unique_id=174194404]
+position = Vector2(0, 16)
+shape = SubResource("RectangleShape2D_1kice")
+
+[node name="interagible7" parent="maison_interact" unique_id=1789332762 groups=["hist", "interagibles"] instance=ExtResource("16_rysoc")]
+position = Vector2(1560, -376)
+cours = "histoire"
+
+[node name="interagible8" parent="maison_interact" unique_id=383109875 groups=["hist", "interagibles"] instance=ExtResource("16_rysoc")]
+position = Vector2(1136, -176)
+cours = "histoire"
 
 [node name="interagible4" parent="maison_interact" unique_id=1176953182 groups=["interagibles"] instance=ExtResource("16_rysoc")]
 position = Vector2(1608, 231)
@@ -6370,9 +6471,72 @@ z_index = 1
 
 [node name="cards" type="CanvasLayer" parent="." unique_id=915923583]
 
+[node name="maisons" type="CanvasLayer" parent="." unique_id=1521100698]
+visible = false
+
+[node name="TextureRect" type="TextureRect" parent="maisons" unique_id=1302174711]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -540.0
+offset_top = -192.0
+offset_right = 540.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("25_pl11u")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="maisons" unique_id=870107780]
+anchors_preset = -1
+anchor_right = 0.030000001
+anchor_bottom = 0.32200003
+offset_left = 48.0
+offset_top = 528.0
+offset_right = 959.6
+offset_bottom = 464.15997
+bbcode_enabled = true
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="maisons" unique_id=717293891]
+offset_left = 1000.0
+offset_top = 648.0
+offset_right = 1040.0
+offset_bottom = 688.0
+
 [connection signal="capture" from="capture_places/capture_place" to="HUD" method="_on_capture_place_capture"]
 [connection signal="capture" from="capture_places/capture_place2" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place22" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place23" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place28" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place3" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place4" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place5" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place6" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place7" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place8" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place9" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place10" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place24" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place25" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place26" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place27" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place11" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place12" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place13" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place14" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place15" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place16" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place29" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place30" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place17" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place18" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place19" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place20" to="gamenode/Player" method="_on_capture_place_2_capture"]
+[connection signal="capture" from="capture_places/capture_place21" to="gamenode/Player" method="_on_capture_place_2_capture"]
 [connection signal="lancer_cours" from="maison_interact/interagible" to="." method="_on_interagible_lancer_cours"]
+[connection signal="lancer_cours" from="maison_interact/interagible6" to="." method="_on_interagible_lancer_cours"]
+[connection signal="lancer_cours" from="maison_interact/interagible7" to="." method="_on_interagible_lancer_cours"]
+[connection signal="lancer_cours" from="maison_interact/interagible8" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible4" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible5" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible2" to="." method="_on_interagible_lancer_cours"]

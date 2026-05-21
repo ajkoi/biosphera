@@ -8,7 +8,12 @@ var inventory_instance :Node2D = null
 const CARD_SCENE = preload("res://scenes/cartes/cartes_visu.tscn")
 var CARDS_instance  = null
 
+
+var index_hist = 0
 # relatif aux quizz (path et instance actuelle)
+const text_hist =["Pendant longtemps, le fixisme dominait, affirmant que les espèces étaient immuables et créées telles quelles, souvent dans une vision liée à la religion, tandis que la “scala naturae”, héritée d’Aristote, classait les êtres vivants de manière hiérarchique sans envisager de transformation. Au XVIIᵉ siècle, des scientifiques comme Edward Tyson commencent à comparer rigoureusement les organismes, posant les bases de l’anatomie comparée.",
+"Au XVIIIᵉ siècle, le transformisme de Lamarck introduit l’idée que les espèces changent au cours du temps sous l’influence de leur environnement. L’anatomie comparée est ensuite structurée au XIXᵉ siècle par Georges Cuvier, bien qu’il reste attaché au fixisme et développe le catastrophisme, théorie selon laquelle les espèces disparaissent brutalement à la suite de catastrophes naturelles, puis sont remplacées par de nouvelles espèces apparues après ces événements, sans transformation progressive des espèces existantes. Les notions d’homologie et d’analogie, notamment introduites par Richard Owen, permettent alors de mieux interpréter les ressemblances entre espèces.",
+"La théorie de l’évolution par sélection naturelle de Charles Darwin marque une rupture majeure en expliquant que les espèces descendent d’ancêtres communs et évoluent progressivement. Au XXᵉ siècle, la théorie synthétique de l’évolution complète cette vision en intégrant la génétique, tandis que la phylogénie permet de reconstituer les relations de parenté sous forme d’arbres évolutifs. Aujourd’hui, l’anatomie comparée, enrichie par la biologie moléculaire et la paléontologie, est un outil essentiel pour comprendre l’évolution et la diversité du vivant."]
 
 const COURS_SCENE = preload("res://scenes/menu_explication/explications.tscn")
 const QUIZZ_SCENE = preload("res://scenes/menu_quizz/quizz.tscn")
@@ -82,6 +87,11 @@ func _close_inventory() -> void:
 		$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # dépauser pauser le reste du jeu
 
 func _on_interagible_lancer_cours(cours: Variant) -> void:
+	if cours == "histoire":
+		hist()
+		$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
+
+		return
 	var cours_instance = COURS_SCENE.instantiate()
 	cours_quizz_paths = File_utils.get_dirs(global.path_cours[cours])
 	cours_instance.path = cours_quizz_paths[0]
@@ -94,8 +104,21 @@ func _on_interagible_lancer_cours(cours: Variant) -> void:
 	current_instance = cours_instance
 	$cours_subscene.add_child(cours_instance)
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
+func hist():
+	if index_hist>3:
+		return
+	else:
+		$maisons.visible = true
+		$maisons/RichTextLabel2.text = str(index_hist + 1) + "/3"
+		$maisons/RichTextLabel.text = text_hist[index_hist]
+		while not Input.is_action_just_pressed("dash"):
+			await get_tree().process_frame # attendre la frame suivante
+		$maisons.visible = false
+		index_hist += 1
+		$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # dépauser pauser le reste du jeu
 
 func _on_next_quizz_prairie():
+
 	if current_instance:
 		current_instance.queue_free()
 		current_instance = null
