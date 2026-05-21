@@ -3,5 +3,5 @@
 export/export_win.exe filter=lfs diff=lfs merge=lfs -text
 export/release.pck filter=lfs diff=lfs merge=lfs -text
 export/release.x86_64 filter=lfs diff=lfs merge=lfs -text
-export/biosphera.x86_64 filter=lfs diff=lfs merge=lfs -text
 export/biosphera.exe filter=lfs diff=lfs merge=lfs -text
+export/biosphera.x86_64 filter=lfs diff=lfs merge=lfs -text
