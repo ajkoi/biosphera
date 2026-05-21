@@ -39,8 +39,8 @@ extends Node2D
 	
 	
 	
-	$snapcards/bleu_clair_grp8/snap_area: [$CanvasLayer/cards/tigre, $CanvasLayer/cards/kangourou],
-	$snapcards/bleu_clair_grp8/snap_area2: [$CanvasLayer/cards/tigre, $CanvasLayer/cards/kangourou],
+	$snapcards/bleu_clair_grp8/snap_area: [$CanvasLayer/cards/thylacine, $CanvasLayer/cards/kangourou],
+	$snapcards/bleu_clair_grp8/snap_area2: [$CanvasLayer/cards/thylacine, $CanvasLayer/cards/kangourou],
 	
 	
 	
@@ -90,7 +90,9 @@ func _on_button_pressed() -> void: # il faut tout check
 	for snap in snap_association.keys():
 		for card in snap_association[snap]:
 			if snap.position != card.position:
-				print("GROS CACA LIQUIDE TU AS FAUX")
+				print(snap, card)
+
+				#print("GROS CACA LIQUIDE TU AS FAUX")
 			else:
 				good += 1
 	print(str(good) + "/30")

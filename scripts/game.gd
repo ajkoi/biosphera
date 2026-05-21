@@ -41,6 +41,7 @@ func _open_cards():
 	CARDS_instance = CARD_SCENE.instantiate()
 	card_node.add_child(CARDS_instance)
 	$gamenode/Player/Camera2D.enabled = false
+	$HUD.visible = false
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
 
 func _close_cards():
@@ -48,10 +49,12 @@ func _close_cards():
 		CARDS_instance.queue_free()
 		CARDS_instance = null 
 		$gamenode/Player/Camera2D.enabled = true
-
+		$HUD.visible = true
 		$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # dépauser pauser le reste du jeu
 	
 func _open_inventory() -> void:
+	$HUD.visible = false
+
 	inventory_instance =  INVENTORY_SCENE.instantiate()
 	Inventaire_node.add_child(inventory_instance)
 	var cards = inventory_instance.get_cards()
@@ -67,6 +70,7 @@ func _open_inventory() -> void:
 
 
 func _close_inventory() -> void:
+	$HUD.visible = true
 	if inventory_instance:
 		var cards = inventory_instance.get_cards()
 		for card in cards:
