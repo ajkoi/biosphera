@@ -95,7 +95,10 @@ func _on_button_pressed() -> void: # il faut tout check
 				#print("GROS CACA LIQUIDE TU AS FAUX")
 			else:
 				good += 1
-	print(str(good) + "/30")
+	if good == 30:
+		$CanvasLayer/RichTextLabel.text = "[color=green]Bravo, tu as réussi :D:D:D[/color]"
+	else:
+		$CanvasLayer/RichTextLabel.text = "[color=red]Dommage, tu as " + str(good) + "/30, recommence![/color]" 
 		
 
 

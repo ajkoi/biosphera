@@ -180,6 +180,18 @@ path_img = "res://assets/arbre/preview_carte/pre_poule.PNG"
 position = Vector2(158, 361)
 path_img = "res://assets/arbre/preview_carte/pre_pieuvre.PNG"
 
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer" unique_id=93923258]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -285.0
+offset_top = -727.0
+grow_horizontal = 0
+grow_vertical = 0
+bbcode_enabled = true
+
 [node name="snapcards" type="Node2D" parent="." unique_id=1271301252]
 
 [node name="rouge_grp1" type="Node2D" parent="snapcards" unique_id=1726517709]
