@@ -92,6 +92,9 @@ func _on_interagible_lancer_cours(cours: Variant) -> void:
 		$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
 
 		return
+	elif cours == "credits":
+		credits()
+		return
 	var cours_instance = COURS_SCENE.instantiate()
 	cours_quizz_paths = File_utils.get_dirs(global.path_cours[cours])
 	cours_instance.path = cours_quizz_paths[0]
@@ -104,6 +107,21 @@ func _on_interagible_lancer_cours(cours: Variant) -> void:
 	current_instance = cours_instance
 	$cours_subscene.add_child(cours_instance)
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
+
+func credits():
+	$credits.visible = true
+	
+	var text = File_utils.load_text("res://creditbis.txt")
+	if text == null:
+		text = File_utils.load_text("res://CREDIT.md")
+	$credits/RichTextLabel.text = text
+	while not Input.is_action_just_pressed("dash"):
+		await get_tree().process_frame # attendre la frame suivante
+	$credits.visible = true
+	$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # dépauser pauser le reste du jeu
+
+
+
 func hist():
 	if index_hist>3:
 		return

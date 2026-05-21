@@ -14,6 +14,8 @@ static func get_dirs(path):
 
 
 static func load_text(filePath):
+	if not FileAccess.file_exists(filePath):
+		return null
 	var file = FileAccess.open(filePath, FileAccess.READ)
 	var content = file.get_as_text()
 	file.close()

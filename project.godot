@@ -15,8 +15,9 @@ config/description="Un jeu pour l'ES sur l'évolution et l'anatomie comparées"
 run/main_scene="uid://de0ah0khqutyp"
 config/features=PackedStringArray("4.6", "Forward Plus")
 boot_splash/bg_color=Color(0, 0, 0, 1)
-boot_splash/image="uid://n5yam06sr0xa"
+boot_splash/image="uid://f1pqnprgklmf"
 config/icon="uid://pn6v40282n7p"
+boot_splash/minimum_display_time=1000
 
 [autoload]
 

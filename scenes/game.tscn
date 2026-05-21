@@ -6266,7 +6266,7 @@ tile_set = SubResource("TileSet_i4re6")
 [node name="Player" parent="gamenode" unique_id=51311038 instance=ExtResource("1_uwrxv")]
 z_index = 1
 y_sort_enabled = true
-position = Vector2(64, 464)
+position = Vector2(216, -64)
 collision_layer = 3
 collision_mask = 1
 BASESPEED = 100
@@ -6421,6 +6421,14 @@ cours = "histoire"
 position = Vector2(0, 16)
 shape = SubResource("RectangleShape2D_1kice")
 
+[node name="interagible9" parent="maison_interact" unique_id=222661971 groups=["hist", "interagibles"] instance=ExtResource("16_rysoc")]
+position = Vector2(-48, 88)
+cours = "credits"
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible9" unique_id=738923389]
+position = Vector2(0, 16)
+shape = SubResource("RectangleShape2D_1kice")
+
 [node name="interagible7" parent="maison_interact" unique_id=1789332762 groups=["hist", "interagibles"] instance=ExtResource("16_rysoc")]
 position = Vector2(1560, -376)
 cours = "histoire"
@@ -6503,6 +6511,24 @@ offset_top = 648.0
 offset_right = 1040.0
 offset_bottom = 688.0
 
+[node name="credits" type="CanvasLayer" parent="." unique_id=556337746]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="credits" unique_id=1974881951]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="credits" unique_id=1648536053]
+texture_filter = 5
+offset_right = 1080.0
+offset_bottom = 720.0
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+
 [connection signal="capture" from="capture_places/capture_place" to="HUD" method="_on_capture_place_capture"]
 [connection signal="capture" from="capture_places/capture_place2" to="gamenode/Player" method="_on_capture_place_2_capture"]
 [connection signal="capture" from="capture_places/capture_place22" to="gamenode/Player" method="_on_capture_place_2_capture"]
@@ -6535,6 +6561,7 @@ offset_bottom = 688.0
 [connection signal="capture" from="capture_places/capture_place21" to="gamenode/Player" method="_on_capture_place_2_capture"]
 [connection signal="lancer_cours" from="maison_interact/interagible" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible6" to="." method="_on_interagible_lancer_cours"]
+[connection signal="lancer_cours" from="maison_interact/interagible9" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible7" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible8" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible4" to="." method="_on_interagible_lancer_cours"]
