@@ -28,9 +28,8 @@ func _on_body_entered(body: Node2D) -> void: # Pour actualiser, avec une proba u
 				global.possessed_card[carte_exam][1] = true
 				on_capture_label.emit(carte_exam)
 				for zones in global.card_zones[carte_exam].keys():
-					print(carte_exam)
 					global.count_zone[zones] += 1
-					print(global.count_zone)
+					#print(global.count_zone())
 
 			else:
 				global.possessed_card[carte_exam][0] = true # si la carte n'a pas été trouvée, on rajoute la carte

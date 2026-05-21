@@ -7,14 +7,9 @@ static func get_dirs(path):
 	var dir = DirAccess.open(path)
 	if dir == null:
 		return null
-	dir.list_dir_begin()
-	var file = dir.get_next()
-	while file != "":
-		if dir.current_is_dir():
-			directorys.append(path.path_join(file))
-		file = dir.get_next()
-	dir.list_dir_end()
-	directorys.sort()
+	var dirs = dir.get_directories()
+	for i in dirs:
+		directorys += [path.path_join(i)]
 	return directorys
 
 
@@ -26,6 +21,7 @@ static func load_text(filePath):
 	
 	
 static func get_files(path, ext):
+	
 	var files = []
 	var dir = DirAccess.open(path)
 	if dir == null:

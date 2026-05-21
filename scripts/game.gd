@@ -80,14 +80,15 @@ func _close_inventory() -> void:
 func _on_interagible_lancer_cours(cours: Variant) -> void:
 	var cours_instance = COURS_SCENE.instantiate()
 	cours_quizz_paths = File_utils.get_dirs(global.path_cours[cours])
+	print("cours_quizz")
+	print(cours_quizz_paths)
 	cours_instance.path = cours_quizz_paths[0]
 	if cours == "cours_prairie":
 		cours_instance.fin_text.connect(_on_next_quizz_prairie, CONNECT_ONE_SHOT)
 
 	else:
 		cours_instance.fin_text.connect(_on_next_quizz, CONNECT_ONE_SHOT)
-	
-	current_instance = cours_instance
+		current_instance = cours_instance
 	$cours_subscene.add_child(cours_instance)
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
 

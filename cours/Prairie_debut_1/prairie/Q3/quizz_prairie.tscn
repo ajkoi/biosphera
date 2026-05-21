@@ -54,7 +54,7 @@ debug_color = Color(0.61069953, 0.5367334, 0.1397526, 0.41960785)
 
 [node name="card3" parent="." unique_id=24245917 groups=["cards"] instance=ExtResource("4_rstyg")]
 position = Vector2(568, 608)
-path_img = "res://assets/interactions/test1.png"
+path_img = "res://cours/Prairie_debut_1/Prairie_debut/QCM_Prairie_debut_contexte/doc_prairie/chien.PNG"
 
 [node name="card" parent="." unique_id=344693630 groups=["cards"] instance=ExtResource("4_rstyg")]
 position = Vector2(376, 608)
