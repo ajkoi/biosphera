@@ -117,7 +117,7 @@ func credits():
 	$credits/RichTextLabel.text = text
 	while not Input.is_action_just_pressed("dash"):
 		await get_tree().process_frame # attendre la frame suivante
-	$credits.visible = true
+	$credits.visible = false
 	$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # dépauser pauser le reste du jeu
 
 
