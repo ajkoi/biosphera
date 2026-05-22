@@ -22,6 +22,22 @@ var index = 0
 var cours_quizz_paths = []
 var current_instance = null
 
+func _ready() -> void:
+	instruction()
+	
+func instruction():
+	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
+	$instruc.visible = true
+	
+	#var text = File_utils.load_text("res://creditbis.txt")
+	#if text == null:
+		#text = File_utils.load_text("res://CREDIT.md")
+	#$instruc/RichTextLabel.text = text
+	while not Input.is_action_just_pressed("dash"):
+		await get_tree().process_frame # attendre la frame suivante
+	$instruc.visible = false
+	$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # dépauser pauser le reste du jeu
+
 
 
 func _input(event: InputEvent) -> void:
@@ -88,11 +104,13 @@ func _close_inventory() -> void:
 
 func _on_interagible_lancer_cours(cours: Variant) -> void:
 	if cours == "histoire":
-		hist()
 		$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
+		hist()
 
 		return
 	elif cours == "credits":
+		$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
+
 		credits()
 		return
 	var cours_instance = COURS_SCENE.instantiate()

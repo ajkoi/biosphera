@@ -34,7 +34,7 @@ var possessed_card = {
 var zones = {
 	"prairie" : ["poule", "coccinelle", "cheval", "grenouille"], # vert clair
 	"riviere":["croco", "truite"], # bleu dans riviere 
-	"mer":["grand_requin", "truite", "baleine", "crabe", "homard", "tortue", "dauphin", "daurade", "truite"], # bleu dans mer
+	"mer":["pieuvre", "grand_requin", "truite", "baleine", "crabe", "homard", "tortue", "dauphin", "daurade", "truite"], # bleu dans mer
 	"marais":["boa", "croco"], # turquoise
 	"foret":["poule", "chat", "coccinelle", "fourmi", "grenouille", "boa", "chat", "coccinelle", "fourmi", "grenouille"], # vert foncé
 	"caverne": ["chauve_souris"],

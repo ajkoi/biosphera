@@ -6529,6 +6529,53 @@ offset_bottom = 720.0
 theme_override_font_sizes/normal_font_size = 32
 bbcode_enabled = true
 
+[node name="instruc" type="CanvasLayer" parent="." unique_id=58456633]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="instruc" unique_id=970421886]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="instruc" unique_id=1886884410]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+text = "Avant de commencer....
+
+
+[img=64]res://assets/touches/touche_ZQSD.png[/img] Pour se déplacer
+
+[img=32]res://assets/touches/touche_A.png[/img] Pour interagir avec les maisons, failles et maisonettes
+[img=32]res://assets/touches/touche_E.png[/img] Pour ouvrir l'arbre, à l'interieur de l'arbre, utiliser la molette pour zoomer et le clic droit pour se déplacer
+[img=32]res://assets/touches/touche_R.png[/img] Pour consulter les cartes disponibles
+[i][Espace][/i] Pour les dialogues
+
+Bon jeu!
+
+"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="instruc" unique_id=1402457958]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -584.0
+offset_top = -80.0
+grow_horizontal = 0
+grow_vertical = 0
+bbcode_enabled = true
+text = "Appuyer sur [i][Espace][/i] pour commencer
+"
+
 [connection signal="capture" from="capture_places/capture_place" to="HUD" method="_on_capture_place_capture"]
 [connection signal="capture" from="capture_places/capture_place2" to="gamenode/Player" method="_on_capture_place_2_capture"]
 [connection signal="capture" from="capture_places/capture_place22" to="gamenode/Player" method="_on_capture_place_2_capture"]
