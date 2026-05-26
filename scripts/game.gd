@@ -23,9 +23,11 @@ var cours_quizz_paths = []
 var current_instance = null
 
 func _ready() -> void:
+	
 	instruction()
 	
 func instruction():
+	$instruc.visible = true
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
 	$instruc.visible = true
 	
@@ -113,6 +115,16 @@ func _on_interagible_lancer_cours(cours: Variant) -> void:
 
 		credits()
 		return
+	elif cours == "im1":
+		$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
+
+		im1()
+		return
+	elif cours == "im2":
+		$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
+
+		im2()
+		return
 	var cours_instance = COURS_SCENE.instantiate()
 	cours_quizz_paths = File_utils.get_dirs(global.path_cours[cours])
 	cours_instance.path = cours_quizz_paths[0]
@@ -125,6 +137,30 @@ func _on_interagible_lancer_cours(cours: Variant) -> void:
 	current_instance = cours_instance
 	$cours_subscene.add_child(cours_instance)
 	$gamenode.process_mode = Node.PROCESS_MODE_DISABLED # pauser le reste du jeu
+
+func im1():
+	$im.visible = true
+	
+	#var text = File_utils.load_text("res://creditbis.txt")
+	#if text == null:
+		#text = File_utils.load_text("res://CREDIT.md")
+	#$im/RichTextLabel.text = text
+	while not Input.is_action_just_pressed("dash"):
+		await get_tree().process_frame # attendre la frame suivante
+	$im.visible = false
+	$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # dépauser pauser le reste du jeu
+func im2():
+	$im2.visible = true
+	
+	#var text = File_utils.load_text("res://creditbis.txt")
+	#if text == null:
+		#text = File_utils.load_text("res://CREDIT.md")
+	#$im/RichTextLabel.text = text
+	while not Input.is_action_just_pressed("dash"):
+		await get_tree().process_frame # attendre la frame suivante
+	$im2.visible = false
+	$gamenode.process_mode = Node.PROCESS_MODE_INHERIT # dépauser pauser le reste du jeu
+
 
 func credits():
 	$credits.visible = true

@@ -25,6 +25,8 @@
 [ext_resource type="PackedScene" uid="uid://bwuxjyoxk7yck" path="res://scenes/scenes_capture_bushes/riviere.tscn" id="21_e1j6l"]
 [ext_resource type="PackedScene" uid="uid://4vvydnj01j1q" path="res://scenes/scenes_capture_bushes/mer.tscn" id="22_e1j6l"]
 [ext_resource type="Texture2D" uid="uid://bh1wh0pms52xr" path="res://assets/bulle_900x220.png" id="25_pl11u"]
+[ext_resource type="Texture2D" uid="uid://cgcye6q2rwycb" path="res://assets/crypt_8bit_paysage.png" id="26_bhx41"]
+[ext_resource type="Texture2D" uid="uid://dq6qwnlq8g1qc" path="res://assets/sunset_mer.png" id="27_qnb83"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_suyxu"]
 texture = ExtResource("3_ir15t")
@@ -6266,7 +6268,7 @@ tile_set = SubResource("TileSet_i4re6")
 [node name="Player" parent="gamenode" unique_id=51311038 instance=ExtResource("1_uwrxv")]
 z_index = 1
 y_sort_enabled = true
-position = Vector2(24, 448)
+position = Vector2(208, -48)
 collision_layer = 3
 collision_mask = 1
 BASESPEED = 100
@@ -6429,6 +6431,22 @@ cours = "credits"
 position = Vector2(0, 16)
 shape = SubResource("RectangleShape2D_1kice")
 
+[node name="interagible10" parent="maison_interact" unique_id=1142965851 groups=["hist", "interagibles"] instance=ExtResource("16_rysoc")]
+position = Vector2(112, 192)
+cours = "im1"
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible10" unique_id=1888792911]
+position = Vector2(0, 16)
+shape = SubResource("RectangleShape2D_1kice")
+
+[node name="interagible11" parent="maison_interact" unique_id=1235161857 groups=["hist", "interagibles"] instance=ExtResource("16_rysoc")]
+position = Vector2(2000, -448)
+cours = "im2"
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="maison_interact/interagible11" unique_id=515773083]
+position = Vector2(0, 24)
+shape = SubResource("RectangleShape2D_1kice")
+
 [node name="interagible7" parent="maison_interact" unique_id=1789332762 groups=["hist", "interagibles"] instance=ExtResource("16_rysoc")]
 position = Vector2(1560, -376)
 cours = "histoire"
@@ -6576,6 +6594,28 @@ bbcode_enabled = true
 text = "Appuyer sur [i][Espace][/i] pour commencer
 "
 
+[node name="im" type="CanvasLayer" parent="." unique_id=2044771741]
+visible = false
+
+[node name="TextureRect" type="TextureRect" parent="im" unique_id=1130274153]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("26_bhx41")
+
+[node name="im2" type="CanvasLayer" parent="." unique_id=142201880]
+visible = false
+
+[node name="TextureRect" type="TextureRect" parent="im2" unique_id=1500957443]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("27_qnb83")
+
 [connection signal="capture" from="capture_places/capture_place" to="HUD" method="_on_capture_place_capture"]
 [connection signal="capture" from="capture_places/capture_place2" to="gamenode/Player" method="_on_capture_place_2_capture"]
 [connection signal="capture" from="capture_places/capture_place22" to="gamenode/Player" method="_on_capture_place_2_capture"]
@@ -6609,6 +6649,8 @@ text = "Appuyer sur [i][Espace][/i] pour commencer
 [connection signal="lancer_cours" from="maison_interact/interagible" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible6" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible9" to="." method="_on_interagible_lancer_cours"]
+[connection signal="lancer_cours" from="maison_interact/interagible10" to="." method="_on_interagible_lancer_cours"]
+[connection signal="lancer_cours" from="maison_interact/interagible11" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible7" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible8" to="." method="_on_interagible_lancer_cours"]
 [connection signal="lancer_cours" from="maison_interact/interagible4" to="." method="_on_interagible_lancer_cours"]
